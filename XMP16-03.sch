@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 01/03/2012 18:37:35
+EESchema Schematic File Version 2  date 01/03/2012 18:57:45
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,6 +31,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:xmos_custom_library
 LIBS:XS1-L1-128
+LIBS:testpoints
+LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
 $Descr A2 23400 16535

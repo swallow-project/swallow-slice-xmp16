@@ -1,4 +1,4 @@
-update=01/03/2012 18:37:25
+update=01/03/2012 18:57:43
 version=1
 last_client=eeschema
 [cvpcb]
@@ -143,3 +143,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=xmos_custom_library
 LibName32=XS1-L1-128
+LibName33=testpoints
