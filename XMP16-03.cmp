@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 15/11/2011 17:48:43
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 02/03/2012 12:42:52
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -1114,10 +1114,10 @@ IdModule  = PJ-044BH;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E6A8F64;
+TimeStamp = /4F50B022;
 Reference = P112;
-ValeurCmp = CONN_7;
-IdModule  = SIL-7;
+ValeurCmp = JTAG_IN;
+IdModule  = pin_array_10x2;
 EndCmp
 
 BeginCmp
@@ -1900,7 +1900,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E3FB8C5;
 Reference = U123;
-ValeurCmp = ASE_CLK;
+ValeurCmp = ASE_CLK_25MHz;
 IdModule  = ASEseries;
 EndCmp
 
@@ -2146,42 +2146,42 @@ BeginCmp
 TimeStamp = /4EC25518;
 Reference = W1;
 ValeurCmp = Reg5;
-IdModule  = TestPad;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EC25614;
 Reference = W2;
 ValeurCmp = +5V;
-IdModule  = TestPad;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EC25648;
 Reference = W3;
 ValeurCmp = Gnd;
-IdModule  = TestPad;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EC2566E;
 Reference = W4;
 ValeurCmp = Reg3;
-IdModule  = TestPad;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EC25673;
 Reference = W5;
 ValeurCmp = +3V3;
-IdModule  = TestPad;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EC25678;
 Reference = W6;
 ValeurCmp = Gnd;
-IdModule  = TestPad;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
@@ -2196,6 +2196,104 @@ TimeStamp = /4EC2A42B;
 Reference = W8;
 ValeurCmp = D37_38;
 IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F50AA6C;
+Reference = W9;
+ValeurCmp = RST_N;
+IdModule  = TestPad-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F50AA33;
+Reference = W10;
+ValeurCmp = 3V3_PG;
+IdModule  = TestPad-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F50AD9F;
+Reference = W11;
+ValeurCmp = SWT_1;
+IdModule  = TestPad-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F50AD99;
+Reference = W12;
+ValeurCmp = SWT_2;
+IdModule  = TestPad-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F50AD92;
+Reference = W13;
+ValeurCmp = SWT_3;
+IdModule  = TestPad-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F50AD0E;
+Reference = W14;
+ValeurCmp = SWT_4;
+IdModule  = TestPad-1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B777/4F50A958;
+Reference = W15;
+ValeurCmp = 1VReg_Out;
+IdModule  = TestPad-2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B777/4F50A937;
+Reference = W16;
+ValeurCmp = 1V;
+IdModule  = TestPad-2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E32CDCE/4F50A958;
+Reference = W17;
+ValeurCmp = 1VReg_Out;
+IdModule  = TestPad-2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E32CDCE/4F50A937;
+Reference = W18;
+ValeurCmp = 1V;
+IdModule  = TestPad-2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B760/4F50A958;
+Reference = W19;
+ValeurCmp = 1VReg_Out;
+IdModule  = TestPad-2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B760/4F50A937;
+Reference = W20;
+ValeurCmp = 1V;
+IdModule  = TestPad-2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B740/4F50A958;
+Reference = W21;
+ValeurCmp = 1VReg_Out;
+IdModule  = TestPad-2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B740/4F50A937;
+Reference = W22;
+ValeurCmp = 1V;
+IdModule  = TestPad-2mm;
 EndCmp
 
 EndListe
