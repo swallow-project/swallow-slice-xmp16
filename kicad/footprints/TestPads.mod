@@ -1,6 +1,7 @@
-PCBNEW-LibModule-V1  02/03/2012 12:42:00
+PCBNEW-LibModule-V1  02/03/2012 20:09:09
 # encoding utf-8
 $INDEX
+Mounting_Hole-3mm
 TestPad
 TestPad-1mm
 TestPad-2mm
@@ -65,4 +66,21 @@ Po 0 0
 .LocalClearance -39
 $EndPAD
 $EndMODULE  TestPad-2mm
+$MODULE Mounting_Hole-3mm
+Po 0 0 0 15 4F51289D 00000000 ~~
+Li Mounting_Hole-3mm
+Cd 3mm hole inside 5mm annulus
+Sc 00000000
+AR 
+Op 0 0 0
+T0 307 -1563 600 600 0 120 N I 21 N "Mounting_Hole-3mm"
+T1 91 1445 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "" C 1969 1969 0 0 0
+Dr 1181 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  Mounting_Hole-3mm
 $EndLIBRARY
