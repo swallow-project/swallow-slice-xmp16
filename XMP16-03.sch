@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/03/2012 11:31:15
+EESchema Schematic File Version 2  date 02/03/2012 12:25:16
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,6 +47,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 10495 2000
+Wire Wire Line
+	10495 1800 10450 1800
+Wire Wire Line
+	10495 2600 10495 1800
+Connection ~ 10495 2400
+Wire Wire Line
+	10495 2200 10450 2200
+Wire Wire Line
+	10450 2600 10500 2600
+Wire Wire Line
+	10500 2600 10500 2720
+Wire Wire Line
+	10450 2300 10620 2300
+Wire Wire Line
+	10450 1900 10610 1900
+Wire Wire Line
+	9650 2300 9520 2300
+Wire Wire Line
+	9650 2100 9520 2100
+Wire Wire Line
+	9650 1900 9520 1900
 Connection ~ 8130 11060
 Wire Wire Line
 	8130 11040 8130 11060
@@ -86,20 +108,6 @@ Wire Wire Line
 Connection ~ 3340 2530
 Wire Wire Line
 	3340 2620 3340 2530
-Wire Wire Line
-	9760 1390 9760 1310
-Wire Wire Line
-	9860 1390 9860 1310
-Wire Wire Line
-	9960 1390 9960 1310
-Wire Wire Line
-	10160 1390 10160 1310
-Wire Wire Line
-	10060 1390 10060 1310
-Wire Wire Line
-	10260 1390 10260 1310
-Wire Wire Line
-	10360 1390 10360 1310
 Wire Wire Line
 	3440 5400 3440 5350
 Wire Wire Line
@@ -1233,8 +1241,6 @@ Wire Wire Line
 	12100 9180 12970 9180
 Wire Notes Line
 	22780 15220 22780 720 
-Wire Notes Line
-	22780 720  8710 720 
 Wire Wire Line
 	17120 1310 17120 1220
 Wire Wire Line
@@ -2364,6 +2370,76 @@ Connection ~ 8100 10660
 Wire Wire Line
 	8130 11240 8130 11260
 Connection ~ 8130 11260
+Wire Wire Line
+	9650 1800 9520 1800
+Wire Wire Line
+	9650 2000 9520 2000
+Wire Wire Line
+	9650 2200 9520 2200
+Wire Wire Line
+	9650 2400 9520 2400
+Wire Wire Line
+	10445 2100 10620 2100
+Wire Wire Line
+	10450 2500 10620 2500
+Wire Wire Line
+	10495 2400 10450 2400
+Connection ~ 10495 2600
+Wire Wire Line
+	10495 2000 10450 2000
+Connection ~ 10495 2200
+$Comp
+L GND #PWR?
+U 1 1 4F50BA0A
+P 10500 2720
+F 0 "#PWR?" H 10500 2720 30  0001 C CNN
+F 1 "GND" H 10500 2650 30  0001 C CNN
+	1    10500 2720
+	1    0    0    -1  
+$EndComp
+Text Label 10530 2500 0    60   ~ 0
+XLA1i_BL
+Text Label 10520 2300 0    60   ~ 0
+XLA0i_BL
+Text Label 10510 2100 0    60   ~ 0
+XLA0O_BL
+Text Label 10500 1900 0    60   ~ 0
+XLA1O_BL
+Text Label 10260 7290 0    60   ~ 0
+XLA1i_BL
+Text Label 10265 7190 0    60   ~ 0
+XLA0i_BL
+Text Label 9640 6785 2    60   ~ 0
+XLA1O_BL
+Text Label 9635 6890 2    60   ~ 0
+XLA0O_BL
+Text Label 9545 2400 2    60   ~ 0
+RST_N
+Text Label 9550 2300 2    60   ~ 0
+TDO_L
+Text Label 9570 2200 2    60   ~ 0
+DEBUG_N
+Text Label 9570 2100 2    60   ~ 0
+TCK
+Text Label 9570 2000 2    60   ~ 0
+TMS
+Text Label 9570 1900 2    60   ~ 0
+TDI_L
+Text Label 9570 1800 2    60   ~ 0
+MSEL_N
+NoConn ~ 9650 2600
+NoConn ~ 9650 2500
+NoConn ~ 10450 1700
+NoConn ~ 9650 1700
+$Comp
+L CONN_10X2 P112
+U 1 1 4F50B022
+P 10050 2150
+F 0 "P112" H 10050 2700 60  0000 C CNN
+F 1 "JTAG_IN" V 10050 2050 50  0000 C CNN
+	1    10050 2150
+	1    0    0    -1  
+$EndComp
 $Comp
 L TESTPOINT W?
 U 1 1 4F50AD9F
@@ -2519,29 +2595,6 @@ F 1 "10uF" H 3240 2730 50  0000 L CNN
 F 2 "0603" H 3340 2820 60  0001 C CNN
 	1    3340 2820
 	1    0    0    -1  
-$EndComp
-Text Label 9760 1390 3    30   ~ 0
-RST_N
-Text Label 9860 1390 3    30   ~ 0
-TDO_L
-Text Label 9960 1390 3    30   ~ 0
-DEBUG_N
-Text Label 10160 1390 3    30   ~ 0
-TMS
-Text Label 10060 1390 3    30   ~ 0
-TCK
-Text Label 10260 1390 3    30   ~ 0
-TDI_L
-Text Label 10360 1390 3    30   ~ 0
-MSEL_N
-$Comp
-L CONN_7 P112
-U 1 1 4E6A8F64
-P 10060 960
-F 0 "P112" V 10030 960 60  0000 C CNN
-F 1 "CONN_7" V 10130 960 60  0000 C CNN
-	1    10060 960 
-	0    -1   -1   0   
 $EndComp
 Text Notes 2090 5020 0    30   ~ 0
 Power Connector\n
