@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 13/11/2011 14:25:34
+EESchema-DOCLIB  Version 2.0  Date: 04/03/2012 22:04:55
 #
 $CMP +1V0
 D +1V0
@@ -68,6 +68,10 @@ $CMP MCP1603
 D DC-DC STEP DOWN 0.5A CONVERTER
 K MCP1603
 F C:/Users/Jake/Downloads/xmos/mcp1603.pdf
+$ENDCMP
+#
+$CMP MOUNTING_HOLE
+D A 3mm mounting hole with a 5mm annulus
 $ENDCMP
 #
 $CMP NB3N551

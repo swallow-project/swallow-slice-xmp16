@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 04/03/2012 19:13:35
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 04/03/2012 22:06:32
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -995,6 +995,41 @@ IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F53E6B4;
+Reference = H1;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F53E6B7;
+Reference = H2;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F53E6B9;
+Reference = H3;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F53E6BD;
+Reference = H4;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F53E6C1;
+Reference = H5;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E3544F8;
 Reference = L101;
 ValeurCmp = 2u2H;
@@ -1972,13 +2007,6 @@ TimeStamp = /4E661835;
 Reference = U130;
 ValeurCmp = YC124;
 IdModule  = YC124-JR;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E52166E;
-Reference = U131;
-ValeurCmp = NC7WZ17;
-IdModule  = SC70-6;
 EndCmp
 
 BeginCmp
