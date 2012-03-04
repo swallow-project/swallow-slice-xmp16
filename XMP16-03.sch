@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 04/03/2012 00:03:46
+EESchema Schematic File Version 2  date 04/03/2012 18:21:54
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,14 +48,57 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	1715 3420 1990 3420
+	6430 7610 6430 7705
 Wire Wire Line
-	6430 2440 6430 2320
+	6560 7610 6430 7610
+Wire Wire Line
+	2370 11080 2370 12150
+Connection ~ 2370 11865
+Wire Wire Line
+	2370 11865 2260 11865
+Wire Wire Line
+	2160 11365 2260 11365
+Wire Wire Line
+	2290 10635 2290 10535
+Wire Wire Line
+	2290 10535 2370 10535
+Wire Wire Line
+	2100 10735 860  10735
+Wire Wire Line
+	2100 10735 2100 10020
+Wire Wire Line
+	8395 3745 8490 3745
+Wire Wire Line
+	8490 3745 8490 4860
+Connection ~ 8315 4860
+Wire Wire Line
+	8490 4860 8315 4860
+Connection ~ 8315 4830
+Connection ~ 8315 4925
+Wire Wire Line
+	8315 4830 8315 4925
+Wire Wire Line
+	8285 4305 8285 4270
+Wire Wire Line
+	8730 2420 8640 2420
+Wire Wire Line
+	8730 2350 8520 2350
+Wire Wire Line
+	8520 2350 8520 2185
+Wire Wire Line
+	8520 2185 7860 2185
+Wire Wire Line
+	7860 2185 7860 2320
+Connection ~ 8670 2350
+Wire Wire Line
+	8670 2305 8670 2350
+Wire Wire Line
+	1715 3420 1990 3420
 Wire Wire Line
 	6430 2320 6560 2320
 Connection ~ 4380 12150
 Wire Wire Line
-	4380 12150 4455 12150
+	4400 12150 4455 12150
 Wire Wire Line
 	4455 12150 4455 12410
 Wire Wire Line
@@ -67,14 +110,14 @@ Wire Wire Line
 	4385 11575 4320 11575
 Connection ~ 4385 10380
 Wire Wire Line
-	4385 10380 4460 10380
+	4400 10380 4460 10380
 Wire Wire Line
 	4460 10380 4460 10630
 Wire Wire Line
 	4460 10630 4395 10630
 Connection ~ 4390 9480
 Wire Wire Line
-	4390 9480 4455 9480
+	4400 9480 4455 9480
 Wire Wire Line
 	4455 9480 4455 9780
 Wire Wire Line
@@ -98,7 +141,7 @@ Wire Wire Line
 	5855 13925 5855 14025
 Connection ~ 8000 2120
 Wire Wire Line
-	8000 2000 8000 2120
+	8000 2120 8000 2000
 Connection ~ 6500 3010
 Wire Wire Line
 	6500 2950 6500 3010
@@ -136,10 +179,10 @@ Wire Wire Line
 	9650 1900 9520 1900
 Connection ~ 8130 11060
 Wire Wire Line
-	8130 11040 8130 11060
+	8130 11060 8130 11040
 Connection ~ 8115 10860
 Wire Wire Line
-	8115 10840 8115 10860
+	8115 10860 8115 10840
 Connection ~ 4290 7430
 Connection ~ 2030 7790
 Wire Wire Line
@@ -521,9 +564,7 @@ Wire Wire Line
 Connection ~ 2370 11410
 Connection ~ 2370 11950
 Wire Wire Line
-	2510 12150 2370 12150
-Wire Wire Line
-	2370 12150 2370 9280
+	2370 12150 2510 12150
 Connection ~ 2370 11300
 Wire Wire Line
 	2370 11300 2510 11300
@@ -539,8 +580,6 @@ Wire Wire Line
 	3810 9750 3810 9680
 Wire Notes Line
 	8710 15220 22780 15220
-Wire Notes Line
-	8710 15220 8710 720 
 Wire Notes Line
 	500  3290 500  710 
 Wire Notes Line
@@ -606,8 +645,6 @@ Wire Wire Line
 Wire Wire Line
 	3840 9280 3810 9280
 Wire Wire Line
-	2100 10020 2100 10070
-Wire Wire Line
 	18280 13300 15380 13300
 Wire Wire Line
 	18480 13200 15490 13200
@@ -628,10 +665,6 @@ Wire Wire Line
 Wire Wire Line
 	18920 2940 15730 2940
 Wire Wire Line
-	7950 6690 7860 6690
-Wire Wire Line
-	6560 7610 6460 7610
-Wire Wire Line
 	7860 7340 7860 7410
 Wire Wire Line
 	7860 8010 7860 8070
@@ -640,13 +673,8 @@ Wire Wire Line
 Wire Wire Line
 	6500 7810 6560 7810
 Connection ~ 6500 7610
-Connection ~ 6500 6690
 Wire Wire Line
-	6560 6890 6500 6890
-Wire Wire Line
-	6500 6890 6500 6690
-Wire Wire Line
-	7860 7090 7860 7150
+	2160 11565 2160 11625
 Wire Wire Line
 	18460 9250 18560 9250
 Wire Wire Line
@@ -752,10 +780,10 @@ Wire Wire Line
 	7810 11820 7810 11900
 Connection ~ 7890 11060
 Wire Wire Line
-	7890 11060 7890 11320
+	7890 11320 7890 11060
 Connection ~ 7570 10660
 Wire Wire Line
-	7570 10660 7570 11320
+	7570 11320 7570 10660
 Wire Wire Line
 	6050 10520 6050 10860
 Wire Wire Line
@@ -1204,7 +1232,7 @@ Wire Wire Line
 Wire Wire Line
 	3240 1780 3240 1950
 Wire Wire Line
-	2820 1950 2820 2150
+	2820 2150 2820 1950
 Connection ~ 8190 9170
 Wire Wire Line
 	7530 9170 8270 9170
@@ -1753,15 +1781,9 @@ Wire Wire Line
 Wire Wire Line
 	15240 9330 14760 9330
 Wire Wire Line
-	7860 6420 7860 6490
+	2160 10895 2160 10965
 Wire Wire Line
-	6560 6690 6460 6690
-Wire Wire Line
-	7950 6890 7860 6890
-Wire Wire Line
-	7950 7810 7860 7810
-Wire Wire Line
-	7950 7610 7860 7610
+	8330 4925 8240 4925
 Wire Wire Line
 	7860 5490 7860 5530
 Wire Wire Line
@@ -1817,15 +1839,15 @@ Wire Wire Line
 Wire Wire Line
 	4400 9280 4340 9280
 Wire Wire Line
-	4400 9480 4340 9480
+	4390 9480 4340 9480
 Wire Wire Line
-	4400 10380 4340 10380
+	4385 10380 4340 10380
 Wire Wire Line
 	4400 10180 4340 10180
 Wire Wire Line
 	4400 11950 4340 11950
 Wire Wire Line
-	4400 12150 4340 12150
+	4380 12150 4340 12150
 Wire Wire Line
 	4400 11300 4340 11300
 Wire Wire Line
@@ -1852,10 +1874,6 @@ Wire Wire Line
 	21220 5730 21220 5930
 Wire Wire Line
 	21310 5650 21310 5830
-Wire Wire Line
-	2100 10070 1840 10070
-Wire Wire Line
-	1840 10070 1840 10180
 Wire Wire Line
 	8270 9170 8270 9070
 Wire Wire Line
@@ -1957,7 +1975,7 @@ Wire Wire Line
 Wire Wire Line
 	3860 9080 3860 8980
 Wire Wire Line
-	2370 9280 2510 9280
+	2510 9280 2370 9280
 Wire Wire Line
 	3810 10680 3810 10580
 Wire Wire Line
@@ -1981,7 +1999,6 @@ Wire Wire Line
 	3960 11750 3810 11750
 Wire Wire Line
 	2370 11100 2510 11100
-Connection ~ 2370 11100
 Wire Wire Line
 	2370 11950 2510 11950
 Wire Notes Line
@@ -2484,12 +2501,138 @@ Wire Wire Line
 	4375 11875 4375 11950
 Connection ~ 4375 11950
 Wire Wire Line
-	2180 9715 2370 9715
+	2370 9715 2180 9715
 Connection ~ 2370 9715
 Wire Wire Line
 	6560 4840 6355 4840
 Wire Wire Line
-	6355 4840 6355 4890
+	8670 1805 8670 1775
+Wire Wire Line
+	8700 2350 8700 2420
+Connection ~ 8700 2420
+Connection ~ 8700 2350
+Wire Wire Line
+	8285 4805 8285 4830
+Connection ~ 8285 4830
+Wire Wire Line
+	7860 4840 7950 4840
+Wire Wire Line
+	7950 4840 7950 4325
+Wire Wire Line
+	7950 4325 8195 4325
+Wire Wire Line
+	8195 4325 8195 4830
+Wire Wire Line
+	8195 4830 8325 4830
+Wire Wire Line
+	8640 2420 8640 3345
+Wire Wire Line
+	8640 3345 8395 3345
+Wire Wire Line
+	860  10735 860  11365
+Connection ~ 860  11165
+Wire Wire Line
+	2370 9280 2370 10535
+Wire Wire Line
+	2160 11165 2290 11165
+Wire Wire Line
+	2290 11165 2290 11135
+$Comp
+L GND #PWR?
+U 1 1 4F53B2BA
+P 6430 7705
+F 0 "#PWR?" H 6430 7705 30  0001 C CNN
+F 1 "GND" H 6430 7635 30  0001 C CNN
+	1    6430 7705
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4F53B1C4
+P 2260 11615
+F 0 "R?" V 2340 11615 50  0000 C CNN
+F 1 "33R" V 2260 11615 50  0000 C CNN
+	1    2260 11615
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4F53B1BC
+P 2290 10885
+F 0 "R?" V 2370 10885 50  0000 C CNN
+F 1 "33R" V 2290 10885 50  0000 C CNN
+	1    2290 10885
+	1    0    0    -1  
+$EndComp
+Text Notes 865  11945 0    60   ~ 0
+Double clock buffer to\nsupport such a large fanout.
+$Comp
+L ASE_CLK U123
+U 1 1 4E3FB8C5
+P 1540 10020
+F 0 "U123" H 1340 10320 60  0000 C CNN
+F 1 "ASE_CLK_25MHz" H 1450 9710 60  0000 C CNN
+F 2 "SMD-4" H 1540 10020 60  0001 C CNN
+F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=535-9983-1-ND" H 1540 10020 60  0001 C CNN
+	1    1540 10020
+	1    0    0    -1  
+$EndComp
+$Comp
+L NC7WZ17 U125
+U 1 1 4E521665
+P 1510 11265
+F 0 "U125" H 1210 11665 60  0000 C CNN
+F 1 "NC7WZ17" H 1360 10865 60  0000 C CNN
+F 2 "SC70-6" H 1510 11265 60  0001 C CNN
+F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=NC7WZ17P6XCT-ND" H 1510 11265 60  0001 C CNN
+	1    1510 11265
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST W?
+U 1 1 4F53B047
+P 8395 3545
+F 0 "W?" H 8395 3605 40  0000 C CNN
+F 1 "DEBUGs" H 8395 3475 40  0000 C CNN
+	1    8395 3545
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4F53AF0B
+P 8285 4555
+F 0 "R?" V 8365 4555 50  0000 C CNN
+F 1 "4k7" V 8285 4555 50  0000 C CNN
+	1    8285 4555
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4F53AF08
+P 8285 4270
+F 0 "#PWR?" H 8285 4230 30  0001 C CNN
+F 1 "+3.3V" H 8285 4380 30  0000 C CNN
+	1    8285 4270
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4F53AE4A
+P 8670 1775
+F 0 "#PWR?" H 8670 1735 30  0001 C CNN
+F 1 "+3.3V" H 8670 1885 30  0000 C CNN
+	1    8670 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4F53AE3F
+P 8670 2055
+F 0 "R?" V 8750 2055 50  0000 C CNN
+F 1 "4k7" V 8670 2055 50  0000 C CNN
+	1    8670 2055
+	1    0    0    -1  
+$EndComp
 $Sheet
 S 16670 8390 1790 4230
 U 4E36B777
@@ -2572,24 +2715,6 @@ F75 "B_X1_XLB_1i" I L 16670 12210 60
 F76 "B_X1_XLB_3i" I L 16670 12370 60 
 F77 "B_X1_XLB_4i" I L 16670 12450 60 
 $EndSheet
-$Comp
-L GND #PWR01
-U 1 1 4F5289DF
-P 6355 4890
-F 0 "#PWR01" H 6355 4890 30  0001 C CNN
-F 1 "GND" H 6355 4820 30  0001 C CNN
-	1    6355 4890
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 4F528986
-P 6430 2440
-F 0 "#PWR02" H 6430 2440 30  0001 C CNN
-F 1 "GND" H 6430 2370 30  0001 C CNN
-	1    6430 2440
-	1    0    0    -1  
-$EndComp
 $Comp
 L TESTPOINT W35
 U 1 1 4F5264CB
@@ -4221,16 +4346,6 @@ F 2 "0603" H 4090 9280 60  0001 C CNN
 	1    4090 9280
 	0    1    1    0   
 $EndComp
-$Comp
-L R R121
-U 1 1 4E53731A
-P 2090 10180
-F 0 "R121" V 2170 10180 50  0000 C CNN
-F 1 "33R" V 2090 10180 50  0000 C CNN
-F 2 "0603" H 2090 10180 60  0001 C CNN
-	1    2090 10180
-	0    1    1    0   
-$EndComp
 Text Label 4400 11100 0    30   ~ 0
 CLK_20M_BUF_5
 Text Label 4400 11300 0    30   ~ 0
@@ -4270,17 +4385,6 @@ F 1 "NC7WZ17" H 7060 7310 60  0000 C CNN
 F 2 "SC70-6" H 7210 7710 60  0001 C CNN
 F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=NC7WZ17P6XCT-ND" H 7210 7710 60  0001 C CNN
 	1    7210 7710
-	1    0    0    -1  
-$EndComp
-$Comp
-L NC7WZ17 U125
-U 1 1 4E521665
-P 7210 6790
-F 0 "U125" H 6910 7190 60  0000 C CNN
-F 1 "NC7WZ17" H 7060 6390 60  0000 C CNN
-F 2 "SC70-6" H 7210 6790 60  0001 C CNN
-F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=NC7WZ17P6XCT-ND" H 7210 6790 60  0001 C CNN
-	1    7210 6790
 	1    0    0    -1  
 $EndComp
 Text Notes 8070 3290 0    60   ~ 0
@@ -4385,13 +4489,13 @@ Text Label 18600 3670 0    39   ~ 0
 DEBUG_N_Q2
 Text Label 14900 3670 0    39   ~ 0
 DEBUG_N_Q1
-Text Label 7950 7610 0    39   ~ 0
+Text Label 8730 2350 0    39   ~ 0
 DEBUG_N_Q3
-Text Label 7950 6690 0    39   ~ 0
+Text Label 8325 4830 0    39   ~ 0
 DEBUG_N_Q4
-Text Label 7950 7810 0    39   ~ 0
+Text Label 8730 2420 0    39   ~ 0
 DEBUG_N_Q2
-Text Label 7950 6890 0    39   ~ 0
+Text Label 8330 4925 0    39   ~ 0
 DEBUG_N_Q1
 $Comp
 L GND #PWR086
@@ -4411,26 +4515,26 @@ F 1 "+3.3V" H 7860 7450 30  0000 C CNN
 	1    7860 7340
 	1    0    0    -1  
 $EndComp
-Text Label 6460 7610 2    39   ~ 0
+Text Label 6460 4840 2    39   ~ 0
 DEBUG_N
-Text Label 6460 6690 2    39   ~ 0
+Text Label 6495 2320 2    39   ~ 0
 DEBUG_N
 $Comp
 L +3.3V #PWR088
 U 1 1 4E4AB43E
-P 7860 6420
-F 0 "#PWR088" H 7860 6380 30  0001 C CNN
-F 1 "+3.3V" H 7860 6530 30  0000 C CNN
-	1    7860 6420
+P 2160 10895
+F 0 "#PWR088" H 2160 10855 30  0001 C CNN
+F 1 "+3.3V" H 2160 11005 30  0000 C CNN
+	1    2160 10895
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR089
 U 1 1 4E4AB418
-P 7860 7150
-F 0 "#PWR089" H 7860 7150 30  0001 C CNN
-F 1 "GND" H 7860 7080 30  0001 C CNN
-	1    7860 7150
+P 2160 11625
+F 0 "#PWR089" H 2160 11625 30  0001 C CNN
+F 1 "GND" H 2160 11555 30  0001 C CNN
+	1    2160 11625
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -4553,17 +4657,6 @@ F 1 "0.01uF" H 1240 9050 50  0000 L CNN
 F 2 "0603" H 1190 9150 60  0001 C CNN
 	1    1190 9150
 	0    1    1    0   
-$EndComp
-$Comp
-L ASE_CLK U123
-U 1 1 4E3FB8C5
-P 1540 10020
-F 0 "U123" H 1340 10320 60  0000 C CNN
-F 1 "ASE_CLK_25MHz" H 1450 9710 60  0000 C CNN
-F 2 "SMD-4" H 1540 10020 60  0001 C CNN
-F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=535-9983-1-ND" H 1540 10020 60  0001 C CNN
-	1    1540 10020
-	1    0    0    -1  
 $EndComp
 $Comp
 L GNDPWR #PWR093
