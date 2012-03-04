@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 03/03/2012 21:30:49
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 04/03/2012 19:13:35
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -1116,8 +1116,36 @@ EndCmp
 BeginCmp
 TimeStamp = /4F50B022;
 Reference = P112;
-ValeurCmp = JTAG_IN;
+ValeurCmp = XTAG2;
 IdModule  = pin_array_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F53AE3F;
+Reference = R1;
+ValeurCmp = 4k7;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F53AF0B;
+Reference = R2;
+ValeurCmp = 4k7;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F53B1BC;
+Reference = R3;
+ValeurCmp = 33R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F53B1C4;
+Reference = R4;
+ValeurCmp = 33R;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -1235,13 +1263,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4E60B38E;
 Reference = R117;
-ValeurCmp = 33R;
-IdModule  = X-SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E53731A;
-Reference = R121;
 ValeurCmp = 33R;
 IdModule  = X-SM0603;
 EndCmp
@@ -2334,7 +2355,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F526357;
 Reference = W28;
-ValeurCmp = CLK;
+ValeurCmp = CLK_A;
 IdModule  = TestPad-1mm;
 EndCmp
 
@@ -2444,16 +2465,23 @@ IdModule  = TestPad-1mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5263FA;
+TimeStamp = /4F53B047;
 Reference = W44;
-ValeurCmp = +1V;
+ValeurCmp = DEBUGs;
+IdModule  = TEST_POINT_2PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F53BBFC;
+Reference = W45;
+ValeurCmp = CLK_EN;
 IdModule  = TestPad-1mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5263FD;
-Reference = W45;
-ValeurCmp = +1V;
+TimeStamp = /4F53BEB0;
+Reference = W46;
+ValeurCmp = CLK_B;
 IdModule  = TestPad-1mm;
 EndCmp
 
