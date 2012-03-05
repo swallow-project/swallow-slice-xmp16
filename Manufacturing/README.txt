@@ -45,3 +45,14 @@ XMP16-03-DRL-REPORT.rpt	Text drill size and number summaryREP
 ./bom
 
 XMP16-03-BOM.xls	Excel format Bill of Materials
+
+
+./xy/			XY Coponent poisition data (components are placed on front side only)
+
+XMP16-03-XY-FRONT.pos	XY Component Position Data (Front side) (Space seperated format)
+XMP16-03-XY-FRONT.pos	XY Component Position Data (Front side) (Excel format)
+
+
+./netlist/      This directory contains the netlist files for equivalence checking and bare board test.
+
+XMP16-03-IPC.net	Netlist (KiCad format)
