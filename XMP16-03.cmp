@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 04/03/2012 22:06:32
+Cmp-Mod V01 Genere par PcbNew le 05/03/2012 15:39:00
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -46,7 +46,7 @@ BeginCmp
 TimeStamp = /4E35E476;
 Reference = C107;
 ValeurCmp = 10uF;
-IdModule  = X-SM0603;
+IdModule  = X-SM0805;
 EndCmp
 
 BeginCmp
