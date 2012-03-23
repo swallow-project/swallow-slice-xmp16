@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 05/03/2012 15:44:16
+EESchema Schematic File Version 2  date 09/03/2012 13:27:36
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A2 23400 16535
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "5 mar 2012"
+Date "9 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 14350 9850 0    60   ~ 0
+N.B. TR_X1_XLA* should read TR_X0_XLB*
+Text Notes 17950 9800 0    60   ~ 0
+N.B. TR_X1_XLA* should read TR_X0_XLB*
+Text Notes 18000 4650 0    60   ~ 0
+N.B. TR_X1_XLA* should read TR_X0_XLB*
+Text Notes 14250 4700 0    60   ~ 0
+N.B. TR_X1_XLA* should read TR_X0_XLB*
 Connection ~ 1050 10735
 Wire Wire Line
 	1050 10700 1050 10735

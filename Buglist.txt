@@ -1,0 +1,7 @@
+* Power jack needs to be throughole.
+
+* Yaego 33Rs have wrong footprint --- needs to be longer, see "YC124_Footprint.pdf".
+
+* Add some flash somewhere.
+
+* Add some LEDs somewhere.
