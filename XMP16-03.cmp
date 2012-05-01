@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 05/03/2012 15:39:00
+Cmp-Mod V01 Genere par PcbNew le Thu 15 Mar 2012 15:24:27 GMT
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -1145,7 +1145,7 @@ BeginCmp
 TimeStamp = /4E69DDE8;
 Reference = P111;
 ValeurCmp = PJ-044BH;
-IdModule  = PJ-044BH;
+IdModule  = JACK_ALIM;
 EndCmp
 
 BeginCmp
