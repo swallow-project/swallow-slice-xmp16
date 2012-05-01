@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 09/03/2012 13:27:36
+EESchema Schematic File Version 2  date 01/05/2012 23:20:09
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 8 13
 Title ""
-Date "9 mar 2012"
+Date "1 may 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,8 +47,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6850 1100 0    60   ~ 0
-N.B. TR_X1_XLA* should be TR_X0_XLB*
+Text Notes 6850 850  0    60   ~ 0
+N.B. TR_X0_XLB* was named\n (but not connected to) TR_X1_XLA*\nin V1 of the design. i.e. no changes to actual layout.\njust name changed
 Wire Wire Line
 	990  1520 880  1520
 Wire Wire Line
@@ -480,25 +480,25 @@ BL_X0_XLA_3o
 Text HLabel 8710 2200 0    60   Input ~ 0
 BL_X0_XLA_4o
 Text HLabel 7030 1390 2    60   Input ~ 0
-TR_X1_XLA_4o
+TR_X0_XLB_4o
 Text HLabel 7030 1480 2    60   Input ~ 0
-TR_X1_XLA_3o
+TR_X0_XLB_3o
 Text HLabel 7030 1660 2    60   Input ~ 0
-TR_X1_XLA_1o
+TR_X0_XLB_1o
 Text HLabel 7030 1570 2    60   Input ~ 0
-TR_X1_XLA_2o
+TR_X0_XLB_2o
 Text HLabel 7030 1750 2    60   Input ~ 0
-TR_X1_XLA_0o
+TR_X0_XLB_0o
 Text HLabel 7030 1840 2    60   Input ~ 0
-TR_X1_XLA_0i
+TR_X0_XLB_0i
 Text HLabel 7030 2020 2    60   Input ~ 0
-TR_X1_XLA_2i
+TR_X0_XLB_2i
 Text HLabel 7030 1930 2    60   Input ~ 0
-TR_X1_XLA_1i
+TR_X0_XLB_1i
 Text HLabel 7030 2110 2    60   Input ~ 0
-TR_X1_XLA_3i
+TR_X0_XLB_3i
 Text HLabel 7030 2200 2    60   Input ~ 0
-TR_X1_XLA_4i
+TR_X0_XLB_4i
 Text HLabel 5410 3150 0    60   Input ~ 0
 T_X1_XLA_4i
 Text HLabel 5410 3060 0    60   Input ~ 0
