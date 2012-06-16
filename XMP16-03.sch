@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 16/06/2012 22:31:19
+EESchema Schematic File Version 2  date 16/06/2012 22:43:31
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
+LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
 $Descr A2 23400 16535
@@ -6379,7 +6380,7 @@ $Sheet
 S 16670 3180 1790 4230
 U 4E36B740
 F0 "L2_PAIR_Q2" 60
-F1 "l2_pair_with_io.sch" 60
+F1 "l2_pair.sch" 60
 F2 "+3V3" I L 16670 3270 60 
 F3 "DEBUG_N" I R 18460 3670 60 
 F4 "B_X1_XLB_4o" I L 16670 6520 60 
