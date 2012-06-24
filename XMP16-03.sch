@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 16/06/2012 22:43:31
+EESchema Schematic File Version 2  date Sun 24 Jun 2012 12:27:21 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -3320,7 +3320,7 @@ U 1 1 4E69DDE8
 P 2750 4900
 F 0 "P111" H 2530 4650 60  0000 C CNN
 F 1 "PJ-044BH" H 2460 5280 60  0000 C CNN
-F 2 "PJ-044BH" H 2460 5380 60  0001 C CNN
+F 2 "JACK_ALIM" H 2460 5380 60  0001 C CNN
 	1    2750 4900
 	1    0    0    -1  
 $EndComp
