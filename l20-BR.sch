@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25/06/2012 11:15:33
+EESchema Schematic File Version 2  date 25/06/2012 11:43:41
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 13
+Sheet 7 13
 Title ""
 Date "25 jun 2012"
 Rev ""
@@ -47,6 +47,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 10260 4775 0    40   ~ 0
+Two I2C interfaces which are\njust 2x(2x(1-bit)) ports.\nIntended for use with\npower monitoring board.
+Wire Wire Line
+	10470 4400 10600 4400
+Wire Wire Line
+	10600 4400 10600 4550
+Wire Wire Line
+	10600 4200 10600 4220
+Wire Wire Line
+	10600 4220 10470 4220
 Wire Wire Line
 	4800 3920 4740 3920
 Wire Wire Line
@@ -351,6 +361,32 @@ Wire Wire Line
 	4950 1500 4755 1500
 Wire Wire Line
 	4740 3140 4740 3920
+Wire Wire Line
+	10470 4130 10600 4130
+Wire Wire Line
+	10600 4130 10600 4000
+Wire Wire Line
+	10470 4310 10600 4310
+Wire Wire Line
+	10600 4310 10600 4350
+$Comp
+L CONN_2 P14
+U 1 1 4FE83BD8
+P 10950 4450
+F 0 "P14" V 10900 4450 40  0000 C CNN
+F 1 "I2C_B" V 11000 4450 40  0000 C CNN
+	1    10950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P13
+U 1 1 4FE83BD3
+P 10950 4100
+F 0 "P13" V 10900 4100 40  0000 C CNN
+F 1 "I2C_A" V 11000 4100 40  0000 C CNN
+	1    10950 4100
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR0273
 U 1 1 4F529EDC
@@ -572,10 +608,6 @@ NoConn ~ 8680 3770
 NoConn ~ 8680 3860
 NoConn ~ 10470 3950
 NoConn ~ 10470 4040
-NoConn ~ 10470 4130
-NoConn ~ 10470 4220
-NoConn ~ 10470 4310
-NoConn ~ 10470 4400
 NoConn ~ 10470 4490
 NoConn ~ 10470 4580
 NoConn ~ 8680 4940

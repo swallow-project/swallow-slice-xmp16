@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25/06/2012 11:15:33
+EESchema Schematic File Version 2  date 25/06/2012 11:43:41
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,8 +47,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 0    -1000 0    60   ~ 0
-V3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole.\n\nOne chip in BOM is wrong package for pad.\n\nYC124 arrays need updated footprint.\n\nR105 is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset.
 Connection ~ 1050 10735
 Wire Wire Line
 	1050 10700 1050 10735
@@ -191,10 +189,6 @@ Connection ~ 2030 8060
 Connection ~ 3430 3545
 Wire Wire Line
 	3535 3545 3430 3545
-Wire Wire Line
-	4750 13300 5100 13300
-Wire Wire Line
-	4750 13850 5100 13850
 Wire Wire Line
 	7730 9170 7730 9065
 Connection ~ 7730 9170
@@ -2384,10 +2378,6 @@ Wire Wire Line
 	7015 10200 7015 10105
 Connection ~ 7015 10200
 Wire Wire Line
-	4750 14050 5100 14050
-Wire Wire Line
-	4750 13500 5100 13500
-Wire Wire Line
 	1850 3630 1990 3630
 Wire Wire Line
 	2610 8650 2030 8650
@@ -2527,6 +2517,8 @@ Wire Wire Line
 	1990 3420 1650 3420
 Connection ~ 1990 3750
 Connection ~ 1990 3630
+Text Notes 0    -1000 0    60   ~ 0
+V3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole.\n\nOne chip in BOM is wrong package for pad.\n\nYC124 arrays need updated footprint.\n\nR5 (=R105 on V1 board) is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset. 10k reduced to 3k. DONE.
 $Comp
 L TESTPOINT W2
 U 1 1 4F54B4D5
@@ -3190,36 +3182,6 @@ F 0 "W3" H 1850 3430 60  0000 C CNN
 F 1 "3V3_PG" H 1850 3480 20  0000 C CNN
 F 2 "TestPad-2mm" H 1850 3580 20  0001 C CNN
 	1    1850 3480
-	1    0    0    -1  
-$EndComp
-Text GLabel 4750 14050 0    30   Input ~ 0
-X1D37-IO
-Text GLabel 4750 13850 0    30   Input ~ 0
-X1D36-IO
-Text GLabel 4750 13500 0    30   Input ~ 0
-X1D35-IO
-Text GLabel 4750 13300 0    30   Input ~ 0
-X1D34-IO
-Text Notes 3650 13100 0    30   ~ 0
-Connectors, connected to 3rd row 2nd column core 1 for some I/O for a potential daugherboard. Not connected properly in schematic as it only applies to one die.
-$Comp
-L CONN_2 W11
-U 1 1 4EC2A42B
-P 5450 13950
-F 0 "W11" V 5400 13950 40  0000 C CNN
-F 1 "D37_38" V 5500 13950 40  0000 C CNN
-F 2 "TestPad-1mm" V 5600 13950 40  0001 C CNN
-	1    5450 13950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_2 W10
-U 1 1 4EC2A426
-P 5450 13400
-F 0 "W10" V 5400 13400 40  0000 C CNN
-F 1 "D36_37" V 5500 13400 40  0000 C CNN
-F 2 "TestPad-1mm" V 5600 13400 40  0001 C CNN
-	1    5450 13400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6467,7 +6429,7 @@ L R R5
 U 1 1 4E35E59F
 P 2380 3420
 F 0 "R5" V 2460 3420 50  0000 C CNN
-F 1 "10k" V 2380 3420 50  0000 C CNN
+F 1 "3k" V 2380 3420 50  0000 C CNN
 F 2 "SM0603_Resistor" H 2380 3420 60  0001 C CNN
 	1    2380 3420
 	0    1    1    0   
