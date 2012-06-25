@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25/06/2012 11:43:41
+EESchema Schematic File Version 2  date 25/06/2012 16:49:30
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -75,10 +75,6 @@ Wire Wire Line
 Connection ~ 860  11165
 Wire Wire Line
 	860  11365 860  10735
-Wire Wire Line
-	8395 3345 8640 3345
-Wire Wire Line
-	8640 3345 8640 2420
 Wire Wire Line
 	8325 4830 8195 4830
 Wire Wire Line
@@ -2490,10 +2486,6 @@ Wire Wire Line
 	8315 4860 8490 4860
 Connection ~ 8315 4860
 Wire Wire Line
-	8490 4860 8490 3745
-Wire Wire Line
-	8490 3745 8395 3745
-Wire Wire Line
 	2100 10020 2100 10735
 Wire Wire Line
 	2100 10735 860  10735
@@ -2742,16 +2734,6 @@ F 2 "SC70-6" H 1510 11265 60  0001 C CNN
 F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=NC7WZ17P6XCT-ND" H 1510 11265 60  0001 C CNN
 	1    1510 11265
 	1    0    0    -1  
-$EndComp
-$Comp
-L TEST W31
-U 1 1 4F53B047
-P 8395 3545
-F 0 "W31" H 8395 3605 40  0000 C CNN
-F 1 "DEBUGs" H 8395 3475 40  0000 C CNN
-F 2 "TestPad-1mm" H 8395 3575 40  0001 C CNN
-	1    8395 3545
-	0    -1   -1   0   
 $EndComp
 $Comp
 L R R27
