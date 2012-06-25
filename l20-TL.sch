@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25/06/2012 16:49:30
+EESchema Schematic File Version 2  date 25/06/2012 21:59:42
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,6 +47,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	8680 2150 8895 2150
+Wire Wire Line
+	8950 4310 8730 4310
+Wire Wire Line
+	8730 4310 8730 4130
+Wire Wire Line
+	8730 4130 8680 4130
+Wire Wire Line
+	8950 4110 8950 4040
+Wire Wire Line
+	8950 4040 8680 4040
+Wire Wire Line
+	8950 3910 8950 3860
+Wire Wire Line
+	8950 3860 8680 3860
+Wire Wire Line
+	8950 3710 8950 3680
+Wire Wire Line
+	8950 3680 8680 3680
+Wire Wire Line
+	8950 3510 8950 3500
+Wire Wire Line
+	8950 3500 8680 3500
 Wire Wire Line
 	4800 3920 4740 3920
 Wire Wire Line
@@ -351,6 +375,48 @@ Wire Wire Line
 	4950 1500 4755 1500
 Wire Wire Line
 	4740 3140 4740 3920
+Wire Wire Line
+	8950 3410 8680 3410
+Wire Wire Line
+	8680 3590 8950 3590
+Wire Wire Line
+	8950 3590 8950 3610
+Wire Wire Line
+	8680 3770 8950 3770
+Wire Wire Line
+	8950 3770 8950 3810
+Wire Wire Line
+	8680 3950 8950 3950
+Wire Wire Line
+	8950 3950 8950 4010
+Wire Wire Line
+	8950 4210 8815 4210
+$Comp
+L XS1_L2-QFN124 U51
+U 3 1 4FE8310C
+P 8060 1630
+F 0 "U51" H 7740 2480 60  0000 C CNN
+F 1 "XS1_L2-QFN124" H 8030 2360 60  0000 C CNN
+F 2 "L2_QFN124" H 8060 1630 60  0001 C CNN
+F 3 "http://www.xmos.com/published/xs1-l02a-qf124-datasheet" H 8060 1630 60  0001 C CNN
+	3    8060 1630
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8680 3140
+NoConn ~ 8680 4220
+Text Label 8930 4210 2    60   ~ 0
+Pin9
+Text Label 8780 2150 0    60   ~ 0
+Pin9
+$Comp
+L CONN_10 P15
+U 1 1 4FE8BC0D
+P 9300 3860
+F 0 "P15" V 9250 3860 60  0000 C CNN
+F 1 "4Bits-TL" V 9350 3860 60  0000 C CNN
+	1    9300 3860
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR0301
 U 1 1 4FE83216
@@ -505,17 +571,6 @@ Text Label 10570 3680 0    30   ~ 0
 LED_1
 Text Label 10570 3590 0    30   ~ 0
 LED_0
-$Comp
-L XS1_L2-QFN124 U51
-U 3 1 4FE8310C
-P 8060 1630
-F 0 "U51" H 7740 2480 60  0000 C CNN
-F 1 "XS1_L2-QFN124" H 8030 2360 60  0000 C CNN
-F 2 "L2_QFN124" H 8060 1630 60  0001 C CNN
-F 3 "http://www.xmos.com/published/xs1-l02a-qf124-datasheet" H 8060 1630 60  0001 C CNN
-	3    8060 1630
-	1    0    0    -1  
-$EndComp
 Text HLabel 10580 1160 2    60   Input ~ 0
 X1_XLA_4o
 Text HLabel 10580 1250 2    60   Input ~ 0
@@ -566,10 +621,6 @@ NoConn ~ 10470 3230
 NoConn ~ 10470 3320
 NoConn ~ 10470 3410
 NoConn ~ 10470 3500
-NoConn ~ 8680 3590
-NoConn ~ 8680 3680
-NoConn ~ 8680 3770
-NoConn ~ 8680 3860
 NoConn ~ 10470 3950
 NoConn ~ 10470 4040
 NoConn ~ 10470 4130
@@ -586,15 +637,8 @@ NoConn ~ 8680 4580
 NoConn ~ 8680 4490
 NoConn ~ 8680 4400
 NoConn ~ 8680 4310
-NoConn ~ 8680 4220
-NoConn ~ 8680 4130
-NoConn ~ 8680 4040
-NoConn ~ 8680 3950
-NoConn ~ 8680 3500
-NoConn ~ 8680 3410
 NoConn ~ 8680 3320
 NoConn ~ 8680 3230
-NoConn ~ 8680 3140
 Text HLabel 8790 2240 2    60   Input ~ 0
 X0_XLB_4o
 Text HLabel 8790 2330 2    60   Input ~ 0
@@ -615,7 +659,6 @@ Text HLabel 8790 2960 2    60   Input ~ 0
 X0_XLB_3i
 Text HLabel 8790 3050 2    60   Input ~ 0
 X0_XLB_4i
-NoConn ~ 8680 2150
 NoConn ~ 8680 2060
 NoConn ~ 8680 2060
 NoConn ~ 8680 1070

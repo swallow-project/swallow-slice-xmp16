@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 25/06/2012 11:45:30
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 25/06/2012 20:37:11
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -1167,6 +1167,13 @@ TimeStamp = /4E36B777/4E32CE0C/4FE83BD8;
 Reference = P14;
 ValeurCmp = I2C_B;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E32CDCE/4FE830FB/4FE8BC0D;
+Reference = P15;
+ValeurCmp = 4Bits-TL;
+IdModule  = PIN_ARRAY_5x2;
 EndCmp
 
 BeginCmp
@@ -2405,13 +2412,6 @@ BeginCmp
 TimeStamp = /4F50AD0E;
 Reference = W30;
 ValeurCmp = SWT_4;
-IdModule  = TestPad-1mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F53B047;
-Reference = W31;
-ValeurCmp = DEBUGs;
 IdModule  = TestPad-1mm;
 EndCmp
 
