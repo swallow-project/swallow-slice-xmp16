@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 24 Jun 2012 12:27:21 BST
+EESchema Schematic File Version 2  date 25/06/2012 10:35:19
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A2 23400 16535
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "16 jun 2012"
+Date "25 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2596,8 +2596,8 @@ Removed NC7WZ17 had ref U131
 $Sheet
 S 12970 8390 1790 4230
 U 4E36B760
-F0 "L2_PAIR_Q4" 60
-F1 "l2_pair.sch" 60
+F0 "L2_PAIR_Q4b" 60
+F1 "l2_pair-BL.sch" 60
 F2 "+3V3" I L 12970 8480 60 
 F3 "DEBUG_N" I R 14760 8880 60 
 F4 "B_X1_XLB_4o" I L 12970 11730 60 
@@ -2802,8 +2802,8 @@ $EndComp
 $Sheet
 S 16670 8390 1790 4230
 U 4E36B777
-F0 "L2_PAIR_Q3" 60
-F1 "l2_pair.sch" 60
+F0 "L2_PAIR_Q3b" 60
+F1 "l2_pair-BR.sch" 60
 F2 "+3V3" I L 16670 8480 60 
 F3 "DEBUG_N" I R 18460 8880 60 
 F4 "BL_X0_XLA_4i" I L 16670 11580 60 
@@ -4632,8 +4632,8 @@ $EndComp
 $Sheet
 S 12970 3180 1790 4230
 U 4E32CDCE
-F0 "L2_PAIR_Q1" 60
-F1 "l2_pair.sch" 60
+F0 "L2_PAIR_Q1b" 60
+F1 "l2_pair-TL.sch" 60
 F2 "+3V3" I L 12970 3270 60 
 F3 "DEBUG_N" I R 14760 3670 60 
 F4 "B_X1_XLB_4o" I L 12970 6520 60 
@@ -6379,8 +6379,8 @@ $EndComp
 $Sheet
 S 16670 3180 1790 4230
 U 4E36B740
-F0 "L2_PAIR_Q2" 60
-F1 "l2_pair.sch" 60
+F0 "L2_PAIR_Q2b" 60
+F1 "l2_pair-TR.sch" 60
 F2 "+3V3" I L 16670 3270 60 
 F3 "DEBUG_N" I R 18460 3670 60 
 F4 "B_X1_XLB_4o" I L 16670 6520 60 
