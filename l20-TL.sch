@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 26/06/2012 10:51:21
+EESchema Schematic File Version 2  date Tue 26 Jun 2012 17:14:31 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
+LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -46,8 +47,46 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 6700 6600 2    60   ~ 0
+P1E
+Text Label 6700 6500 2    60   ~ 0
+P1K
+Text Label 6700 6400 2    60   ~ 0
+P1J
+Text Label 6700 6300 2    60   ~ 0
+P1H
+Text Label 6700 6200 2    60   ~ 0
+P4E2
+Text Label 6700 6100 2    60   ~ 0
+P4E3
+Text Label 6700 6000 2    60   ~ 0
+P4F2
+Text Label 6700 5900 2    60   ~ 0
+P4F3
+Text Label 6700 5800 2    60   ~ 0
+P4F0
+Text Label 6700 5700 2    60   ~ 0
+P4F1
+Text Label 6700 5600 2    60   ~ 0
+P4E0
+Text Label 6700 5500 2    60   ~ 0
+P4E1
 Wire Wire Line
-	8950 4570 8950 4510
+	6750 6600 6550 6600
+Wire Wire Line
+	6750 6400 6550 6400
+Wire Wire Line
+	6750 6200 6550 6200
+Wire Wire Line
+	6750 6000 6550 6000
+Wire Wire Line
+	6750 5800 6550 5800
+Wire Wire Line
+	6750 5600 6550 5600
+Wire Wire Line
+	9215 3210 8950 3210
+Wire Wire Line
+	8950 4410 8750 4410
 Wire Wire Line
 	8950 3210 8950 3140
 Wire Wire Line
@@ -55,11 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	8680 2150 8895 2150
 Wire Wire Line
-	8950 4310 8730 4310
-Wire Wire Line
-	8730 4310 8730 4130
-Wire Wire Line
-	8730 4130 8680 4130
+	8680 4130 8730 4130
 Wire Wire Line
 	8950 4110 8950 4040
 Wire Wire Line
@@ -401,25 +436,69 @@ Wire Wire Line
 Wire Wire Line
 	8950 3320 8950 3310
 Wire Wire Line
-	8830 4485 8950 4485
+	8950 4510 8730 4510
 Wire Wire Line
-	8950 4485 8950 4410
+	8730 4510 8730 4130
+Wire Wire Line
+	8950 4310 8785 4310
+Wire Wire Line
+	6750 5500 6550 5500
+Wire Wire Line
+	6750 5700 6550 5700
+Wire Wire Line
+	6750 5900 6550 5900
+Wire Wire Line
+	6750 6100 6550 6100
+Wire Wire Line
+	6750 6300 6550 6300
+Wire Wire Line
+	6750 6500 6550 6500
+Text Label 8995 3210 0    60   ~ 0
+P1H
+Text Label 8750 3320 0    60   ~ 0
+P1J
+Text Label 8790 4310 0    60   ~ 0
+P1H
+Text Label 8750 4510 0    60   ~ 0
+P1K
+Text Label 8755 4410 0    60   ~ 0
+P1E
+Text Label 8750 2150 0    60   ~ 0
+P1E
+Text Label 8720 4040 0    60   ~ 0
+P4E3
+Text Label 8720 3950 0    60   ~ 0
+P4E2
+Text Label 8720 3860 0    60   ~ 0
+P4F3
+Text Label 8720 3770 0    60   ~ 0
+P4F2
+Text Label 8730 3680 0    60   ~ 0
+P4F1
+Text Label 8730 3590 0    60   ~ 0
+P4F0
+Text Label 8730 3500 0    60   ~ 0
+P4E1
+Text Label 8740 3410 0    60   ~ 0
+P4E0
+Text Label 8830 4210 0    60   ~ 0
+P1J
 $Comp
-L +3.3V #PWR?
+L +3.3V #PWR0301
 U 1 1 4FE9855A
-P 8830 4485
-F 0 "#PWR?" H 8830 4445 30  0001 C CNN
-F 1 "+3.3V" H 8830 4595 30  0000 C CNN
-	1    8830 4485
+P 8870 4925
+F 0 "#PWR0301" H 8870 4885 30  0001 C CNN
+F 1 "+3.3V" H 8870 5035 30  0000 C CNN
+	1    8870 4925
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR0302
 U 1 1 4FE9854F
-P 8950 4570
-F 0 "#PWR?" H 8950 4570 30  0001 C CNN
-F 1 "GND" H 8950 4500 30  0001 C CNN
-	1    8950 4570
+P 8990 4870
+F 0 "#PWR0302" H 8990 4870 30  0001 C CNN
+F 1 "GND" H 8990 4800 30  0001 C CNN
+	1    8990 4870
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -434,24 +513,20 @@ F 3 "http://www.xmos.com/published/xs1-l02a-qf124-datasheet" H 8060 1630 60  000
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8680 4220
-Text Label 8930 4210 2    60   ~ 0
-Pin9
-Text Label 8780 2150 0    60   ~ 0
-Pin9
 $Comp
 L CONN_14 P15
 U 1 1 4FE8BC0D
-P 9300 3860
-F 0 "P15" V 9250 3860 60  0000 C CNN
-F 1 "4Bits-TL" V 9350 3860 60  0000 C CNN
-	1    9300 3860
+P 7100 6150
+F 0 "P15" V 7050 6150 60  0000 C CNN
+F 1 "4Bits-TL" V 7150 6150 60  0000 C CNN
+	1    7100 6150
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0301
+L GND #PWR0303
 U 1 1 4FE83216
 P 4825 1405
-F 0 "#PWR0301" H 4825 1405 30  0001 C CNN
+F 0 "#PWR0303" H 4825 1405 30  0001 C CNN
 F 1 "GND" H 4825 1335 30  0001 C CNN
 	1    4825 1405
 	1    0    0    -1  
@@ -459,10 +534,10 @@ $EndComp
 Text Notes 4170 675  0    60   ~ 0
 Mode pins set for PLL Multiplier of 8.33, to allow for 25MHz clk input.\nX0 boots from XLINKB, X1 boots via X0 chanend 0
 $Comp
-L GND #PWR0302
+L GND #PWR0304
 U 1 1 4FE8320B
 P 4865 1240
-F 0 "#PWR0302" H 4865 1240 30  0001 C CNN
+F 0 "#PWR0304" H 4865 1240 30  0001 C CNN
 F 1 "GND" H 4865 1170 30  0001 C CNN
 	1    4865 1240
 	1    0    0    -1  
@@ -490,19 +565,19 @@ F 2 "X_LED-0603" H 5390 6470 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0303
+L GND #PWR0305
 U 1 1 4FE831EF
 P 5390 6710
-F 0 "#PWR0303" H 5390 6710 30  0001 C CNN
+F 0 "#PWR0305" H 5390 6710 30  0001 C CNN
 F 1 "GND" H 5390 6640 30  0001 C CNN
 	1    5390 6710
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0304
+L GND #PWR0306
 U 1 1 4FE831E9
 P 5090 6710
-F 0 "#PWR0304" H 5090 6710 30  0001 C CNN
+F 0 "#PWR0306" H 5090 6710 30  0001 C CNN
 F 1 "GND" H 5090 6640 30  0001 C CNN
 	1    5090 6710
 	1    0    0    -1  
@@ -548,19 +623,19 @@ F 2 "X_LED-0603" H 4800 6470 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0305
+L GND #PWR0307
 U 1 1 4FE831C8
 P 4800 6710
-F 0 "#PWR0305" H 4800 6710 30  0001 C CNN
+F 0 "#PWR0307" H 4800 6710 30  0001 C CNN
 F 1 "GND" H 4800 6640 30  0001 C CNN
 	1    4800 6710
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0306
+L GND #PWR0308
 U 1 1 4FE831BE
 P 4490 6710
-F 0 "#PWR0306" H 4490 6710 30  0001 C CNN
+F 0 "#PWR0308" H 4490 6710 30  0001 C CNN
 F 1 "GND" H 4490 6640 30  0001 C CNN
 	1    4490 6710
 	1    0    0    -1  
@@ -771,19 +846,19 @@ $EndComp
 Text HLabel 9580 5370 0    60   Input ~ 0
 +3V3
 $Comp
-L GND #PWR0307
+L GND #PWR0309
 U 1 1 4FE83169
 P 9670 5980
-F 0 "#PWR0307" H 9670 5980 30  0001 C CNN
+F 0 "#PWR0309" H 9670 5980 30  0001 C CNN
 F 1 "GND" H 9670 5910 30  0001 C CNN
 	1    9670 5980
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0308
+L GND #PWR0310
 U 1 1 4FE83161
 P 8050 5980
-F 0 "#PWR0308" H 8050 5980 30  0001 C CNN
+F 0 "#PWR0310" H 8050 5980 30  0001 C CNN
 F 1 "GND" H 8050 5910 30  0001 C CNN
 	1    8050 5980
 	1    0    0    -1  
@@ -849,10 +924,10 @@ RST_N
 Text HLabel 4755 1500 0    60   Input ~ 0
 MSEL
 $Comp
-L GND #PWR0309
+L GND #PWR0311
 U 1 1 4FE83135
 P 4860 1640
-F 0 "#PWR0309" H 4860 1640 30  0001 C CNN
+F 0 "#PWR0311" H 4860 1640 30  0001 C CNN
 F 1 "GND" H 4860 1570 30  0001 C CNN
 	1    4860 1640
 	1    0    0    -1  
@@ -870,10 +945,10 @@ TDI
 Text HLabel 4770 2090 0    60   Input ~ 0
 TDO
 $Comp
-L GND #PWR0310
+L GND #PWR0312
 U 1 1 4FE83130
 P 7250 4820
-F 0 "#PWR0310" H 7250 4820 30  0001 C CNN
+F 0 "#PWR0312" H 7250 4820 30  0001 C CNN
 F 1 "GND" H 7250 4750 30  0001 C CNN
 	1    7250 4820
 	1    0    0    -1  
@@ -909,10 +984,10 @@ Text HLabel 4500 3140 0    60   Input ~ 0
 Text HLabel 4500 4020 0    60   Input ~ 0
 +1V0
 $Comp
-L GND #PWR0311
+L GND #PWR0313
 U 1 1 4E32CF1C
 P 6750 4855
-F 0 "#PWR0311" H 6750 4855 30  0001 C CNN
+F 0 "#PWR0313" H 6750 4855 30  0001 C CNN
 F 1 "GND" H 6750 4785 30  0001 C CNN
 	1    6750 4855
 	1    0    0    -1  
