@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 26 Jun 2012 17:14:31 BST
+EESchema Schematic File Version 2  date 26/06/2012 19:44:17
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -2510,7 +2510,7 @@ Wire Wire Line
 Connection ~ 1990 3750
 Connection ~ 1990 3630
 Text Notes 0    -1000 0    60   ~ 0
-V3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole.\n\nOne chip in BOM is wrong package for pad.\n\nYC124 arrays need updated footprint.\n\nR5 (=R105 on V1 board) is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset. 10k reduced to 3k. DONE.
+V3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole.\n\nOne chip in BOM is wrong package for pad.\n\nYC124 arrays need updated footprint - DONE.\n\nR5 (=R105 on V1 board) is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset. 10k reduced to 3k. DONE.
 $Comp
 L TESTPOINT W2
 U 1 1 4F54B4D5
