@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25/06/2012 21:59:42
+EESchema Schematic File Version 2  date 26/06/2012 10:51:21
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,14 +32,13 @@ LIBS:valves
 LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
-LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 10 13
 Title ""
-Date "25 jun 2012"
+Date "26 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +46,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	8950 4570 8950 4510
+Wire Wire Line
+	8950 3210 8950 3140
+Wire Wire Line
+	8950 3140 8680 3140
 Wire Wire Line
 	8680 2150 8895 2150
 Wire Wire Line
@@ -391,6 +396,32 @@ Wire Wire Line
 	8950 3950 8950 4010
 Wire Wire Line
 	8950 4210 8815 4210
+Wire Wire Line
+	8680 3320 8950 3320
+Wire Wire Line
+	8950 3320 8950 3310
+Wire Wire Line
+	8830 4485 8950 4485
+Wire Wire Line
+	8950 4485 8950 4410
+$Comp
+L +3.3V #PWR?
+U 1 1 4FE9855A
+P 8830 4485
+F 0 "#PWR?" H 8830 4445 30  0001 C CNN
+F 1 "+3.3V" H 8830 4595 30  0000 C CNN
+	1    8830 4485
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FE9854F
+P 8950 4570
+F 0 "#PWR?" H 8950 4570 30  0001 C CNN
+F 1 "GND" H 8950 4500 30  0001 C CNN
+	1    8950 4570
+	1    0    0    -1  
+$EndComp
 $Comp
 L XS1_L2-QFN124 U51
 U 3 1 4FE8310C
@@ -402,14 +433,13 @@ F 3 "http://www.xmos.com/published/xs1-l02a-qf124-datasheet" H 8060 1630 60  000
 	3    8060 1630
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8680 3140
 NoConn ~ 8680 4220
 Text Label 8930 4210 2    60   ~ 0
 Pin9
 Text Label 8780 2150 0    60   ~ 0
 Pin9
 $Comp
-L CONN_10 P15
+L CONN_14 P15
 U 1 1 4FE8BC0D
 P 9300 3860
 F 0 "P15" V 9250 3860 60  0000 C CNN
@@ -637,7 +667,6 @@ NoConn ~ 8680 4580
 NoConn ~ 8680 4490
 NoConn ~ 8680 4400
 NoConn ~ 8680 4310
-NoConn ~ 8680 3320
 NoConn ~ 8680 3230
 Text HLabel 8790 2240 2    60   Input ~ 0
 X0_XLB_4o
