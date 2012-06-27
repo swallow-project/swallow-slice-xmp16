@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/06/2012 11:07:08
+EESchema Schematic File Version 2  date Wed 27 Jun 2012 12:00:49 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -524,7 +524,7 @@ L CONN_14 P15
 U 1 1 4FE8BC0D
 P 7100 6150
 F 0 "P15" V 7050 6150 60  0000 C CNN
-F 1 "4Bits-TL" V 7150 6150 60  0000 C CNN
+F 1 "Core 2 I/O" V 7150 6150 60  0000 C CNN
 	1    7100 6150
 	1    0    0    -1  
 $EndComp
