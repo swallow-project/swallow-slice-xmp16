@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/06/2012 20:19:22
+EESchema Schematic File Version 2  date 27/06/2012 20:36:30
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,6 +47,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 3580 3070
+Wire Wire Line
+	3620 2125 3745 2125
+Wire Wire Line
+	3745 2125 3745 3070
+Wire Wire Line
+	3745 3070 650  3070
+Connection ~ 3480 1170
+Wire Wire Line
+	3620 1170 3480 1170
+Connection ~ 8190 10200
+Wire Wire Line
+	8510 10200 5080 10200
+Wire Wire Line
+	8510 10200 8510 10140
+Connection ~ 8270 9170
+Wire Wire Line
+	8510 9175 8510 9170
+Wire Wire Line
+	8510 9170 7530 9170
 Connection ~ 1050 10735
 Wire Wire Line
 	1050 10700 1050 10735
@@ -718,7 +738,7 @@ Wire Notes Line
 Wire Wire Line
 	2680 3420 2680 3500
 Wire Wire Line
-	8270 9070 8270 9170
+	8270 9170 8270 9070
 Wire Wire Line
 	21310 5830 21310 5650
 Wire Wire Line
@@ -1311,12 +1331,8 @@ Wire Notes Line
 Wire Notes Line
 	4960 8810 8470 8810
 Wire Notes Line
-	8470 8810 8470 10300
-Wire Notes Line
-	8470 10300 4960 10300
+	4960 10300 8470 10300
 Connection ~ 7620 10200
-Wire Wire Line
-	8190 10200 5080 10200
 Wire Wire Line
 	8190 10200 8190 9640
 Wire Wire Line
@@ -1348,8 +1364,6 @@ Wire Wire Line
 Wire Wire Line
 	8190 9240 8190 9170
 Connection ~ 7890 9170
-Wire Wire Line
-	8270 9170 7530 9170
 Connection ~ 8190 9170
 Wire Wire Line
 	2820 1950 2820 2150
@@ -1390,7 +1404,7 @@ Connection ~ 2040 3070
 Wire Wire Line
 	840  2640 840  2580
 Wire Wire Line
-	650  2060 650  3070
+	650  3070 650  2060
 Connection ~ 840  3070
 Wire Wire Line
 	650  1050 650  1660
@@ -2359,9 +2373,7 @@ Wire Wire Line
 Wire Wire Line
 	3340 2620 3340 2530
 Wire Wire Line
-	3580 3020 3580 3070
-Wire Wire Line
-	3580 3070 650  3070
+	3580 3070 3580 3020
 Wire Wire Line
 	3055 1415 3480 1415
 Connection ~ 3480 1415
@@ -2509,8 +2521,59 @@ Wire Wire Line
 	1990 3420 1650 3420
 Connection ~ 1990 3750
 Connection ~ 1990 3630
+Wire Wire Line
+	3290 5080 3370 5080
+Wire Wire Line
+	3370 5080 3370 5350
+Connection ~ 3370 5350
+Wire Wire Line
+	8510 9675 8510 9740
+Wire Notes Line
+	8465 10300 8650 10300
+Wire Notes Line
+	8650 10300 8650 8810
+Wire Notes Line
+	8650 8810 8465 8810
+Wire Wire Line
+	3620 1670 3620 1725
+$Comp
+L LED D34
+U 1 1 4FEB5E24
+P 3620 1925
+F 0 "D34" H 3620 2025 50  0000 C CNN
+F 1 "5V OK" H 3620 1825 50  0000 C CNN
+	1    3620 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L R R93
+U 1 1 4FEB5E22
+P 3620 1420
+F 0 "R93" V 3700 1420 50  0000 C CNN
+F 1 "1k6" V 3620 1420 50  0000 C CNN
+	1    3620 1420
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R94
+U 1 1 4FEB5DC1
+P 8510 9425
+F 0 "R94" V 8590 9425 50  0000 C CNN
+F 1 "1k" V 8510 9425 50  0000 C CNN
+	1    8510 9425
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D35
+U 1 1 4FEB5D9B
+P 8510 9940
+F 0 "D35" H 8510 10040 50  0000 C CNN
+F 1 "3V3 OK" H 8510 9840 50  0000 C CNN
+	1    8510 9940
+	0    1    1    0   
+$EndComp
 Text Notes 0    -1000 0    60   ~ 0
-V3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole. Done.\n\nOne chip in BOM is wrong package for pad.\n\nYC124 arrays need updated footprint - DONE.\n\nR5 (=R105 on V1 board) is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset. 10k reduced to 3k. DONE.\n\nAdd extra LEDs on power ccts.
+V3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole. Done.\n\nOne chip in BOM is wrong package for pad.\n\nYC124 arrays need updated footprint - DONE.\n\nR5 (=R105 on V1 board) is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset. 10k reduced to 3k. DONE.\n\nAdd extra LEDs on power ccts. DONE.
 $Comp
 L TESTPOINT W2
 U 1 1 4F54B4D5
@@ -3238,8 +3301,6 @@ F 2 "X-SM0805" H 3340 2820 60  0001 C CNN
 $EndComp
 Text Notes 2090 5020 0    30   ~ 0
 Power Connector\n
-NoConn ~ 3290 5080
-NoConn ~ 3290 5080
 $Comp
 L GND #PWR07
 U 1 1 4E69DE0E

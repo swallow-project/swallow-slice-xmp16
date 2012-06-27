@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 27/06/2012 20:09:25
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 27/06/2012 20:28:14
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -995,6 +995,20 @@ IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /4FEB5E24;
+Reference = D101;
+ValeurCmp = 5V_OK;
+IdModule  = X_LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEB5D9B;
+Reference = D102;
+ValeurCmp = 3V3_OK;
+IdModule  = X_LED-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F53E6B4;
 Reference = H1;
 ValeurCmp = MOUNTING_HOLE;
@@ -1818,6 +1832,20 @@ TimeStamp = /4E36B740/4FE82F44/4E32D1C4;
 Reference = R92;
 ValeurCmp = 2R2;
 IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEB5E22;
+Reference = R101;
+ValeurCmp = 1k6;
+IdModule  = X-SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FEB5DC1;
+Reference = R102;
+ValeurCmp = 1k;
+IdModule  = X-SM0603;
 EndCmp
 
 BeginCmp
