@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 26/06/2012 19:44:17
+EESchema Schematic File Version 2  date 27/06/2012 10:47:42
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 10 13
 Title ""
-Date "26 jun 2012"
+Date "27 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,30 +47,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 6700 6600 2    60   ~ 0
-P1E
-Text Label 6700 6500 2    60   ~ 0
-P1K
-Text Label 6700 6400 2    60   ~ 0
-P1J
-Text Label 6700 6300 2    60   ~ 0
-P1H
-Text Label 6700 6200 2    60   ~ 0
-P4E2
-Text Label 6700 6100 2    60   ~ 0
-P4E3
-Text Label 6700 6000 2    60   ~ 0
-P4F2
-Text Label 6700 5900 2    60   ~ 0
-P4F3
-Text Label 6700 5800 2    60   ~ 0
-P4F0
-Text Label 6700 5700 2    60   ~ 0
-P4F1
-Text Label 6700 5600 2    60   ~ 0
-P4E0
-Text Label 6700 5500 2    60   ~ 0
-P4E1
+Wire Wire Line
+	6750 6700 6750 6750
+Wire Wire Line
+	6750 6750 6600 6750
 Wire Wire Line
 	6750 6600 6550 6600
 Wire Wire Line
@@ -453,6 +433,50 @@ Wire Wire Line
 	6750 6300 6550 6300
 Wire Wire Line
 	6750 6500 6550 6500
+Wire Wire Line
+	6750 6900 6750 6800
+$Comp
+L +3.3V #PWR?
+U 1 1 4FEAD6B7
+P 6600 6750
+F 0 "#PWR?" H 6600 6710 30  0001 C CNN
+F 1 "+3.3V" H 6600 6860 30  0000 C CNN
+	1    6600 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FEAD6A9
+P 6750 6900
+F 0 "#PWR?" H 6750 6900 30  0001 C CNN
+F 1 "GND" H 6750 6830 30  0001 C CNN
+	1    6750 6900
+	1    0    0    -1  
+$EndComp
+Text Label 6700 6600 2    60   ~ 0
+P1E
+Text Label 6700 6500 2    60   ~ 0
+P1K
+Text Label 6700 6400 2    60   ~ 0
+P1J
+Text Label 6700 6300 2    60   ~ 0
+P1H
+Text Label 6700 6200 2    60   ~ 0
+P4E2
+Text Label 6700 6100 2    60   ~ 0
+P4E3
+Text Label 6700 6000 2    60   ~ 0
+P4F2
+Text Label 6700 5900 2    60   ~ 0
+P4F3
+Text Label 6700 5800 2    60   ~ 0
+P4F0
+Text Label 6700 5700 2    60   ~ 0
+P4F1
+Text Label 6700 5600 2    60   ~ 0
+P4E0
+Text Label 6700 5500 2    60   ~ 0
+P4E1
 Text Label 8995 3210 0    60   ~ 0
 P1H
 Text Label 8750 3320 0    60   ~ 0
