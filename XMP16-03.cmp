@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 27/06/2012 11:11:37
+Cmp-Mod V01 Genere par PcbNew le 27/06/2012 20:09:25
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -1075,7 +1075,7 @@ BeginCmp
 TimeStamp = /4E69DDE8;
 Reference = P1;
 ValeurCmp = PJ-044BH;
-IdModule  = JACK_ALIM;
+IdModule  = Power_Jack_5A_Throughole;
 EndCmp
 
 BeginCmp
