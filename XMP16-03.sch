@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/06/2012 20:36:30
+EESchema Schematic File Version 2  date 11/07/2012 20:23:22
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A2 23400 16535
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "27 jun 2012"
+Date "11 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MOUNTING_HOLE H6
+U 1 1 4FFDD2AD
+P 5450 15300
+F 0 "H6" H 5450 15150 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 5450 15450 30  0000 C CNN
+F 2 "Mounting_Hole-3mm" H 5450 15550 30  0001 C CNN
+	1    5450 15300
+	1    0    0    -1  
+$EndComp
 Connection ~ 3580 3070
 Wire Wire Line
 	3620 2125 3745 2125

@@ -1,5 +1,7 @@
-# EESchema Netlist Version 1.1 created  27/06/2012 20:35:14
+# EESchema Netlist Version 1.1 created  11/07/2012 20:23:19
 (
+ ( /4FFDD2AD Mounting_Hole-3mm  H6 MOUNTING_HOLE {Lib=MOUNTING_HOLE}
+ )
  ( /4FEB5E24 $noname  D34 5V_OK {Lib=LED}
   (    1 N-000317 )
   (    2 GND )
@@ -2925,6 +2927,9 @@
 )
 *
 { Allowed footprints by component:
+$component H6
+ Mounting_Hole*
+$endlist
 $component D34
  LED-3MM
  LED-5MM
