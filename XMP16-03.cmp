@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 27/06/2012 20:28:14
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 19/07/2012 15:11:41
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -996,16 +996,16 @@ EndCmp
 
 BeginCmp
 TimeStamp = /4FEB5E24;
-Reference = D101;
+Reference = D34;
 ValeurCmp = 5V_OK;
-IdModule  = X_LED-0603;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FEB5D9B;
-Reference = D102;
+Reference = D35;
 ValeurCmp = 3V3_OK;
-IdModule  = X_LED-0603;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -1039,6 +1039,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4F53E6C1;
 Reference = H5;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FFDD2AD;
+Reference = H6;
 ValeurCmp = MOUNTING_HOLE;
 IdModule  = Mounting_Hole-3mm;
 EndCmp
@@ -1836,16 +1843,23 @@ EndCmp
 
 BeginCmp
 TimeStamp = /4FEB5E22;
-Reference = R101;
+Reference = R93;
 ValeurCmp = 1k6;
-IdModule  = X-SM0603;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FEB5DC1;
-Reference = R102;
+Reference = R94;
 ValeurCmp = 1k;
-IdModule  = X-SM0603;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5008149C;
+Reference = R95;
+ValeurCmp = 0.05R;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -2475,7 +2489,7 @@ BeginCmp
 TimeStamp = /4E32CDCE/4FE83208;
 Reference = W36;
 ValeurCmp = 1VReg_Out;
-IdModule  = TestPad-1mm;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp

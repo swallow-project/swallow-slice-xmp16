@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/07/2012 20:23:22
+EESchema Schematic File Version 2  date 27/07/2012 10:51:36
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A2 23400 16535
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "11 jul 2012"
+Date "27 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,16 +47,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MOUNTING_HOLE H6
-U 1 1 4FFDD2AD
-P 5450 15300
-F 0 "H6" H 5450 15150 60  0000 C CNN
-F 1 "MOUNTING_HOLE" H 5450 15450 30  0000 C CNN
-F 2 "Mounting_Hole-3mm" H 5450 15550 30  0001 C CNN
-	1    5450 15300
-	1    0    0    -1  
-$EndComp
+Connection ~ 7270 9600
+Wire Wire Line
+	7270 9055 7270 9600
+Wire Wire Line
+	7400 9550 7400 9600
+Wire Wire Line
+	7400 9600 7150 9600
 Connection ~ 3580 3070
 Wire Wire Line
 	3620 2125 3745 2125
@@ -2546,6 +2543,42 @@ Wire Notes Line
 	8650 8810 8465 8810
 Wire Wire Line
 	3620 1670 3620 1725
+Wire Wire Line
+	6925 9170 7075 9170
+Connection ~ 6925 9170
+Wire Wire Line
+	7075 9170 7075 9080
+Wire Wire Line
+	7075 9080 7115 9080
+Wire Wire Line
+	7115 9080 7115 9000
+Wire Wire Line
+	7115 9000 7150 9000
+Wire Wire Line
+	7530 9170 7530 9050
+Wire Wire Line
+	7530 9050 7400 9050
+Text Label 7335 9600 2    60   ~ 0
+3V3_Meas
+$Comp
+L R R95
+U 1 1 5008149C
+P 7400 9300
+F 0 "R95" V 7480 9300 50  0000 C CNN
+F 1 "0.05R" V 7400 9300 50  0000 C CNN
+	1    7400 9300
+	-1   0    0    1   
+$EndComp
+$Comp
+L MOUNTING_HOLE H6
+U 1 1 4FFDD2AD
+P 5450 15300
+F 0 "H6" H 5450 15150 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 5450 15450 30  0000 C CNN
+F 2 "Mounting_Hole-3mm" H 5450 15550 30  0001 C CNN
+	1    5450 15300
+	1    0    0    -1  
+$EndComp
 $Comp
 L LED D34
 U 1 1 4FEB5E24
@@ -2582,8 +2615,8 @@ F 1 "3V3 OK" H 8510 9840 50  0000 C CNN
 	1    8510 9940
 	0    1    1    0   
 $EndComp
-Text Notes 0    -1000 0    60   ~ 0
-V3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole. Done.\n\nOne chip in BOM is wrong package for pad.\n\nYC124 arrays need updated footprint - DONE.\n\nR5 (=R105 on V1 board) is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset. 10k reduced to 3k. DONE.\n\nAdd extra LEDs on power ccts. DONE.
+Text Notes -50  -1600 0    60   ~ 0
+V3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole. Done.\n\nOne chip in BOM is wrong package for pad.\n\nYC124 arrays need updated footprint - DONE.\n\nR5 (=R105 on V1 board) is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset. 10k reduced to 3k. DONE.\n\nAdd extra LEDs on power ccts. DONE.\n\nLine 20 description is a sot23-3 (APX803-SR) but link goes to \n535-9983-1-nd which is a 4 pin crystal.\n\nU104, U105, U106 & U108 SN74LVC1G18DBVR (SOT23-6) has been ordered in as per your BOM but it looks like it should have been a SN74LVC1G18DCKR (SC-70 version). RS have them in stock (662-8758)
 $Comp
 L TESTPOINT W2
 U 1 1 4F54B4D5
@@ -3114,7 +3147,7 @@ Text Label 5140 9170 0    60   ~ 0
 3V3_Reg_In
 Text Label 7010 9770 0    60   ~ 0
 3V3_FB
-Text Label 6860 9060 0    60   ~ 0
+Text Label 6820 9060 0    60   ~ 0
 Reg3
 Text Label 10525 2100 0    60   ~ 0
 XLA0o_BL
@@ -3262,11 +3295,11 @@ $EndComp
 $Comp
 L TESTPOINT W19
 U 1 1 4EC2566E
-P 6735 8910
-F 0 "W19" H 6735 8860 60  0000 C CNN
-F 1 "Reg3" H 6735 8910 60  0000 C CNN
-F 2 "TestPad-1mm" H 6735 9010 60  0001 C CNN
-	1    6735 8910
+P 7270 8905
+F 0 "W19" H 7270 8855 60  0000 C CNN
+F 1 "3V3_Measure" H 7275 8935 60  0000 C CNN
+F 2 "TestPad-1mm" H 7270 9005 60  0001 C CNN
+	1    7270 8905
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6568,13 +6601,13 @@ $EndComp
 $Comp
 L INDUCTOR L2
 U 1 1 4E35E47A
-P 7230 9170
-F 0 "L2" V 7180 9170 40  0000 C CNN
-F 1 "2u2H" V 7330 9170 40  0000 C CNN
-F 2 "NCLV" V 7430 9170 40  0001 C CNN
-F 3 "http://www.tdk.co.jp/tefe02/e531_nlcv32t_pfr.pdf" H 7230 9170 60  0001 C CNN
-	1    7230 9170
-	0    -1   -1   0   
+P 7150 9300
+F 0 "L2" V 7100 9300 40  0000 C CNN
+F 1 "2u2H" V 7250 9300 40  0000 C CNN
+F 2 "NCLV" V 7350 9300 40  0001 C CNN
+F 3 "http://www.tdk.co.jp/tefe02/e531_nlcv32t_pfr.pdf" H 7150 9300 60  0001 C CNN
+	1    7150 9300
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R18

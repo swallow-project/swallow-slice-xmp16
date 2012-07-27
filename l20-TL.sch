@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/07/2012 20:23:22
+EESchema Schematic File Version 2  date 27/07/2012 10:51:37
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 10 13
 Title ""
-Date "11 jul 2012"
+Date "27 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -524,7 +524,7 @@ L CONN_14 P15
 U 1 1 4FE8BC0D
 P 7100 6150
 F 0 "P15" V 7050 6150 60  0000 C CNN
-F 1 "4Bits-TL" V 7150 6150 60  0000 C CNN
+F 1 "Core2 I/O" V 7150 6150 60  0000 C CNN
 	1    7100 6150
 	1    0    0    -1  
 $EndComp
