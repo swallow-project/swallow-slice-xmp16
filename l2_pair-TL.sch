@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/07/2012 10:51:37
+EESchema Schematic File Version 2  date 27/07/2012 11:22:59
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,8 +47,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6850 850  0    60   ~ 0
-N.B. TR_X0_XLB* was named\n (but not connected to) TR_X1_XLA*\nin V1 of the design. i.e. no changes to actual layout.\njust name changed
+Text Label 2745 1350 2    60   ~ 0
+Meas-TL
+Connection ~ 2795 1350
+Wire Wire Line
+	2795 1325 2795 1350
+Wire Wire Line
+	2700 1350 2950 1350
 Wire Wire Line
 	990  1520 880  1520
 Wire Wire Line
@@ -125,8 +130,6 @@ Wire Wire Line
 	990  920  690  920 
 Wire Wire Line
 	1740 1920 1740 1980
-Wire Wire Line
-	2540 920  2490 920 
 Wire Wire Line
 	3230 1450 3230 1420
 Connection ~ 3230 920 
@@ -326,20 +329,36 @@ Wire Wire Line
 	4000 920  3140 920 
 Connection ~ 3880 920 
 Wire Wire Line
-	2525 825  2525 920 
-Connection ~ 2525 920 
-Text Label 2515 920  2    60   ~ 0
+	2490 920  2490 750 
+Wire Wire Line
+	2490 750  2700 750 
+Wire Wire Line
+	2950 850  3140 850 
+Wire Wire Line
+	3140 850  3140 920 
+$Comp
+L R R?
+U 1 1 501265DF
+P 2950 1100
+F 0 "R?" V 3030 1100 50  0000 C CNN
+F 1 "0.05" V 2950 1100 50  0000 C CNN
+	1    2950 1100
+	-1   0    0    1   
+$EndComp
+Text Notes 6850 850  0    60   ~ 0
+N.B. TR_X0_XLB* was named\n (but not connected to) TR_X1_XLA*\nin V1 of the design. i.e. no changes to actual layout.\njust name changed
+Text Label 2580 750  2    60   ~ 0
 Reg1_Out
 Text Label 2905 1520 2    60   ~ 0
 Reg1_FB
 $Comp
 L TESTPOINT W36
 U 1 1 4FE83208
-P 2525 675
-F 0 "W36" H 2525 625 60  0000 C CNN
-F 1 "1VReg_Out" H 2525 675 20  0000 C CNN
-F 2 "TestPad-1mm" H 2525 775 20  0001 C CNN
-	1    2525 675 
+P 2795 1175
+F 0 "W36" H 2790 1120 60  0000 C CNN
+F 1 "Meas-TL" H 2795 1175 20  0000 C CNN
+F 2 "TestPad-1mm" H 2795 1275 20  0001 C CNN
+	1    2795 1175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -347,7 +366,7 @@ L TESTPOINT W37
 U 1 1 4FE83205
 P 4000 770
 F 0 "W37" H 4000 720 60  0000 C CNN
-F 1 "1V" H 4000 770 20  0000 C CNN
+F 1 "1V-TL" H 4000 770 20  0000 C CNN
 F 2 "TestPad-1mm" H 4000 870 20  0001 C CNN
 	1    4000 770 
 	1    0    0    -1  
@@ -649,13 +668,13 @@ $EndComp
 $Comp
 L INDUCTOR L5
 U 1 1 4FE8319A
-P 2840 920
-F 0 "L5" V 2790 920 40  0000 C CNN
-F 1 "2u2H" V 2940 920 40  0000 C CNN
-F 2 "NCLV" H 2840 920 60  0001 C CNN
-F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-3650-1-ND" H 2840 920 60  0001 C CNN
-	1    2840 920 
-	0    -1   -1   0   
+P 2700 1050
+F 0 "L5" V 2650 1050 40  0000 C CNN
+F 1 "2u2H" V 2800 1050 40  0000 C CNN
+F 2 "NCLV" H 2700 1050 60  0001 C CNN
+F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-3650-1-ND" H 2700 1050 60  0001 C CNN
+	1    2700 1050
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR0288
