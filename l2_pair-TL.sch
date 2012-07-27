@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/07/2012 11:22:59
+EESchema Schematic File Version 2  date 27/07/2012 11:34:48
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -337,11 +337,11 @@ Wire Wire Line
 Wire Wire Line
 	3140 850  3140 920 
 $Comp
-L R R?
+L R R98
 U 1 1 501265DF
 P 2950 1100
-F 0 "R?" V 3030 1100 50  0000 C CNN
-F 1 "0.05" V 2950 1100 50  0000 C CNN
+F 0 "R98" V 3030 1100 50  0000 C CNN
+F 1 "0R05" V 2950 1100 50  0000 C CNN
 	1    2950 1100
 	-1   0    0    1   
 $EndComp
@@ -355,7 +355,7 @@ $Comp
 L TESTPOINT W36
 U 1 1 4FE83208
 P 2795 1175
-F 0 "W36" H 2790 1120 60  0000 C CNN
+F 0 "W36" H 2800 1100 60  0000 C CNN
 F 1 "Meas-TL" H 2795 1175 20  0000 C CNN
 F 2 "TestPad-1mm" H 2795 1275 20  0001 C CNN
 	1    2795 1175

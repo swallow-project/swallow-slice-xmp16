@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/07/2012 11:22:59
+EESchema Schematic File Version 2  date 27/07/2012 11:34:48
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -340,11 +340,11 @@ Wire Wire Line
 Wire Wire Line
 	2525 800  2650 800 
 $Comp
-L R R?
+L R R96
 U 1 1 501267E5
 P 2900 1150
-F 0 "R?" V 2980 1150 50  0000 C CNN
-F 1 "0.05" V 2900 1150 50  0000 C CNN
+F 0 "R96" V 2980 1150 50  0000 C CNN
+F 1 "0R05" V 2900 1150 50  0000 C CNN
 	1    2900 1150
 	1    0    0    -1  
 $EndComp

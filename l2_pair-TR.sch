@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 27/07/2012 11:22:59
+EESchema Schematic File Version 2  date 27/07/2012 11:34:48
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -348,11 +348,11 @@ F 1 "Meas-TR" H 2850 1570 20  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R99
 U 1 1 501266C2
 P 3010 1500
-F 0 "R?" V 3090 1500 50  0000 C CNN
-F 1 "0.05" V 3010 1500 50  0000 C CNN
+F 0 "R99" V 3090 1500 50  0000 C CNN
+F 1 "0R05" V 3010 1500 50  0000 C CNN
 	1    3010 1500
 	1    0    0    -1  
 $EndComp
