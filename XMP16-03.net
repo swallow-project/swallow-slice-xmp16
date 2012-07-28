@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  28/07/2012 14:12:31
+# EESchema Netlist Version 1.1 created  28/07/2012 23:28:29
 (
  ( /4E3544FC X-SM0805 C1 4.7uF
   ( 1 +12V )
@@ -293,7 +293,7 @@
   ( 2 GND )
  )
  ( /4E32CDCE/4FE830FB/4E32D1CA 0204 C74 0.1uF
-  ( 1 N-000457 )
+  ( 1 N-000458 )
   ( 2 GND )
  )
  ( /4E32CDCE/4FE830FB/4E32D7F4 0204 C75 100nF
@@ -513,7 +513,7 @@
   ( 2 GND )
  )
  ( /4E32CDCE/4FE8318F/4FE831E2 X_LED-0603 D20 S
-  ( 1 N-000514 )
+  ( 1 N-000519 )
   ( 2 GND )
  )
  ( /4E32CDCE/4FE8318F/4FE831F9 X_LED-0603 D21 W
@@ -521,11 +521,11 @@
   ( 2 GND )
  )
  ( /4E32CDCE/4FE830FB/4FE831B9 X_LED-0603 D22 E
-  ( 1 N-000453 )
+  ( 1 N-000428 )
   ( 2 GND )
  )
  ( /4E32CDCE/4FE830FB/4FE831D1 X_LED-0603 D23 N
-  ( 1 N-000454 )
+  ( 1 N-000456 )
   ( 2 GND )
  )
  ( /4E32CDCE/4FE830FB/4FE831E1 X_LED-0603 D24 S
@@ -533,7 +533,7 @@
   ( 2 GND )
  )
  ( /4E32CDCE/4FE830FB/4FE831F8 X_LED-0603 D25 W
-  ( 1 N-000456 )
+  ( 1 N-000454 )
   ( 2 GND )
  )
  ( /4E36B740/4FE82F45/4FE831BC X_LED-0603 D26 E
@@ -568,11 +568,11 @@
   ( 1 N-000564 )
   ( 2 GND )
  )
- ( /4FEB5E24 LED-0603 D34 5V_OK
+ ( /4FEB5E24 X_LED-0603 D34 5V_OK
   ( 1 N-000317 )
   ( 2 GND )
  )
- ( /4FEB5D9B LED-0603 D35 3V3_OK
+ ( /4FEB5D9B X_LED-0603 D35 3V3_OK
   ( 1 N-000316 )
   ( 2 GND )
  )
@@ -716,19 +716,19 @@
  ( /4F50B022 pin_array_10x2 P5 XTAG2
   ( 1 ? )
   ( 2 ? )
-  ( 3 /L2_PAIR_Q3/MSEL_N )
+  ( 3 /L2_PAIR_Q1/MSEL_N )
   ( 4 GND )
   ( 5 /L2_PAIR_Q1/TDI_0 )
   ( 6 /XLA1o_BL )
-  ( 7 /L2_PAIR_Q4/TMS )
+  ( 7 /L2_PAIR_Q1/TMS )
   ( 8 GND )
-  ( 9 /L2_PAIR_Q3/TCK )
+  ( 9 /L2_PAIR_Q1/TCK )
   ( 10 /XLA0o_BL )
   ( 11 /DEBUG_N )
   ( 12 GND )
   ( 13 /TDO_L )
   ( 14 /L2_PAIR_Q1/BL_X0_XLA_0i )
-  ( 15 /L2_PAIR_Q1/RST_N )
+  ( 15 /L2_PAIR_Q3/RST_N )
   ( 16 GND )
   ( 17 ? )
   ( 18 /L2_PAIR_Q1/BL_X0_XLA_1i )
@@ -987,6 +987,24 @@
   ( 1 +3.3V )
   ( 2 N-000575 )
  )
+ ( /4E36B760/5014276E PIN_ARRAY_2x1 P17 1V-Meas-BL
+  ( 1 /L2_PAIR_Q4/Meas-BL )
+  ( 2 /L2_PAIR_Q4/+1V0 )
+ )
+ ( /4E36B777/501427C4 PIN_ARRAY_3X1 P18 1V-Meas-BR
+  ( 1 /L2_PAIR_Q3/Meas_BR )
+  ( 2 /L2_PAIR_Q3/+1V0 )
+  ( 3 GND )
+ )
+ ( /4E32CDCE/50142655 PIN_ARRAY_2x1 P19 1V-Meas-TL
+  ( 1 /L2_PAIR_Q1/Meas-TL )
+  ( 2 /L2_PAIR_Q1/+1V0 )
+ )
+ ( /4E36B740/501426F6 PIN_ARRAY_3X1 P20 1V-Meas-TR
+  ( 1 /L2_PAIR_Q2/Meas-TR )
+  ( 2 /L2_PAIR_Q2/+1V0 )
+  ( 3 GND )
+ )
  ( /4E3544FE SM0603_Resistor R1 16.2k
   ( 1 /5V_VC )
   ( 2 /5V_162k )
@@ -1016,7 +1034,7 @@
   ( 2 /5V_FB )
  )
  ( /4E3815E7 SM0603_Resistor R8 10k
-  ( 1 /L2_PAIR_Q1/RST_N )
+  ( 1 /L2_PAIR_Q3/RST_N )
   ( 2 +3.3V )
  )
  ( /4E53735F X-SM0603 R9 33R
@@ -1093,11 +1111,11 @@
  )
  ( /4F53AF0B SM0603 R27 4k7
   ( 1 +3.3V )
-  ( 2 /L2_PAIR_Q1/DEBUG_N )
+  ( 2 /L2_PAIR_Q4/DEBUG_N )
  )
  ( /4F53AE3F SM0603 R28 4k7
   ( 1 +3.3V )
-  ( 2 /L2_PAIR_Q2/DEBUG_N )
+  ( 2 /L2_PAIR_Q3/DEBUG_N )
  )
  ( /4E60B38E X-SM0603 R29 33R
   ( 1 /L2_PAIR_Q4/TL_X0_XLA_4o )
@@ -1149,7 +1167,7 @@
  )
  ( /4E36B760/4FE83203 X-SM0603 R41 33R
   ( 1 /L2_PAIR_Q4/L2_0-BL/TCK )
-  ( 2 N-000391 )
+  ( 2 N-000392 )
  )
  ( /4E36B760/4FE8319B SM0603_Resistor R42 68k
   ( 1 /L2_PAIR_Q4/+1V0 )
@@ -1200,8 +1218,8 @@
   ( 2 N-000672 )
  )
  ( /4E36B777/4FE83204 X-SM0603 R54 33R
-  ( 1 /L2_PAIR_Q3/L2_0-BR/TCK )
-  ( 2 N-000416 )
+  ( 1 /L2_PAIR_Q3/L2_1-BR/TCK )
+  ( 2 N-000406 )
  )
  ( /4E36B777/4E35D5C1 SM0603_Resistor R55 68k
   ( 1 /L2_PAIR_Q3/+1V0 )
@@ -1252,7 +1270,7 @@
   ( 2 N-000735 )
  )
  ( /4E32CDCE/4E688FDA X-SM0603 R67 33R
-  ( 1 /L2_PAIR_Q1/L2_0-TL/TCK )
+  ( 1 /L2_PAIR_Q1/L2_1-TL/TCK )
   ( 2 N-000350 )
  )
  ( /4E32CDCE/4FE8319C SM0603_Resistor R68 68k
@@ -1273,7 +1291,7 @@
  )
  ( /4E32CDCE/4FE8318F/4FE831DE X-SM0603 R72 1k
   ( 1 /L2_PAIR_Q1/L2_1-TL/LED_1 )
-  ( 2 N-000514 )
+  ( 2 N-000519 )
  )
  ( /4E32CDCE/4FE8318F/4FE831FC X-SM0603 R73 1k
   ( 1 /L2_PAIR_Q1/L2_1-TL/LED_0 )
@@ -1285,11 +1303,11 @@
  )
  ( /4E32CDCE/4FE830FB/4FE831B2 X-SM0603 R75 1k
   ( 1 /L2_PAIR_Q1/L2_0-TL/LED_3 )
-  ( 2 N-000453 )
+  ( 2 N-000428 )
  )
  ( /4E32CDCE/4FE830FB/4E5CC032 X-SM0603 R76 1k
   ( 1 /L2_PAIR_Q1/L2_0-TL/LED_2 )
-  ( 2 N-000454 )
+  ( 2 N-000456 )
  )
  ( /4E32CDCE/4FE830FB/4FE831DB X-SM0603 R77 1k
   ( 1 /L2_PAIR_Q1/L2_0-TL/LED_1 )
@@ -1297,15 +1315,15 @@
  )
  ( /4E32CDCE/4FE830FB/4FE831FD X-SM0603 R78 1k
   ( 1 /L2_PAIR_Q1/L2_0-TL/LED_0 )
-  ( 2 N-000456 )
+  ( 2 N-000454 )
  )
  ( /4E32CDCE/4FE830FB/4FE83123 SM0603_Resistor R79 2R2
   ( 1 /L2_PAIR_Q1/+1V0 )
-  ( 2 N-000457 )
+  ( 2 N-000458 )
  )
  ( /4E36B740/4FE82F34 X-SM0603 R80 33R
-  ( 1 /L2_PAIR_Q2/L2_0-TR/TCK )
-  ( 2 N-000382 )
+  ( 1 /L2_PAIR_Q2/L2_1-TR/TCK )
+  ( 2 N-000381 )
  )
  ( /4E36B740/4FE82F3E SM0603_Resistor R81 68k
   ( 1 /L2_PAIR_Q2/+1V0 )
@@ -1436,16 +1454,16 @@
   ( 15 ? )
   ( 16 ? )
   ( 17 ? )
-  ( 18 /L2_PAIR_Q4/TMS )
-  ( 19 /L2_PAIR_Q3/TCK )
-  ( 20 /L2_PAIR_Q1/RST_N )
-  ( 21 /L2_PAIR_Q3/MSEL_N )
+  ( 18 /L2_PAIR_Q1/TMS )
+  ( 19 /L2_PAIR_Q1/TCK )
+  ( 20 /L2_PAIR_Q3/RST_N )
+  ( 21 /L2_PAIR_Q1/MSEL_N )
   ( 22 /DEBUG_N )
   ( 23 /SWT_4 )
   ( 24 +3.3V )
  )
  ( /4E35E540 SOT23-3 U6 APX803-SR
-  ( 1 /L2_PAIR_Q1/RST_N )
+  ( 1 /L2_PAIR_Q3/RST_N )
   ( 2 GND )
   ( 3 +3V3_PG )
  )
@@ -1531,10 +1549,10 @@
   ( 10 /TCK_T )
   ( 11 /TMS_T )
   ( 12 GND )
-  ( 13 /L2_PAIR_Q4/TMS )
-  ( 14 /L2_PAIR_Q3/TCK )
-  ( 15 /L2_PAIR_Q1/RST_N )
-  ( 16 /L2_PAIR_Q3/MSEL_N )
+  ( 13 /L2_PAIR_Q1/TMS )
+  ( 14 /L2_PAIR_Q1/TCK )
+  ( 15 /L2_PAIR_Q3/RST_N )
+  ( 16 /L2_PAIR_Q1/MSEL_N )
   ( 17 /DEBUG_N )
   ( 18 ? )
   ( 19 ? )
@@ -1561,23 +1579,23 @@
  ( /4E391861 SC70-6 U19 NC7WZ17
   ( 1 /DEBUG_N )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q3/MSEL_N )
+  ( 3 /L2_PAIR_Q1/MSEL_N )
   ( 4 /TRST_N_BUF_R )
   ( 5 +3.3V )
   ( 6 /DEBUG_N_BUF_R )
  )
  ( /4E60B06E SC70-6 U20 NC7WZ07
-  ( 1 /L2_PAIR_Q1/RST_N )
+  ( 1 /L2_PAIR_Q3/RST_N )
   ( 2 GND )
   ( 3 /DEBUG_N )
-  ( 4 /L2_PAIR_Q2/DEBUG_N )
+  ( 4 /L2_PAIR_Q3/DEBUG_N )
   ( 5 +3.3V )
   ( 6 /RST_N_BUF_R )
  )
  ( /4E3925BA SC70-6 U21 NC7WZ17
-  ( 1 /L2_PAIR_Q3/TCK )
+  ( 1 /L2_PAIR_Q1/TCK )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q4/TMS )
+  ( 3 /L2_PAIR_Q1/TMS )
   ( 4 /TMS_BUF_R )
   ( 5 +3.3V )
   ( 6 N-000066 )
@@ -1585,7 +1603,7 @@
  ( /4E4BC3E7 SC70-6 U22 NC7WZ17
   ( 1 /DEBUG_N )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q3/MSEL_N )
+  ( 3 /L2_PAIR_Q1/MSEL_N )
   ( 4 /TRST_N_BUF_B )
   ( 5 +3.3V )
   ( 6 /DEBUG_N_BUF_B )
@@ -1593,15 +1611,15 @@
  ( /4E60B0A7 SC70-6 U23 NC7WZ07
   ( 1 /DEBUG_N )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q1/RST_N )
+  ( 3 /L2_PAIR_Q3/RST_N )
   ( 4 /RST_N_BUF_B )
   ( 5 +3.3V )
-  ( 6 /L2_PAIR_Q1/DEBUG_N )
+  ( 6 /L2_PAIR_Q4/DEBUG_N )
  )
  ( /4E4BC3EA SC70-6 U24 NC7WZ17
-  ( 1 /L2_PAIR_Q3/TCK )
+  ( 1 /L2_PAIR_Q1/TCK )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q4/TMS )
+  ( 3 /L2_PAIR_Q1/TMS )
   ( 4 /TMS_BUF_B )
   ( 5 +3.3V )
   ( 6 N-000090 )
@@ -1727,20 +1745,20 @@
   ( 8 N-000154 )
  )
  ( /4E36B760/4FE831A4 SC70-6 U37 NC7WZ17
-  ( 1 /L2_PAIR_Q3/TCK )
+  ( 1 /L2_PAIR_Q1/TCK )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q4/TMS )
+  ( 3 /L2_PAIR_Q1/TMS )
   ( 4 /L2_PAIR_Q4/L2_0-BL/TMS )
   ( 5 +3.3V )
-  ( 6 N-000391 )
+  ( 6 N-000392 )
  )
  ( /4E36B760/4FE831AD SC70-6 U38 NC7WZ17
-  ( 1 /L2_PAIR_Q1/RST_N )
+  ( 1 /L2_PAIR_Q3/RST_N )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q3/MSEL_N )
+  ( 3 /L2_PAIR_Q1/MSEL_N )
   ( 4 /L2_PAIR_Q4/L2_1-BL/MSEL )
   ( 5 +3.3V )
-  ( 6 /L2_PAIR_Q4/L2_1-BL/RST_N )
+  ( 6 /L2_PAIR_Q4/L2_0-BL/RST_N )
  )
  ( /4E36B760/4FE83191 SOT23-5 U39 NCP1529
   ( 1 +3V3_PG )
@@ -1825,12 +1843,12 @@
   ( B5 /L2_PAIR_Q3/+1V0 )
   ( B6 /L2_PAIR_Q4/CLK_20M_C1 )
   ( B7 /L2_PAIR_Q4/CLK_20M_C1 )
-  ( B8 /L2_PAIR_Q4/L2_1-BL/RST_N )
+  ( B8 /L2_PAIR_Q4/L2_0-BL/RST_N )
   ( B9 /L2_PAIR_Q4/TDI_1 )
   ( B10 /L2_PAIR_Q4/L2_0-BL/TCK )
   ( B11 /L2_PAIR_Q4/L2_0-BL/TMS )
   ( B12 /L2_PAIR_Q4/TDI_0 )
-  ( B13 /L2_PAIR_Q4/L2_1-BL/RST_N )
+  ( B13 /L2_PAIR_Q4/L2_0-BL/RST_N )
   ( B14 +3.3V )
   ( B15 /L2_PAIR_Q3/+1V0 )
   ( B16 ? )
@@ -1854,7 +1872,7 @@
   ( B34 +3.3V )
   ( B35 GND )
   ( B36 /L2_PAIR_Q4/L2_1-BL/MSEL )
-  ( B37 /L2_PAIR_Q1/DEBUG_N )
+  ( B37 /L2_PAIR_Q4/DEBUG_N )
   ( B38 ? )
   ( B39 ? )
   ( B40 ? )
@@ -1952,12 +1970,12 @@
   ( B5 /L2_PAIR_Q4/+1V0 )
   ( B6 /L2_PAIR_Q4/CLK_20M_C0 )
   ( B7 /L2_PAIR_Q4/CLK_20M_C0 )
-  ( B8 /L2_PAIR_Q4/L2_1-BL/RST_N )
+  ( B8 /L2_PAIR_Q4/L2_0-BL/RST_N )
   ( B9 /L2_PAIR_Q4/TDO_1 )
   ( B10 /L2_PAIR_Q4/L2_0-BL/TCK )
   ( B11 /L2_PAIR_Q4/L2_0-BL/TMS )
   ( B12 /L2_PAIR_Q4/TDI_1 )
-  ( B13 /L2_PAIR_Q4/L2_1-BL/RST_N )
+  ( B13 /L2_PAIR_Q4/L2_0-BL/RST_N )
   ( B14 +3.3V )
   ( B15 /L2_PAIR_Q4/+1V0 )
   ( B16 ? )
@@ -1981,7 +1999,7 @@
   ( B34 +3.3V )
   ( B35 GND )
   ( B36 /L2_PAIR_Q4/L2_1-BL/MSEL )
-  ( B37 /L2_PAIR_Q1/DEBUG_N )
+  ( B37 /L2_PAIR_Q4/DEBUG_N )
   ( B38 ? )
   ( B39 ? )
   ( B40 ? )
@@ -2004,20 +2022,20 @@
   ( GND GND )
  )
  ( /4E36B777/4FE831A3 SC70-6 U42 NC7WZ17
-  ( 1 /L2_PAIR_Q3/TCK )
+  ( 1 /L2_PAIR_Q1/TCK )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q4/TMS )
+  ( 3 /L2_PAIR_Q1/TMS )
   ( 4 /L2_PAIR_Q3/L2_1-BR/TMS )
   ( 5 +3.3V )
-  ( 6 N-000416 )
+  ( 6 N-000406 )
  )
  ( /4E36B777/4E5214B4 SC70-6 U43 NC7WZ17
-  ( 1 /L2_PAIR_Q1/RST_N )
+  ( 1 /L2_PAIR_Q3/RST_N )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q3/MSEL_N )
-  ( 4 /L2_PAIR_Q3/L2_1-BR/MSEL )
+  ( 3 /L2_PAIR_Q1/MSEL_N )
+  ( 4 /L2_PAIR_Q3/L2_0-BR/MSEL )
   ( 5 +3.3V )
-  ( 6 /L2_PAIR_Q3/L2_1-BR/RST_N )
+  ( 6 /L2_PAIR_Q3/L2_0-BR/RST_N )
  )
  ( /4E36B777/4E354532 SOT23-5 U44 NCP1529
   ( 1 +3V3_PG )
@@ -2102,12 +2120,12 @@
   ( B5 /L2_PAIR_Q3/+1V0 )
   ( B6 /L2_PAIR_Q3/CLK_20M_C1 )
   ( B7 /L2_PAIR_Q3/CLK_20M_C1 )
-  ( B8 /L2_PAIR_Q3/L2_1-BR/RST_N )
+  ( B8 /L2_PAIR_Q3/L2_0-BR/RST_N )
   ( B9 /L2_PAIR_Q3/TDO_0 )
-  ( B10 /L2_PAIR_Q3/L2_0-BR/TCK )
+  ( B10 /L2_PAIR_Q3/L2_1-BR/TCK )
   ( B11 /L2_PAIR_Q3/L2_1-BR/TMS )
   ( B12 /L2_PAIR_Q3/TDI_0 )
-  ( B13 /L2_PAIR_Q3/L2_1-BR/RST_N )
+  ( B13 /L2_PAIR_Q3/L2_0-BR/RST_N )
   ( B14 +3.3V )
   ( B15 /L2_PAIR_Q3/+1V0 )
   ( B16 ? )
@@ -2130,8 +2148,8 @@
   ( B33 GND )
   ( B34 +3.3V )
   ( B35 GND )
-  ( B36 /L2_PAIR_Q3/L2_1-BR/MSEL )
-  ( B37 /L2_PAIR_Q2/DEBUG_N )
+  ( B36 /L2_PAIR_Q3/L2_0-BR/MSEL )
+  ( B37 /L2_PAIR_Q3/DEBUG_N )
   ( B38 ? )
   ( B39 ? )
   ( B40 ? )
@@ -2229,12 +2247,12 @@
   ( B5 /L2_PAIR_Q4/+1V0 )
   ( B6 /L2_PAIR_Q3/CLK_20M_C0 )
   ( B7 /L2_PAIR_Q3/CLK_20M_C0 )
-  ( B8 /L2_PAIR_Q3/L2_1-BR/RST_N )
+  ( B8 /L2_PAIR_Q3/L2_0-BR/RST_N )
   ( B9 /L2_PAIR_Q3/TDI_0 )
-  ( B10 /L2_PAIR_Q3/L2_0-BR/TCK )
+  ( B10 /L2_PAIR_Q3/L2_1-BR/TCK )
   ( B11 /L2_PAIR_Q3/L2_1-BR/TMS )
   ( B12 /L2_PAIR_Q3/TDI_1 )
-  ( B13 /L2_PAIR_Q3/L2_1-BR/RST_N )
+  ( B13 /L2_PAIR_Q3/L2_0-BR/RST_N )
   ( B14 +3.3V )
   ( B15 /L2_PAIR_Q4/+1V0 )
   ( B16 ? )
@@ -2257,8 +2275,8 @@
   ( B33 GND )
   ( B34 +3.3V )
   ( B35 GND )
-  ( B36 /L2_PAIR_Q3/L2_1-BR/MSEL )
-  ( B37 /L2_PAIR_Q2/DEBUG_N )
+  ( B36 /L2_PAIR_Q3/L2_0-BR/MSEL )
+  ( B37 /L2_PAIR_Q3/DEBUG_N )
   ( B38 ? )
   ( B39 ? )
   ( B40 ? )
@@ -2281,18 +2299,18 @@
   ( GND GND )
  )
  ( /4E32CDCE/4E35D8BD SC70-6 U47 NC7WZ17
-  ( 1 /L2_PAIR_Q3/TCK )
+  ( 1 /L2_PAIR_Q1/TCK )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q4/TMS )
-  ( 4 /L2_PAIR_Q1/L2_0-TL/TMS )
+  ( 3 /L2_PAIR_Q1/TMS )
+  ( 4 /L2_PAIR_Q1/L2_1-TL/TMS )
   ( 5 +3.3V )
   ( 6 N-000350 )
  )
  ( /4E32CDCE/4FE831AE SC70-6 U48 NC7WZ17
-  ( 1 /L2_PAIR_Q1/RST_N )
+  ( 1 /L2_PAIR_Q3/RST_N )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q3/MSEL_N )
-  ( 4 /L2_PAIR_Q1/L2_0-TL/MSEL )
+  ( 3 /L2_PAIR_Q1/MSEL_N )
+  ( 4 /L2_PAIR_Q1/L2_1-TL/MSEL )
   ( 5 +3.3V )
   ( 6 /L2_PAIR_Q1/L2_0-TL/RST_N )
  )
@@ -2381,8 +2399,8 @@
   ( B7 /L2_PAIR_Q1/CLK_20M_C1 )
   ( B8 /L2_PAIR_Q1/L2_0-TL/RST_N )
   ( B9 /L2_PAIR_Q1/TDI_1 )
-  ( B10 /L2_PAIR_Q1/L2_0-TL/TCK )
-  ( B11 /L2_PAIR_Q1/L2_0-TL/TMS )
+  ( B10 /L2_PAIR_Q1/L2_1-TL/TCK )
+  ( B11 /L2_PAIR_Q1/L2_1-TL/TMS )
   ( B12 /L2_PAIR_Q1/TDI_0 )
   ( B13 /L2_PAIR_Q1/L2_0-TL/RST_N )
   ( B14 +3.3V )
@@ -2407,8 +2425,8 @@
   ( B33 GND )
   ( B34 +3.3V )
   ( B35 GND )
-  ( B36 /L2_PAIR_Q1/L2_0-TL/MSEL )
-  ( B37 /L2_PAIR_Q1/DEBUG_N )
+  ( B36 /L2_PAIR_Q1/L2_1-TL/MSEL )
+  ( B37 /L2_PAIR_Q4/DEBUG_N )
   ( B38 ? )
   ( B39 ? )
   ( B40 ? )
@@ -2468,7 +2486,7 @@
   ( A35 GND )
   ( A36 +3.3V )
   ( A37 GND )
-  ( A38 N-000457 )
+  ( A38 N-000458 )
   ( A39 ? )
   ( A40 /L2_PAIR_Q1/T_X1_XLA_4o )
   ( A41 /L2_PAIR_Q1/T_X1_XLA_3o )
@@ -2508,8 +2526,8 @@
   ( B7 /L2_PAIR_Q1/CLK_20M_C0 )
   ( B8 /L2_PAIR_Q1/L2_0-TL/RST_N )
   ( B9 /L2_PAIR_Q1/TDO_1 )
-  ( B10 /L2_PAIR_Q1/L2_0-TL/TCK )
-  ( B11 /L2_PAIR_Q1/L2_0-TL/TMS )
+  ( B10 /L2_PAIR_Q1/L2_1-TL/TCK )
+  ( B11 /L2_PAIR_Q1/L2_1-TL/TMS )
   ( B12 /L2_PAIR_Q1/TDI_1 )
   ( B13 /L2_PAIR_Q1/L2_0-TL/RST_N )
   ( B14 +3.3V )
@@ -2534,8 +2552,8 @@
   ( B33 GND )
   ( B34 +3.3V )
   ( B35 GND )
-  ( B36 /L2_PAIR_Q1/L2_0-TL/MSEL )
-  ( B37 /L2_PAIR_Q1/DEBUG_N )
+  ( B36 /L2_PAIR_Q1/L2_1-TL/MSEL )
+  ( B37 /L2_PAIR_Q4/DEBUG_N )
   ( B38 /L2_PAIR_Q1/L2_0-TL/P4E0 )
   ( B39 /L2_PAIR_Q1/L2_0-TL/P4E1 )
   ( B40 /L2_PAIR_Q1/L2_0-TL/P4F0 )
@@ -2558,17 +2576,17 @@
   ( GND GND )
  )
  ( /4E36B740/4FE82F3A SC70-6 U52 NC7WZ17
-  ( 1 /L2_PAIR_Q3/TCK )
+  ( 1 /L2_PAIR_Q1/TCK )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q4/TMS )
+  ( 3 /L2_PAIR_Q1/TMS )
   ( 4 /L2_PAIR_Q2/L2_1-TR/TMS )
   ( 5 +3.3V )
-  ( 6 N-000382 )
+  ( 6 N-000381 )
  )
  ( /4E36B740/4FE82F35 SC70-6 U53 NC7WZ17
-  ( 1 /L2_PAIR_Q1/RST_N )
+  ( 1 /L2_PAIR_Q3/RST_N )
   ( 2 GND )
-  ( 3 /L2_PAIR_Q3/MSEL_N )
+  ( 3 /L2_PAIR_Q1/MSEL_N )
   ( 4 /L2_PAIR_Q2/L2_0-TR/MSEL )
   ( 5 +3.3V )
   ( 6 /L2_PAIR_Q2/L2_1-TR/RST_N )
@@ -2658,7 +2676,7 @@
   ( B7 /L2_PAIR_Q2/CLK_20M_C0 )
   ( B8 /L2_PAIR_Q2/L2_1-TR/RST_N )
   ( B9 /L2_PAIR_Q2/TDI_0 )
-  ( B10 /L2_PAIR_Q2/L2_0-TR/TCK )
+  ( B10 /L2_PAIR_Q2/L2_1-TR/TCK )
   ( B11 /L2_PAIR_Q2/L2_1-TR/TMS )
   ( B12 /L2_PAIR_Q2/TDI_1 )
   ( B13 /L2_PAIR_Q2/L2_1-TR/RST_N )
@@ -2685,7 +2703,7 @@
   ( B34 +3.3V )
   ( B35 GND )
   ( B36 /L2_PAIR_Q2/L2_0-TR/MSEL )
-  ( B37 /L2_PAIR_Q2/DEBUG_N )
+  ( B37 /L2_PAIR_Q3/DEBUG_N )
   ( B38 ? )
   ( B39 ? )
   ( B40 ? )
@@ -2785,7 +2803,7 @@
   ( B7 /L2_PAIR_Q2/CLK_20M_C1 )
   ( B8 /L2_PAIR_Q2/L2_1-TR/RST_N )
   ( B9 /L2_PAIR_Q2/TDO_0 )
-  ( B10 /L2_PAIR_Q2/L2_0-TR/TCK )
+  ( B10 /L2_PAIR_Q2/L2_1-TR/TCK )
   ( B11 /L2_PAIR_Q2/L2_1-TR/TMS )
   ( B12 /L2_PAIR_Q2/TDI_0 )
   ( B13 /L2_PAIR_Q2/L2_1-TR/RST_N )
@@ -2812,7 +2830,7 @@
   ( B34 +3.3V )
   ( B35 N-000575 )
   ( B36 /L2_PAIR_Q2/L2_0-TR/MSEL )
-  ( B37 /L2_PAIR_Q2/DEBUG_N )
+  ( B37 /L2_PAIR_Q3/DEBUG_N )
   ( B38 ? )
   ( B39 ? )
   ( B40 ? )
@@ -2844,70 +2862,70 @@
   ( 7 +3.3V )
   ( 8 +3.3V )
  )
- ( /4F53BBFC TestPad-2mm W1 CLK_EN
+ ( /4F53BBFC TestPad-1mm W1 CLK_EN
   ( 1 /CLK_EN )
  )
- ( /4F54B4D5 TestPad-2mm W2 CLK_OUT
+ ( /4F54B4D5 TestPad-1mm W2 CLK_OUT
   ( 1 /ASE_OUT )
  )
- ( /4F50AA33 TestPad-2mm W3 3V3_PG
+ ( /4F50AA33 TestPad-1mm W3 3V3_PG
   ( 1 +3V3_PG )
  )
- ( /4F526357 TestPad-2mm W4 CLK_A
+ ( /4F526357 TestPad-1mm W4 CLK_A
   ( 1 /CLK_A )
  )
  ( /4EC25648 TestPad-2mm W5 Gnd
   ( 1 GND )
  )
- ( /4F53BEB0 TestPad-2mm W6 CLK_B
+ ( /4F53BEB0 TestPad-1mm W6 CLK_B
   ( 1 /CLK_B )
  )
- ( /4EC25518 PIN_ARRAY_2X1 W7 Reg5
+ ( /4EC25518 TestPad-2mm W7 Reg5
   ( 1 /Reg5 )
  )
  ( /4EC25614 TestPad-2mm W8 +5V
   ( 1 +5V )
  )
  ( /4F50AA6C TestPad-1mm W9 RST_N
-  ( 1 /L2_PAIR_Q1/RST_N )
+  ( 1 /L2_PAIR_Q3/RST_N )
  )
- ( /4F5263F6 TestPad-1mm W12 +5V
+ ( /4F5263F6 TestPad-2mm W12 +5V
   ( 1 +5V )
  )
- ( /4F5263F2 TestPad-1mm W13 +5V
+ ( /4F5263F2 TestPad-2mm W13 +5V
   ( 1 +5V )
  )
- ( /4F5263EF TestPad-1mm W14 +3V3
+ ( /4F5263EF TestPad-2mm W14 +3V3
   ( 1 +3.3V )
  )
- ( /4F5263EA TestPad-1mm W15 +3V3
+ ( /4F5263EA TestPad-2mm W15 +3V3
   ( 1 +3.3V )
  )
  ( /4F526258 TestPad-2mm W16 RST_N
-  ( 1 /L2_PAIR_Q1/RST_N )
+  ( 1 /L2_PAIR_Q3/RST_N )
  )
  ( /4F5262BB TestPad-1mm W17 TCK
-  ( 1 /L2_PAIR_Q3/TCK )
+  ( 1 /L2_PAIR_Q1/TCK )
  )
  ( /4F5263C8 TestPad-2mm W18 GND
   ( 1 GND )
  )
- ( /4EC2566E TestPad-1mm W19 3V3_Measure
+ ( /4EC2566E TestPad-2mm W19 3V3_Measure
   ( 1 /3V3_Meas )
  )
  ( /4F5263CB TestPad-2mm W20 GND
   ( 1 GND )
  )
- ( /4EC25678 TestPad-1mm W21 Gnd
+ ( /4EC25678 TestPad-2mm W21 Gnd
   ( 1 GND )
  )
  ( /4F5263CF TestPad-2mm W22 GND
   ( 1 GND )
  )
- ( /4F5263D3 TestPad-1mm W23 GND
+ ( /4F5263D3 TestPad-2mm W23 GND
   ( 1 GND )
  )
- ( /4EC25673 TestPad-1mm W24 +3V3
+ ( /4EC25673 TestPad-2mm W24 +3V3
   ( 1 +3.3V )
  )
  ( /4F526260 TestPad-1mm W25 RST_N_BUF
@@ -2927,30 +2945,6 @@
  )
  ( /4F50AD0E TestPad-1mm W30 SWT_4
   ( 1 /SWT_4 )
- )
- ( /4E36B760/4FE83207 TestPad-1mm W32 Meas-BL
-  ( 1 /L2_PAIR_Q4/Meas-BL )
- )
- ( /4E36B760/4F50A937 TestPad-1mm W33 1V-BL
-  ( 1 /L2_PAIR_Q4/+1V0 )
- )
- ( /4E36B777/4F50A958 TestPad-1mm W34 Meas-BR
-  ( 1 /L2_PAIR_Q3/Meas_BR )
- )
- ( /4E36B777/4FE83206 TestPad-1mm W35 1V-BR
-  ( 1 /L2_PAIR_Q3/+1V0 )
- )
- ( /4E32CDCE/4FE83208 TestPad-2mm W36 Meas-TL
-  ( 1 /L2_PAIR_Q1/Meas-TL )
- )
- ( /4E32CDCE/4FE83205 TestPad-1mm W37 1V-TL
-  ( 1 /L2_PAIR_Q1/+1V0 )
- )
- ( /4E36B740/50126730 TestPad-1mm W38 Meas-TR
-  ( 1 /L2_PAIR_Q2/Meas-TR )
- )
- ( /4E36B740/4FE82F33 TestPad-1mm W39 1V-TR
-  ( 1 /L2_PAIR_Q2/+1V0 )
  )
 )
 *

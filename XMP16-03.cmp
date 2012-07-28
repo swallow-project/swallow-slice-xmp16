@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 28/07/2012 14:12:31
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 28/07/2012 23:28:29
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -998,14 +998,14 @@ BeginCmp
 TimeStamp = /4FEB5E24;
 Reference = D34;
 ValeurCmp = 5V_OK;
-IdModule  = LED-0603;
+IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FEB5D9B;
 Reference = D35;
 ValeurCmp = 3V3_OK;
-IdModule  = LED-0603;
+IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
@@ -1202,6 +1202,34 @@ TimeStamp = /4E36B740/4FE82F44/5013E3E7;
 Reference = P16;
 ValeurCmp = Flash_Boot;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B760/5014276E;
+Reference = P17;
+ValeurCmp = 1V-Meas-BL;
+IdModule  = PIN_ARRAY_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B777/501427C4;
+Reference = P18;
+ValeurCmp = 1V-Meas-BR;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E32CDCE/50142655;
+Reference = P19;
+ValeurCmp = 1V-Meas-TL;
+IdModule  = PIN_ARRAY_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B740/501426F6;
+Reference = P20;
+ValeurCmp = 1V-Meas-TR;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
@@ -2307,28 +2335,28 @@ BeginCmp
 TimeStamp = /4F53BBFC;
 Reference = W1;
 ValeurCmp = CLK_EN;
-IdModule  = TestPad-2mm;
+IdModule  = TestPad-1mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F54B4D5;
 Reference = W2;
 ValeurCmp = CLK_OUT;
-IdModule  = TestPad-2mm;
+IdModule  = TestPad-1mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F50AA33;
 Reference = W3;
 ValeurCmp = 3V3_PG;
-IdModule  = TestPad-2mm;
+IdModule  = TestPad-1mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F526357;
 Reference = W4;
 ValeurCmp = CLK_A;
-IdModule  = TestPad-2mm;
+IdModule  = TestPad-1mm;
 EndCmp
 
 BeginCmp
@@ -2342,14 +2370,14 @@ BeginCmp
 TimeStamp = /4F53BEB0;
 Reference = W6;
 ValeurCmp = CLK_B;
-IdModule  = TestPad-2mm;
+IdModule  = TestPad-1mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EC25518;
 Reference = W7;
 ValeurCmp = Reg5;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
@@ -2370,28 +2398,28 @@ BeginCmp
 TimeStamp = /4F5263F6;
 Reference = W12;
 ValeurCmp = +5V;
-IdModule  = TestPad-1mm;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5263F2;
 Reference = W13;
 ValeurCmp = +5V;
-IdModule  = TestPad-1mm;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5263EF;
 Reference = W14;
 ValeurCmp = +3V3;
-IdModule  = TestPad-1mm;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5263EA;
 Reference = W15;
 ValeurCmp = +3V3;
-IdModule  = TestPad-1mm;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
@@ -2419,7 +2447,7 @@ BeginCmp
 TimeStamp = /4EC2566E;
 Reference = W19;
 ValeurCmp = 3V3_Measure;
-IdModule  = TestPad-1mm;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
@@ -2433,7 +2461,7 @@ BeginCmp
 TimeStamp = /4EC25678;
 Reference = W21;
 ValeurCmp = Gnd;
-IdModule  = TestPad-1mm;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
@@ -2447,14 +2475,14 @@ BeginCmp
 TimeStamp = /4F5263D3;
 Reference = W23;
 ValeurCmp = GND;
-IdModule  = TestPad-1mm;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4EC25673;
 Reference = W24;
 ValeurCmp = +3V3;
-IdModule  = TestPad-1mm;
+IdModule  = TestPad-2mm;
 EndCmp
 
 BeginCmp
@@ -2496,62 +2524,6 @@ BeginCmp
 TimeStamp = /4F50AD0E;
 Reference = W30;
 ValeurCmp = SWT_4;
-IdModule  = TestPad-1mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E36B760/4FE83207;
-Reference = W32;
-ValeurCmp = Meas-BL;
-IdModule  = TestPad-1mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E36B760/4F50A937;
-Reference = W33;
-ValeurCmp = 1V-BL;
-IdModule  = TestPad-1mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E36B777/4F50A958;
-Reference = W34;
-ValeurCmp = Meas-BR;
-IdModule  = TestPad-1mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E36B777/4FE83206;
-Reference = W35;
-ValeurCmp = 1V-BR;
-IdModule  = TestPad-1mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E32CDCE/4FE83208;
-Reference = W36;
-ValeurCmp = Meas-TL;
-IdModule  = TestPad-2mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E32CDCE/4FE83205;
-Reference = W37;
-ValeurCmp = 1V-TL;
-IdModule  = TestPad-1mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E36B740/50126730;
-Reference = W38;
-ValeurCmp = Meas-TR;
-IdModule  = TestPad-1mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E36B740/4FE82F33;
-Reference = W39;
-ValeurCmp = 1V-TR;
 IdModule  = TestPad-1mm;
 EndCmp
 

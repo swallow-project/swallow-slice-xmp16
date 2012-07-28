@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 28/07/2012 14:11:37
+EESchema Schematic File Version 2  date 28/07/2012 23:09:26
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,13 +47,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2745 1350 2    60   ~ 0
-Meas-TL
+Connection ~ 3140 850 
+Wire Wire Line
+	3300 850  2950 850 
 Connection ~ 2795 1350
-Wire Wire Line
-	2795 1325 2795 1350
-Wire Wire Line
-	2700 1350 2950 1350
 Wire Wire Line
 	990  1520 880  1520
 Wire Wire Line
@@ -333,9 +330,24 @@ Wire Wire Line
 Wire Wire Line
 	2490 750  2700 750 
 Wire Wire Line
-	2950 850  3140 850 
+	3140 920  3140 850 
 Wire Wire Line
-	3140 850  3140 920 
+	2700 1350 2950 1350
+Wire Wire Line
+	3300 650  2795 650 
+Wire Wire Line
+	2795 650  2795 1350
+$Comp
+L CONN_2 P19
+U 1 1 50142655
+P 3650 750
+F 0 "P19" V 3600 750 50  0000 C CNN
+F 1 "1V-Meas-TL" V 3700 750 40  0000 C CNN
+	1    3650 750 
+	1    0    0    -1  
+$EndComp
+Text Label 2745 1350 2    60   ~ 0
+Meas-TL
 $Comp
 L R R98
 U 1 1 501265DF
@@ -351,26 +363,6 @@ Text Label 2580 750  2    60   ~ 0
 Reg1_Out
 Text Label 2905 1520 2    60   ~ 0
 Reg1_FB
-$Comp
-L TESTPOINT W36
-U 1 1 4FE83208
-P 2795 1175
-F 0 "W36" H 2800 1100 60  0000 C CNN
-F 1 "Meas-TL" H 2795 1175 20  0000 C CNN
-F 2 "TestPad-1mm" H 2795 1275 20  0001 C CNN
-	1    2795 1175
-	1    0    0    -1  
-$EndComp
-$Comp
-L TESTPOINT W37
-U 1 1 4FE83205
-P 4000 770
-F 0 "W37" H 4000 720 60  0000 C CNN
-F 1 "1V-TL" H 4000 770 20  0000 C CNN
-F 2 "TestPad-1mm" H 4000 870 20  0001 C CNN
-	1    4000 770 
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R67
 U 1 1 4E688FDA
@@ -575,37 +567,37 @@ TMS
 Text HLabel 1000 2630 0    39   Input ~ 0
 TCK
 $Comp
-L GND #PWR0284
+L GND #PWR0285
 U 1 1 4FE831AC
 P 2340 4500
-F 0 "#PWR0284" H 2340 4500 30  0001 C CNN
+F 0 "#PWR0285" H 2340 4500 30  0001 C CNN
 F 1 "GND" H 2340 4430 30  0001 C CNN
 	1    2340 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0285
+L GND #PWR0286
 U 1 1 4FE831AA
 P 2340 3180
-F 0 "#PWR0285" H 2340 3180 30  0001 C CNN
+F 0 "#PWR0286" H 2340 3180 30  0001 C CNN
 F 1 "GND" H 2340 3110 30  0001 C CNN
 	1    2340 3180
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0286
+L +3.3V #PWR0287
 U 1 1 4FE831A8
 P 2340 3570
-F 0 "#PWR0286" H 2340 3530 30  0001 C CNN
+F 0 "#PWR0287" H 2340 3530 30  0001 C CNN
 F 1 "+3.3V" H 2340 3680 30  0000 C CNN
 	1    2340 3570
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0287
+L +3.3V #PWR0288
 U 1 1 4E35D98B
 P 2340 2250
-F 0 "#PWR0287" H 2340 2210 30  0001 C CNN
+F 0 "#PWR0288" H 2340 2210 30  0001 C CNN
 F 1 "+3.3V" H 2340 2360 30  0000 C CNN
 	1    2340 2250
 	1    0    0    -1  
@@ -677,10 +669,10 @@ F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-3650-1
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0288
+L GND #PWR0289
 U 1 1 4FE83197
 P 1740 1980
-F 0 "#PWR0288" H 1740 1980 30  0001 C CNN
+F 0 "#PWR0289" H 1740 1980 30  0001 C CNN
 F 1 "GND" H 1740 1910 30  0001 C CNN
 	1    1740 1980
 	1    0    0    -1  
@@ -696,10 +688,10 @@ F 2 "X-SM0805" H 690 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0289
+L +5V #PWR0290
 U 1 1 4FE83193
 P 690 750
-F 0 "#PWR0289" H 690 840 20  0001 C CNN
+F 0 "#PWR0290" H 690 840 20  0001 C CNN
 F 1 "+5V" H 690 840 30  0000 C CNN
 	1    690  750 
 	1    0    0    -1  
