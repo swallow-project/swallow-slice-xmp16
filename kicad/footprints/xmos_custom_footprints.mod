@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  31/07/2012 10:12:35
+PCBNEW-LibModule-V1  05/08/2012 17:44:53
 # encoding utf-8
 $INDEX
 0204
@@ -24,6 +24,7 @@ SOT25-5
 SOT70-6
 Swallow-0.8
 Swallow-54pt
+TestPad-2mm
 X-SM0603
 X-SM0805
 YC124-JR
@@ -5971,7 +5972,7 @@ $MODULE u-logo-inverted-0.1in
 Po 0 0 0 15 00000000 00000000 ~~
 Li u-logo-inverted-0.1in
 Sc 00000000
-AR 
+AR
 Op 0 0 0
 T0 0 2866 600 600 0 120 N I 21 N "G***"
 T1 0 -2866 600 600 0 120 N I 21 N "u-logo_0.1in-inverted"
@@ -182766,4 +182767,25 @@ Dl 1062 1500
 Dl 1056 1500
 Dl 1056 1494
 $EndMODULE  u-logo-inverted-0.1in
+$MODULE TestPad-2mm
+Po 0 0 0 15 501EA2FC 00000000 ~~
+Li TestPad-2mm
+Cd 2mm Test pad with 0.8mm hole
+Sc 00000000
+AR /4EC25678
+Op 0 0 0
+.SolderPasteRatio 9.62287e-317
+T0 0 -580 295 295 0 49 N V 21 N "W21"
+T1 -24 1158 394 394 900 99 N V 21 N "Gnd"
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 394 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 0 0
+.SolderMask -39
+.SolderPaste -39
+.LocalClearance -39
+$EndPAD
+$EndMODULE  TestPad-2mm
 $EndLIBRARY
