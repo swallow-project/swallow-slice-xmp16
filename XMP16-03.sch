@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 30/07/2012 20:20:02
+EESchema Schematic File Version 2  date 05/08/2012 21:48:01
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A2 23400 16535
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "30 jul 2012"
+Date "5 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2593,7 +2593,7 @@ L R R93
 U 1 1 4FEB5E22
 P 3620 1420
 F 0 "R93" V 3700 1420 50  0000 C CNN
-F 1 "1k6" V 3620 1420 50  0000 C CNN
+F 1 "1k" V 3620 1420 50  0000 C CNN
 	1    3620 1420
 	1    0    0    -1  
 $EndComp
@@ -2602,7 +2602,7 @@ L R R94
 U 1 1 4FEB5DC1
 P 8510 9425
 F 0 "R94" V 8590 9425 50  0000 C CNN
-F 1 "1k" V 8510 9425 50  0000 C CNN
+F 1 "433R" V 8510 9425 50  0000 C CNN
 	1    8510 9425
 	1    0    0    -1  
 $EndComp
