@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 05/08/2012 21:48:01
+EESchema Schematic File Version 2  date 06/08/2012 22:14:41
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -375,6 +375,7 @@ U 1 1 4FE83BD8
 P 10950 4450
 F 0 "P14" V 10900 4450 40  0000 C CNN
 F 1 "I2C_B" V 11000 4450 40  0000 C CNN
+F 2 "PIN_ARRAY_2X1" V 11100 4450 40  0001 C CNN
 	1    10950 4450
 	1    0    0    -1  
 $EndComp
@@ -384,6 +385,7 @@ U 1 1 4FE83BD3
 P 10950 4100
 F 0 "P13" V 10900 4100 40  0000 C CNN
 F 1 "I2C_A" V 11000 4100 40  0000 C CNN
+F 2 "PIN_ARRAY_2X1" V 11100 4100 40  0001 C CNN
 	1    10950 4100
 	1    0    0    -1  
 $EndComp

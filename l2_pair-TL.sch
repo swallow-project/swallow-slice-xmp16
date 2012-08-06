@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 05/08/2012 21:48:01
+EESchema Schematic File Version 2  date 06/08/2012 22:14:41
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -346,6 +346,7 @@ U 1 1 5016DE25
 P 3550 1750
 F 0 "P22" H 3630 1750 40  0000 L CNN
 F 1 "GND" H 3550 1805 30  0001 C CNN
+F 2 "PINTST" H 3550 1905 30  0001 C CNN
 	1    3550 1750
 	0    -1   -1   0   
 $EndComp
@@ -355,6 +356,7 @@ U 1 1 50142655
 P 3650 750
 F 0 "P19" V 3600 750 50  0000 C CNN
 F 1 "1V-Meas-TL" V 3700 750 40  0000 C CNN
+F 2 "PIN_ARRAY_2X1" V 3800 750 40  0001 C CNN
 	1    3650 750 
 	1    0    0    -1  
 $EndComp
@@ -366,6 +368,7 @@ U 1 1 501265DF
 P 2950 1100
 F 0 "R98" V 3030 1100 50  0000 C CNN
 F 1 "0R05" V 2950 1100 50  0000 C CNN
+F 2 "SM0805" V 3050 1100 50  0001 C CNN
 	1    2950 1100
 	-1   0    0    1   
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 05/08/2012 21:48:01
+EESchema Schematic File Version 2  date 06/08/2012 22:14:41
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -525,6 +525,7 @@ U 1 1 4FE8BC0D
 P 7100 6150
 F 0 "P15" V 7050 6150 60  0000 C CNN
 F 1 "Core2 I/O" V 7150 6150 60  0000 C CNN
+F 2 "pin_array_7x2" V 7250 6150 60  0001 C CNN
 	1    7100 6150
 	1    0    0    -1  
 $EndComp
