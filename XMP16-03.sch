@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 06/08/2012 22:14:41
+EESchema Schematic File Version 2  date 06/08/2012 22:42:29
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A2 23400 16535
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "5 aug 2012"
+Date "6 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2621,7 +2621,7 @@ F 2 "X_LED-0603" H 8510 9940 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes -50  -1600 0    60   ~ 0
-V3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole. Done.\n\nOne chip in BOM is wrong package for pad.\n\nYC124 arrays need updated footprint - DONE.\n\nR5 (=R105 on V1 board) is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset. 10k reduced to 3k. DONE.\n\nAdd extra LEDs on power ccts. DONE.\n\nLine 20 description is a sot23-3 (APX803-SR) but link goes to \n535-9983-1-nd which is a 4 pin crystal.\n\nU104, U105, U106 & U108 SN74LVC1G18DBVR (SOT23-6) has been ordered in as per your BOM but it looks like it should have been a SN74LVC1G18DCKR (SC-70 version). RS have them in stock (662-8758)
+V1.3 Buglist\n-----------\n\n+12V connector has wrong footprint. Change for through-hole. Done.\n\nYC124 arrays need updated footprint - DONE.\n\nR5 (=R105 on V1 board) is too weak to supply 3V3 to all L2s and the input to the second monitoring chip --- 2V8 is seen on the output, leading to the second voltage monitor staying in reset. 10k reduced to 3k. DONE.\n\nAdd extra LEDs on power ccts. DONE.\n\nBrighten LEDs by reducing drive resistors from 1k to 433R. DONE.\n\nLine 20 description is a sot23-3 (APX803-SR) but link goes to \n535-9983-1-nd which is a 4 pin crystal.\n\nU104, U105, U106 & U108 SN74LVC1G18DBVR (SOT23-6) has been ordered in as per your BOM but it looks like it should have been a SN74LVC1G18DCKR (SC-70 version). RS have them in stock (662-8758). DONE.
 $Comp
 L TESTPOINT W2
 U 1 1 4F54B4D5
@@ -5230,7 +5230,7 @@ U 1 1 4E380E62
 P 4740 3890
 F 0 "U14" H 4560 4180 60  0000 C CNN
 F 1 "SN74LVC1G18" H 4760 3590 60  0000 C CNN
-F 2 "SOT23-6" H 4740 3890 60  0001 C CNN
+F 2 "SC-70W" H 4740 3890 60  0001 C CNN
 F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-15568-1-ND" H 4740 3890 60  0001 C CNN
 	1    4740 3890
 	1    0    0    -1  
@@ -5245,7 +5245,7 @@ U 1 1 4E380E61
 P 4740 4910
 F 0 "U15" H 4560 5200 60  0000 C CNN
 F 1 "SN74LVC1G18" H 4760 4610 60  0000 C CNN
-F 2 "SOT23-6" H 4740 4910 60  0001 C CNN
+F 2 "SC-70W" H 4740 4910 60  0001 C CNN
 F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-15568-1-ND" H 4740 4910 60  0001 C CNN
 	1    4740 4910
 	1    0    0    -1  
@@ -5290,7 +5290,7 @@ U 1 1 4E380D2B
 P 4740 2690
 F 0 "U13" H 4560 2980 60  0000 C CNN
 F 1 "SN74LVC1G18" H 4760 2390 60  0000 C CNN
-F 2 "SOT23-6" H 4740 2690 60  0001 C CNN
+F 2 "SC-70W" H 4740 2690 60  0001 C CNN
 F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-15568-1-ND" H 4740 2690 60  0001 C CNN
 	1    4740 2690
 	1    0    0    -1  
@@ -5305,7 +5305,7 @@ U 1 1 4E37FC1A
 P 4740 1670
 F 0 "U12" H 4560 1960 60  0000 C CNN
 F 1 "SN74LVC1G18" H 4760 1370 60  0000 C CNN
-F 2 "SOT23-6" H 4740 1670 60  0001 C CNN
+F 2 "SC-70W" H 4740 1670 60  0001 C CNN
 F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-15568-1-ND" H 4740 1670 60  0001 C CNN
 	1    4740 1670
 	1    0    0    -1  
