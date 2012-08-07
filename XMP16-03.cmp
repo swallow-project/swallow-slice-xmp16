@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 06/08/2012 22:40:10
+Cmp-Mod V01 Genere par PcbNew le 07/08/2012 22:37:58
 
 BeginCmp
 TimeStamp = 4FE8BDF2
@@ -565,7 +565,7 @@ TimeStamp = 4E6A30B8
 Path = /4E5E30F6
 Reference = U7;
 ValeurCmp = NC7WZ17;
-IdModule  = SOT70-6;
+IdModule  = SC70-6;
 EndCmp
 
 BeginCmp
