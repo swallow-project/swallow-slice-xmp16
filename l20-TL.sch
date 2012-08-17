@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 06/08/2012 22:42:29
+EESchema Schematic File Version 2  date 17/08/2012 13:09:28
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 10 13
 Title ""
-Date "6 aug 2012"
+Date "17 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -461,21 +461,21 @@ Text Label 6700 6400 2    60   ~ 0
 P1J
 Text Label 6700 6300 2    60   ~ 0
 P1H
-Text Label 6700 6200 2    60   ~ 0
-P4E2
-Text Label 6700 6100 2    60   ~ 0
-P4E3
 Text Label 6700 6000 2    60   ~ 0
-P4F2
+P4E2
+Text Label 6700 6200 2    60   ~ 0
+P4E3
 Text Label 6700 5900 2    60   ~ 0
+P4F2
+Text Label 6700 6100 2    60   ~ 0
 P4F3
-Text Label 6700 5800 2    60   ~ 0
+Text Label 6700 5500 2    60   ~ 0
 P4F0
 Text Label 6700 5700 2    60   ~ 0
 P4F1
 Text Label 6700 5600 2    60   ~ 0
 P4E0
-Text Label 6700 5500 2    60   ~ 0
+Text Label 6700 5800 2    60   ~ 0
 P4E1
 Text Label 8995 3210 0    60   ~ 0
 P1H
