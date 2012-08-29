@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 17/08/2012 13:09:28
+EESchema Schematic File Version 2  date Wed 29 Aug 2012 20:44:51 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 7 13
 Title ""
-Date "17 aug 2012"
+Date "29 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,8 +47,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 10260 4775 0    40   ~ 0
-Two I2C interfaces which are\njust 2x(2x(1-bit)) ports.\nIntended for use with\npower monitoring board.
+Text Label 5640 5420 3    60   ~ 0
+C0_LED
+Text Label 8785 3320 0    60   ~ 0
+C0_LED
+Wire Wire Line
+	8680 3320 9200 3320
+Wire Wire Line
+	5640 6670 5640 6710
+Wire Wire Line
+	5640 6170 5640 6270
 Wire Wire Line
 	10470 4400 10600 4400
 Wire Wire Line
@@ -369,6 +377,39 @@ Wire Wire Line
 	10470 4310 10600 4310
 Wire Wire Line
 	10600 4310 10600 4350
+Wire Wire Line
+	5640 5670 5640 5380
+$Comp
+L GND #PWR?
+U 1 1 503E6EE3
+P 5640 6710
+F 0 "#PWR?" H 5640 6710 30  0001 C CNN
+F 1 "GND" H 5640 6640 30  0001 C CNN
+	1    5640 6710
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 503E6EE2
+P 5640 6470
+F 0 "D?" H 5640 6570 50  0000 C CNN
+F 1 "C0" H 5640 6370 50  0000 C CNN
+F 2 "X_LED-0603" H 5640 6470 60  0001 C CNN
+	1    5640 6470
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 503E6EE1
+P 5640 5920
+F 0 "R?" V 5720 5920 50  0000 C CNN
+F 1 "433R" V 5640 5920 50  0000 C CNN
+F 2 "X-SM0603" H 5640 5920 60  0001 C CNN
+	1    5640 5920
+	1    0    0    -1  
+$EndComp
+Text Notes 10260 4775 0    40   ~ 0
+Two I2C interfaces which are\njust 2x(2x(1-bit)) ports.\nIntended for use with\npower monitoring board.
 $Comp
 L CONN_2 P14
 U 1 1 4FE83BD8
@@ -390,10 +431,10 @@ F 2 "PIN_ARRAY_2X1" V 11100 4100 40  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0274
+L GND #PWR0275
 U 1 1 4F529EDC
 P 4825 1405
-F 0 "#PWR0274" H 4825 1405 30  0001 C CNN
+F 0 "#PWR0275" H 4825 1405 30  0001 C CNN
 F 1 "GND" H 4825 1335 30  0001 C CNN
 	1    4825 1405
 	1    0    0    -1  
@@ -401,10 +442,10 @@ $EndComp
 Text Notes 4170 675  0    60   ~ 0
 Mode pins set for PLL Multiplier of 8.33, to allow for 25MHz clk input.\nX0 boots from XLINKB, X1 boots via X0 chanend 0
 $Comp
-L GND #PWR0275
+L GND #PWR0276
 U 1 1 4FE8320C
 P 4865 1240
-F 0 "#PWR0275" H 4865 1240 30  0001 C CNN
+F 0 "#PWR0276" H 4865 1240 30  0001 C CNN
 F 1 "GND" H 4865 1170 30  0001 C CNN
 	1    4865 1240
 	1    0    0    -1  
@@ -432,19 +473,19 @@ F 2 "X_LED-0603" H 5390 6470 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0276
+L GND #PWR0277
 U 1 1 4FE831EE
 P 5390 6710
-F 0 "#PWR0276" H 5390 6710 30  0001 C CNN
+F 0 "#PWR0277" H 5390 6710 30  0001 C CNN
 F 1 "GND" H 5390 6640 30  0001 C CNN
 	1    5390 6710
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0277
+L GND #PWR0278
 U 1 1 4FE831EA
 P 5090 6710
-F 0 "#PWR0277" H 5090 6710 30  0001 C CNN
+F 0 "#PWR0278" H 5090 6710 30  0001 C CNN
 F 1 "GND" H 5090 6640 30  0001 C CNN
 	1    5090 6710
 	1    0    0    -1  
@@ -490,19 +531,19 @@ F 2 "X_LED-0603" H 4800 6470 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0278
+L GND #PWR0279
 U 1 1 4E5CC030
 P 4800 6710
-F 0 "#PWR0278" H 4800 6710 30  0001 C CNN
+F 0 "#PWR0279" H 4800 6710 30  0001 C CNN
 F 1 "GND" H 4800 6640 30  0001 C CNN
 	1    4800 6710
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0279
+L GND #PWR0280
 U 1 1 4FE831BF
 P 4490 6710
-F 0 "#PWR0279" H 4490 6710 30  0001 C CNN
+F 0 "#PWR0280" H 4490 6710 30  0001 C CNN
 F 1 "GND" H 4490 6640 30  0001 C CNN
 	1    4490 6710
 	1    0    0    -1  
@@ -626,7 +667,6 @@ NoConn ~ 8680 4040
 NoConn ~ 8680 3950
 NoConn ~ 8680 3500
 NoConn ~ 8680 3410
-NoConn ~ 8680 3320
 NoConn ~ 8680 3230
 NoConn ~ 8680 3140
 Text HLabel 8790 2240 2    60   Input ~ 0
@@ -733,19 +773,19 @@ $EndComp
 Text HLabel 9580 5370 0    60   Input ~ 0
 +3V3
 $Comp
-L GND #PWR0280
+L GND #PWR0281
 U 1 1 4FE83165
 P 9670 5980
-F 0 "#PWR0280" H 9670 5980 30  0001 C CNN
+F 0 "#PWR0281" H 9670 5980 30  0001 C CNN
 F 1 "GND" H 9670 5910 30  0001 C CNN
 	1    9670 5980
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0281
+L GND #PWR0282
 U 1 1 4FE8315F
 P 8050 5980
-F 0 "#PWR0281" H 8050 5980 30  0001 C CNN
+F 0 "#PWR0282" H 8050 5980 30  0001 C CNN
 F 1 "GND" H 8050 5910 30  0001 C CNN
 	1    8050 5980
 	1    0    0    -1  
@@ -811,10 +851,10 @@ RST_N
 Text HLabel 4755 1500 0    60   Input ~ 0
 MSEL
 $Comp
-L GND #PWR0282
+L GND #PWR0283
 U 1 1 4FE83139
 P 4860 1640
-F 0 "#PWR0282" H 4860 1640 30  0001 C CNN
+F 0 "#PWR0283" H 4860 1640 30  0001 C CNN
 F 1 "GND" H 4860 1570 30  0001 C CNN
 	1    4860 1640
 	1    0    0    -1  
@@ -832,10 +872,10 @@ TDI
 Text HLabel 4770 2090 0    60   Input ~ 0
 TDO
 $Comp
-L GND #PWR0283
+L GND #PWR0284
 U 1 1 4FE83131
 P 7250 4820
-F 0 "#PWR0283" H 7250 4820 30  0001 C CNN
+F 0 "#PWR0284" H 7250 4820 30  0001 C CNN
 F 1 "GND" H 7250 4750 30  0001 C CNN
 	1    7250 4820
 	1    0    0    -1  
@@ -871,10 +911,10 @@ Text HLabel 4500 3140 0    60   Input ~ 0
 Text HLabel 4500 4020 0    60   Input ~ 0
 +1V0
 $Comp
-L GND #PWR0284
+L GND #PWR0285
 U 1 1 4FE8311E
 P 6750 4855
-F 0 "#PWR0284" H 6750 4855 30  0001 C CNN
+F 0 "#PWR0285" H 6750 4855 30  0001 C CNN
 F 1 "GND" H 6750 4785 30  0001 C CNN
 	1    6750 4855
 	1    0    0    -1  

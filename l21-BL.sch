@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 17/08/2012 13:09:28
+EESchema Schematic File Version 2  date Wed 29 Aug 2012 20:44:51 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 13
 Title ""
-Date "17 aug 2012"
+Date "29 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 5640 5415 3    60   ~ 0
+C0_LED
+Text Label 8780 3320 0    60   ~ 0
+C0_LED
+Wire Wire Line
+	8680 3320 9050 3320
+Wire Wire Line
+	5640 6670 5640 6710
+Wire Wire Line
+	5640 6170 5640 6270
 Wire Wire Line
 	4800 3920 4740 3920
 Wire Wire Line
@@ -351,6 +361,37 @@ Wire Wire Line
 	4950 1500 4755 1500
 Wire Wire Line
 	4740 3140 4740 3920
+Wire Wire Line
+	5640 5670 5640 5390
+$Comp
+L GND #PWR?
+U 1 1 503E6F2E
+P 5640 6710
+F 0 "#PWR?" H 5640 6710 30  0001 C CNN
+F 1 "GND" H 5640 6640 30  0001 C CNN
+	1    5640 6710
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 503E6F2D
+P 5640 6470
+F 0 "D?" H 5640 6570 50  0000 C CNN
+F 1 "C0" H 5640 6370 50  0000 C CNN
+F 2 "X_LED-0603" H 5640 6470 60  0001 C CNN
+	1    5640 6470
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 503E6F2C
+P 5640 5920
+F 0 "R?" V 5720 5920 50  0000 C CNN
+F 1 "433R" V 5640 5920 50  0000 C CNN
+F 2 "X-SM0603" H 5640 5920 60  0001 C CNN
+	1    5640 5920
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR0234
 U 1 1 4FE83210
@@ -592,7 +633,6 @@ NoConn ~ 8680 4040
 NoConn ~ 8680 3950
 NoConn ~ 8680 3500
 NoConn ~ 8680 3410
-NoConn ~ 8680 3320
 NoConn ~ 8680 3230
 NoConn ~ 8680 3140
 Text HLabel 8790 2240 2    60   Input ~ 0
