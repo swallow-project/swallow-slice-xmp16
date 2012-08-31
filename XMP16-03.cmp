@@ -1,11 +1,11 @@
-Cmp-Mod V01 Genere par PcbNew le 07/08/2012 22:37:58
+Cmp-Mod V01 Genere par PcbNew le 31/08/2012 11:40:24
 
 BeginCmp
 TimeStamp = 4FE8BDF2
 Path = /4E32CDCE/4FE830FB/4FE8BC0D
 Reference = P15;
 ValeurCmp = Core2_I/O;
-IdModule  = pin_array_7x2;
+IdModule  = pin_array_9x2;
 EndCmp
 
 BeginCmp
