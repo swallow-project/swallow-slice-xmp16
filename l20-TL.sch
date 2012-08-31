@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 31/08/2012 11:50:28
+EESchema Schematic File Version 2  date 31/08/2012 14:35:34
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,15 +48,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	6240 6800 6240 6850
+	6700 6650 6630 6650
 Wire Wire Line
-	6240 6850 6700 6850
-Wire Wire Line
-	6535 6750 6700 6750
-Wire Wire Line
-	6700 6650 6605 6650
-Wire Wire Line
-	6605 6650 6605 7015
+	6630 6650 6630 6670
 Wire Wire Line
 	8680 1070 8835 1070
 Wire Wire Line
@@ -464,10 +458,16 @@ Wire Wire Line
 Wire Wire Line
 	9005 2160 9330 2160
 Wire Wire Line
-	6700 6950 6605 6950
-Connection ~ 6605 6950
-Text HLabel 6535 6750 0    60   Input ~ 0
-CLK
+	6500 6750 6700 6750
+$Comp
+L GND #PWR0309
+U 1 1 4FEAD6A9
+P 6630 6670
+F 0 "#PWR0309" H 6630 6670 30  0001 C CNN
+F 1 "GND" H 6630 6600 30  0001 C CNN
+	1    6630 6670
+	1    0    0    -1  
+$EndComp
 Text Label 9055 2160 0    60   ~ 0
 P1D
 Text Label 8715 1070 0    60   ~ 0
@@ -512,19 +512,10 @@ $EndComp
 $Comp
 L +3.3V #PWR0308
 U 1 1 4FEAD6B7
-P 6240 6800
-F 0 "#PWR0308" H 6240 6760 30  0001 C CNN
-F 1 "+3.3V" H 6240 6910 30  0000 C CNN
-	1    6240 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR0309
-U 1 1 4FEAD6A9
-P 6605 7015
-F 0 "#PWR0309" H 6605 7015 30  0001 C CNN
-F 1 "GND" H 6605 6945 30  0001 C CNN
-	1    6605 7015
+P 6500 6750
+F 0 "#PWR0308" H 6500 6710 30  0001 C CNN
+F 1 "+3.3V" H 6500 6860 30  0000 C CNN
+	1    6500 6750
 	1    0    0    -1  
 $EndComp
 Text Label 6650 6350 2    60   ~ 0
@@ -594,13 +585,13 @@ F 3 "http://www.xmos.com/published/xs1-l02a-qf124-datasheet" H 8060 1630 60  000
 $EndComp
 NoConn ~ 8680 4220
 $Comp
-L CONN_18 P15
+L CONN_16 P15
 U 1 1 4FE8BC0D
-P 7050 6150
-F 0 "P15" V 7000 6150 60  0000 C CNN
-F 1 "Core2 I/O" V 7100 6150 60  0000 C CNN
-F 2 "pin_array_7x2" V 7200 6150 60  0001 C CNN
-	1    7050 6150
+P 7050 6050
+F 0 "P15" V 7000 6050 60  0000 C CNN
+F 1 "Core2 I/O" V 7100 6050 60  0000 C CNN
+F 2 "pin_array_7x2" V 7200 6050 60  0001 C CNN
+	1    7050 6050
 	1    0    0    -1  
 $EndComp
 $Comp
