@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 31/08/2012 17:45:03
+EESchema Schematic File Version 2  date 02/09/2012 17:01:31
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 8 13
 Title ""
-Date "31 aug 2012"
+Date "2 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -582,37 +582,37 @@ TMS
 Text HLabel 1000 2630 0    39   Input ~ 0
 TCK
 $Comp
-L GND #PWR0276
+L GND #PWR278
 U 1 1 4FE831AC
 P 2340 4500
-F 0 "#PWR0276" H 2340 4500 30  0001 C CNN
+F 0 "#PWR278" H 2340 4500 30  0001 C CNN
 F 1 "GND" H 2340 4430 30  0001 C CNN
 	1    2340 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0277
+L GND #PWR276
 U 1 1 4FE831AA
 P 2340 3180
-F 0 "#PWR0277" H 2340 3180 30  0001 C CNN
+F 0 "#PWR276" H 2340 3180 30  0001 C CNN
 F 1 "GND" H 2340 3110 30  0001 C CNN
 	1    2340 3180
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0278
+L +3.3V #PWR277
 U 1 1 4FE831A8
 P 2340 3570
-F 0 "#PWR0278" H 2340 3530 30  0001 C CNN
+F 0 "#PWR277" H 2340 3530 30  0001 C CNN
 F 1 "+3.3V" H 2340 3680 30  0000 C CNN
 	1    2340 3570
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0279
+L +3.3V #PWR275
 U 1 1 4E35D98B
 P 2340 2250
-F 0 "#PWR0279" H 2340 2210 30  0001 C CNN
+F 0 "#PWR275" H 2340 2210 30  0001 C CNN
 F 1 "+3.3V" H 2340 2360 30  0000 C CNN
 	1    2340 2250
 	1    0    0    -1  
@@ -684,10 +684,10 @@ F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-3650-1
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0280
+L GND #PWR274
 U 1 1 4FE83197
 P 1740 1980
-F 0 "#PWR0280" H 1740 1980 30  0001 C CNN
+F 0 "#PWR274" H 1740 1980 30  0001 C CNN
 F 1 "GND" H 1740 1910 30  0001 C CNN
 	1    1740 1980
 	1    0    0    -1  
@@ -703,10 +703,10 @@ F 2 "X-SM0805" H 690 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0281
+L +5V #PWR273
 U 1 1 4FE83193
 P 690 750
-F 0 "#PWR0281" H 690 840 20  0001 C CNN
+F 0 "#PWR273" H 690 840 20  0001 C CNN
 F 1 "+5V" H 690 840 30  0000 C CNN
 	1    690  750 
 	1    0    0    -1  

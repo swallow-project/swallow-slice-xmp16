@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 31/08/2012 17:45:03
+EESchema Schematic File Version 2  date 02/09/2012 17:01:31
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 13
 Title ""
-Date "31 aug 2012"
+Date "2 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -347,10 +347,10 @@ Wire Wire Line
 	3005 720  3005 910 
 Connection ~ 3005 910 
 $Comp
-L GND #PWR0245
+L GND #PWR248
 U 1 1 501427CD
 P 3080 850
-F 0 "#PWR0245" H 3080 850 30  0001 C CNN
+F 0 "#PWR248" H 3080 850 30  0001 C CNN
 F 1 "GND" H 3080 780 30  0001 C CNN
 	1    3080 850 
 	1    0    0    -1  
@@ -587,37 +587,37 @@ TMS
 Text HLabel 1000 2630 0    39   Input ~ 0
 TCK
 $Comp
-L GND #PWR0246
+L GND #PWR247
 U 1 1 4E35D9C0
 P 2340 4500
-F 0 "#PWR0246" H 2340 4500 30  0001 C CNN
+F 0 "#PWR247" H 2340 4500 30  0001 C CNN
 F 1 "GND" H 2340 4430 30  0001 C CNN
 	1    2340 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0247
+L GND #PWR245
 U 1 1 4E35D9AA
 P 2340 3180
-F 0 "#PWR0247" H 2340 3180 30  0001 C CNN
+F 0 "#PWR245" H 2340 3180 30  0001 C CNN
 F 1 "GND" H 2340 3110 30  0001 C CNN
 	1    2340 3180
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0248
+L +3.3V #PWR246
 U 1 1 4E35D9A0
 P 2340 3570
-F 0 "#PWR0248" H 2340 3530 30  0001 C CNN
+F 0 "#PWR246" H 2340 3530 30  0001 C CNN
 F 1 "+3.3V" H 2340 3680 30  0000 C CNN
 	1    2340 3570
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0249
+L +3.3V #PWR244
 U 1 1 4FE831A6
 P 2340 2250
-F 0 "#PWR0249" H 2340 2210 30  0001 C CNN
+F 0 "#PWR244" H 2340 2210 30  0001 C CNN
 F 1 "+3.3V" H 2340 2360 30  0000 C CNN
 	1    2340 2250
 	1    0    0    -1  
@@ -689,10 +689,10 @@ F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-3650-1
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0250
+L GND #PWR243
 U 1 1 4FE83198
 P 1740 1980
-F 0 "#PWR0250" H 1740 1980 30  0001 C CNN
+F 0 "#PWR243" H 1740 1980 30  0001 C CNN
 F 1 "GND" H 1740 1910 30  0001 C CNN
 	1    1740 1980
 	1    0    0    -1  
@@ -708,10 +708,10 @@ F 2 "X-SM0805" H 690 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0251
+L +5V #PWR242
 U 1 1 4FE83194
 P 690 750
-F 0 "#PWR0251" H 690 840 20  0001 C CNN
+F 0 "#PWR242" H 690 840 20  0001 C CNN
 F 1 "+5V" H 690 840 30  0000 C CNN
 	1    690  750 
 	1    0    0    -1  
