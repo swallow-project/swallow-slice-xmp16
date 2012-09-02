@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/09/2012 18:49:47
+EESchema Schematic File Version 2  date 02/09/2012 19:21:34
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -389,7 +389,7 @@ L LED D36
 U 1 1 503E6CA7
 P 5640 6470
 F 0 "D36" H 5640 6570 50  0000 C CNN
-F 1 "C0" H 5640 6370 50  0000 C CNN
+F 1 "Z" H 5640 6370 50  0000 C CNN
 F 2 "X_LED-0603" H 5640 6470 60  0001 C CNN
 	1    5640 6470
 	0    1    1    0   

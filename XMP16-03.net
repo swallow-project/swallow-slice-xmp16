@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  02/09/2012 18:47:22
+# EESchema Netlist Version 1.1 created  02/09/2012 19:21:39
 (
  ( /504382B3 $noname  P26 B_CLK_EN {Lib=CONN_2}
   (    1 +3.3V )
@@ -1231,7 +1231,7 @@
   (  B56 /L2_PAIR_Q3/+1V0 )
   (  GND GND )
  )
- ( /4E36B760/4FE83190/503E6F2D X_LED-0603  D37 C0 {Lib=LED}
+ ( /4E36B760/4FE83190/503E6F2D X_LED-0603  D37 Z {Lib=LED}
   (    1 N-000759 )
   (    2 GND )
  )
@@ -1319,7 +1319,7 @@
   (    1 /L2_PAIR_Q3/+1V0 )
   (    2 N-000756 )
  )
- ( /4E36B760/4FE830FA/503E6F6E X_LED-0603  D38 C0 {Lib=LED}
+ ( /4E36B760/4FE830FA/503E6F6E X_LED-0603  D38 Z {Lib=LED}
   (    1 N-000714 )
   (    2 GND )
  )
@@ -1594,7 +1594,7 @@
   (    4 +5V )
   (    5 /L2_PAIR_Q3/Reg1_FB )
  )
- ( /4E36B777/4E3470E5/503E6CA7 X_LED-0603  D36 C0 {Lib=LED}
+ ( /4E36B777/4E3470E5/503E6CA7 X_LED-0603  D36 Z {Lib=LED}
   (    1 N-000821 )
   (    2 GND )
  )
@@ -1809,7 +1809,7 @@
   (    1 /L2_PAIR_Q3/+1V0 )
   (    2 N-000822 )
  )
- ( /4E36B777/4E32CE0C/503E6EE2 X_LED-0603  D39 C0 {Lib=LED}
+ ( /4E36B777/4E32CE0C/503E6EE2 X_LED-0603  D39 Z {Lib=LED}
   (    1 N-000770 )
   (    2 GND )
  )
@@ -2094,7 +2094,7 @@
   (    4 +5V )
   (    5 /L2_PAIR_Q1/Reg1_FB )
  )
- ( /4E32CDCE/4FE8318F/503E7042 X_LED-0603  D40 C0 {Lib=LED}
+ ( /4E32CDCE/4FE8318F/503E7042 X_LED-0603  D40 Z {Lib=LED}
   (    1 N-000514 )
   (    2 GND )
  )
@@ -2309,7 +2309,7 @@
   (    1 /L2_PAIR_Q2/+1V0 )
   (    2 N-000559 )
  )
- ( /4E32CDCE/4FE830FB/503E7081 X_LED-0603  D41 C0 {Lib=LED}
+ ( /4E32CDCE/4FE830FB/503E7081 X_LED-0603  D41 Z {Lib=LED}
   (    1 N-000502 )
   (    2 GND )
  )
@@ -2602,7 +2602,7 @@
   (    1 /L2_PAIR_Q2/L2_1-TR/TCK )
   (    2 N-000416 )
  )
- ( /4E36B740/4FE82F45/503E7001 X_LED-0603  D42 C0 {Lib=LED}
+ ( /4E36B740/4FE82F45/503E7001 X_LED-0603  D42 Z {Lib=LED}
   (    1 N-000662 )
   (    2 GND )
  )
@@ -2817,7 +2817,7 @@
   (    1 /L2_PAIR_Q1/+1V0 )
   (    2 N-000655 )
  )
- ( /4E36B740/4FE82F44/503E6FBA X_LED-0603  D43 C0 {Lib=LED}
+ ( /4E36B740/4FE82F44/503E6FBA X_LED-0603  D43 Z {Lib=LED}
   (    1 N-000602 )
   (    2 GND )
  )
