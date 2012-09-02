@@ -1,16 +1,17 @@
-Drill report for C:\Users\harry\Desktop\XMP16-03\XMP16-03.brd
-Created on 05/03/2012 19:10:38
+Drill report for C:\Users\harry\Documents\XMP16-03\XMP16-03.brd
+Created on 02/09/2012 18:57:46
 Selected Drill Unit: Metric (mm)
 
 Drill report for through holes :
-T1  0.20mm  0.008"  (894 holes)
-T2  0.30mm  0.012"  (175 holes)
-T3  0.50mm  0.020"  (26 holes)
-T4  0.80mm  0.032"  (19 holes)
-T5  0.81mm  0.032"  (2 holes)
-T6  1.02mm  0.040"  (20 holes)
+T1  0.20mm  0.008"  (910 holes)
+T2  0.30mm  0.012"  (174 holes)
+T3  0.50mm  0.020"  (13 holes)
+T4  0.80mm  0.032"  (13 holes)
+T5  1.00mm  0.039"  (24 holes)
+T6  1.02mm  0.040"  (44 holes)
+T7  1.20mm  0.047"  (3 holes)  (with 3 oblongs)
 
-total plated holes count 1136
+total plated holes count 1181
 
 
 Drill report for buried and blind vias :
@@ -31,8 +32,8 @@ total plated holes count 0
 
 
 Drill report for Not Plated through holes :
-T1  3.00mm  0.118"  (5 holes)
+T1  3.00mm  0.118"  (7 holes)
 
-total Not Plated holes count 5
+total Not Plated holes count 7
 
 
