@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 02/09/2012 19:21:34
+EESchema Schematic File Version 2  date 03/09/2012 10:35:44
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A2 23400 16535
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "2 sep 2012"
+Date "3 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 15650 -1250 0    2000 ~ 0
+V2
 $Comp
 L GND #PWR01
 U 1 1 50439B88
