@@ -1,17 +1,17 @@
 Drill report for C:\Users\harry\Documents\XMP16-03\XMP16-03.brd
-Created on 02/09/2012 18:57:46
+Created on 07/09/2012 14:17:42
 Selected Drill Unit: Metric (mm)
 
 Drill report for through holes :
-T1  0.20mm  0.008"  (910 holes)
+T1  0.20mm  0.008"  (907 holes)
 T2  0.30mm  0.012"  (174 holes)
 T3  0.50mm  0.020"  (13 holes)
 T4  0.80mm  0.032"  (13 holes)
 T5  1.00mm  0.039"  (24 holes)
-T6  1.02mm  0.040"  (44 holes)
+T6  1.02mm  0.040"  (46 holes)
 T7  1.20mm  0.047"  (3 holes)  (with 3 oblongs)
 
-total plated holes count 1181
+total plated holes count 1180
 
 
 Drill report for buried and blind vias :
