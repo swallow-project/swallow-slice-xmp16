@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 03/09/2012 10:35:44
+EESchema Schematic File Version 2  date 07/09/2012 12:57:36
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 10 13
 Title ""
-Date "3 sep 2012"
+Date "7 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 7650 6400 0    60   Input ~ 0
+RST_N_G
+$Comp
+L CONN_1 P28
+U 1 1 5049DC56
+P 7800 6400
+F 0 "P28" H 7880 6400 40  0000 L CNN
+F 1 "RST_N" H 7800 6455 30  0001 C CNN
+	1    7800 6400
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	6700 6650 6630 6650
 Wire Wire Line

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 02/09/2012 17:01:55
+Cmp-Mod V01 Genere par PcbNew le 07/09/2012 12:50:46
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -1011,56 +1011,56 @@ EndCmp
 BeginCmp
 TimeStamp = /4E36B777/4E3470E5/503E6CA7;
 Reference = D36;
-ValeurCmp = C0;
+ValeurCmp = Z;
 IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E36B760/4FE83190/503E6F2D;
 Reference = D37;
-ValeurCmp = C0;
+ValeurCmp = Z;
 IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E36B760/4FE830FA/503E6F6E;
 Reference = D38;
-ValeurCmp = C0;
+ValeurCmp = Z;
 IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E36B777/4E32CE0C/503E6EE2;
 Reference = D39;
-ValeurCmp = C0;
+ValeurCmp = Z;
 IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E32CDCE/4FE8318F/503E7042;
 Reference = D40;
-ValeurCmp = C0;
+ValeurCmp = Z;
 IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E32CDCE/4FE830FB/503E7081;
 Reference = D41;
-ValeurCmp = C0;
+ValeurCmp = Z;
 IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E36B740/4FE82F45/503E7001;
 Reference = D42;
-ValeurCmp = C0;
+ValeurCmp = Z;
 IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E36B740/4FE82F44/503E6FBA;
 Reference = D43;
-ValeurCmp = C0;
+ValeurCmp = Z;
 IdModule  = X_LED-0603;
 EndCmp
 
@@ -1328,6 +1328,20 @@ TimeStamp = /504382B3;
 Reference = P26;
 ValeurCmp = B_CLK_EN;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5049DC7F;
+Reference = P27;
+ValeurCmp = BL_CLK;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E32CDCE/4FE830FB/5049DC56;
+Reference = P28;
+ValeurCmp = RST_N;
+IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
