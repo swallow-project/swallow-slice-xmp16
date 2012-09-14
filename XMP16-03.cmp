@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 07/09/2012 12:50:46
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Fri 14 Sep 2012 00:16:44 BST
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -1107,6 +1107,13 @@ IdModule  = Mounting_Hole-3mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /50526924;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E3544F8;
 Reference = L1;
 ValeurCmp = 2u2H;
@@ -1333,7 +1340,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5049DC7F;
 Reference = P27;
-ValeurCmp = BL_CLK;
+ValeurCmp = BR_CLK;
 IdModule  = PIN_ARRAY_1;
 EndCmp
 

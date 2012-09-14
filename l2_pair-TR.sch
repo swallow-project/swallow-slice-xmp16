@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 07/09/2012 14:11:28
+EESchema Schematic File Version 2  date Fri 14 Sep 2012 00:55:36 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,14 +32,13 @@ LIBS:valves
 LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
-LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 11 13
 Title ""
-Date "7 sep 2012"
+Date "13 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -348,10 +347,10 @@ Wire Wire Line
 	3035 1050 3035 1250
 Connection ~ 3035 1250
 $Comp
-L GND #PWR0293
+L GND #PWR0287
 U 1 1 50142709
 P 3100 1200
-F 0 "#PWR0293" H 3100 1200 30  0001 C CNN
+F 0 "#PWR0287" H 3100 1200 30  0001 C CNN
 F 1 "GND" H 3100 1130 30  0001 C CNN
 	1    3100 1200
 	1    0    0    -1  
@@ -502,10 +501,10 @@ F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=NCP1529ASN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR0294
+L +5V #PWR0288
 U 1 1 4FE82F42
 P 790 1100
-F 0 "#PWR0294" H 790 1190 20  0001 C CNN
+F 0 "#PWR0288" H 790 1190 20  0001 C CNN
 F 1 "+5V" H 790 1190 30  0000 C CNN
 	1    790  1100
 	1    0    0    -1  
@@ -521,10 +520,10 @@ F 2 "X-SM0805" H 790 1500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0295
+L GND #PWR0289
 U 1 1 4FE82F40
 P 1840 2330
-F 0 "#PWR0295" H 1840 2330 30  0001 C CNN
+F 0 "#PWR0289" H 1840 2330 30  0001 C CNN
 F 1 "GND" H 1840 2260 30  0001 C CNN
 	1    1840 2330
 	1    0    0    -1  
@@ -596,37 +595,37 @@ $EndComp
 Text HLabel 980  1755 2    39   Input ~ 0
 +3V3_PG
 $Comp
-L +3.3V #PWR0296
+L +3.3V #PWR0290
 U 1 1 4FE82F39
 P 2440 2600
-F 0 "#PWR0296" H 2440 2560 30  0001 C CNN
+F 0 "#PWR0290" H 2440 2560 30  0001 C CNN
 F 1 "+3.3V" H 2440 2710 30  0000 C CNN
 	1    2440 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0297
+L +3.3V #PWR0291
 U 1 1 4FE82F38
 P 2440 3920
-F 0 "#PWR0297" H 2440 3880 30  0001 C CNN
+F 0 "#PWR0291" H 2440 3880 30  0001 C CNN
 F 1 "+3.3V" H 2440 4030 30  0000 C CNN
 	1    2440 3920
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0298
+L GND #PWR0292
 U 1 1 4FE82F37
 P 2440 3530
-F 0 "#PWR0298" H 2440 3530 30  0001 C CNN
+F 0 "#PWR0292" H 2440 3530 30  0001 C CNN
 F 1 "GND" H 2440 3460 30  0001 C CNN
 	1    2440 3530
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0299
+L GND #PWR0293
 U 1 1 4FE82F36
 P 2440 4850
-F 0 "#PWR0299" H 2440 4850 30  0001 C CNN
+F 0 "#PWR0293" H 2440 4850 30  0001 C CNN
 F 1 "GND" H 2440 4780 30  0001 C CNN
 	1    2440 4850
 	1    0    0    -1  

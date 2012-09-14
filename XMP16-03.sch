@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 07/09/2012 14:11:28
+EESchema Schematic File Version 2  date Fri 14 Sep 2012 00:55:36 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,14 +32,13 @@ LIBS:valves
 LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
-LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
 $Descr A2 23400 16535
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "7 sep 2012"
+Date "13 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +46,35 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GND #PWR?
+U 1 1 50527272
+P 6800 12700
+F 0 "#PWR?" H 6800 12700 30  0001 C CNN
+F 1 "GND" H 6800 12630 30  0001 C CNN
+	1    6800 12700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5052726E
+P 6800 12500
+F 0 "#PWR?" H 6800 12460 30  0001 C CNN
+F 1 "+3.3V" H 6800 12610 30  0000 C CNN
+	1    6800 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 50526924
+P 7150 12600
+F 0 "K1" V 7100 12600 50  0000 C CNN
+F 1 "CONN_3" V 7200 12600 40  0000 C CNN
+	1    7150 12600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 12600 0    60   Input ~ 0
+MODE_0
 Text Label 6920 9000 0    60   ~ 0
 Reg3
 Wire Wire Line
