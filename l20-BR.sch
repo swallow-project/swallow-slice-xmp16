@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 14 Sep 2012 00:55:36 BST
+EESchema Schematic File Version 2  date Wed 19 Sep 2012 12:49:26 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,14 @@ LIBS:valves
 LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
+LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 7 13
 Title ""
-Date "13 sep 2012"
+Date "19 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,26 +47,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4950 1230 0    60   Input ~ 0
-MODE_0
-Text Label 5640 5420 3    60   ~ 0
-C0_LED
-Text Label 8785 3320 0    60   ~ 0
-C0_LED
+NoConn ~ 10470 4130
+NoConn ~ 10470 4220
+NoConn ~ 10470 4310
+NoConn ~ 10470 4400
+Wire Wire Line
+	8680 4580 8770 4580
+Wire Wire Line
+	8770 4580 8770 4670
+Wire Wire Line
+	8770 4670 8840 4670
+Wire Wire Line
+	8840 4670 8840 4775
+Wire Wire Line
+	8680 4400 8840 4400
 Wire Wire Line
 	8680 3320 9200 3320
 Wire Wire Line
 	5640 6670 5640 6710
 Wire Wire Line
 	5640 6170 5640 6270
-Wire Wire Line
-	10470 4400 10600 4400
-Wire Wire Line
-	10600 4400 10600 4550
-Wire Wire Line
-	10600 4200 10600 4220
-Wire Wire Line
-	10600 4220 10470 4220
 Wire Wire Line
 	4800 3920 4740 3920
 Wire Wire Line
@@ -367,15 +368,21 @@ Wire Wire Line
 Wire Wire Line
 	4740 3140 4740 3920
 Wire Wire Line
-	10470 4130 10600 4130
-Wire Wire Line
-	10600 4130 10600 4000
-Wire Wire Line
-	10470 4310 10600 4310
-Wire Wire Line
-	10600 4310 10600 4350
-Wire Wire Line
 	5640 5670 5640 5380
+Wire Wire Line
+	8680 4310 8840 4310
+Wire Wire Line
+	8840 4310 8840 4200
+Wire Wire Line
+	8840 4575 8840 4490
+Wire Wire Line
+	8840 4490 8680 4490
+Text GLabel 4950 1230 0    60   Input ~ 0
+MODE_0
+Text Label 5640 5420 3    60   ~ 0
+C0_LED
+Text Label 8785 3320 0    60   ~ 0
+C0_LED
 $Comp
 L GND #PWR0246
 U 1 1 503E6EE3
@@ -410,22 +417,22 @@ Two I2C interfaces which are\njust 2x(2x(1-bit)) ports.\nIntended for use with\n
 $Comp
 L CONN_2 P14
 U 1 1 4FE83BD8
-P 10950 4450
-F 0 "P14" V 10900 4450 40  0000 C CNN
-F 1 "I2C_B" V 11000 4450 40  0000 C CNN
-F 2 "PIN_ARRAY_2X1" V 11100 4450 40  0001 C CNN
-	1    10950 4450
-	1    0    0    -1  
+P 9190 4300
+F 0 "P14" V 9140 4300 40  0000 C CNN
+F 1 "I2C_B" V 9240 4300 40  0000 C CNN
+F 2 "PIN_ARRAY_2X1" V 9340 4300 40  0001 C CNN
+	1    9190 4300
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_2 P13
 U 1 1 4FE83BD3
-P 10950 4100
-F 0 "P13" V 10900 4100 40  0000 C CNN
-F 1 "I2C_A" V 11000 4100 40  0000 C CNN
-F 2 "PIN_ARRAY_2X1" V 11100 4100 40  0001 C CNN
-	1    10950 4100
-	1    0    0    -1  
+P 9190 4675
+F 0 "P13" V 9140 4675 40  0000 C CNN
+F 1 "I2C_A" V 9240 4675 40  0000 C CNN
+F 2 "PIN_ARRAY_2X1" V 9340 4675 40  0001 C CNN
+	1    9190 4675
+	1    0    0    1   
 $EndComp
 $Comp
 L GND #PWR0247
@@ -645,10 +652,6 @@ NoConn ~ 8680 4940
 NoConn ~ 8680 4850
 NoConn ~ 8680 4760
 NoConn ~ 8680 4670
-NoConn ~ 8680 4580
-NoConn ~ 8680 4490
-NoConn ~ 8680 4400
-NoConn ~ 8680 4310
 NoConn ~ 8680 4220
 NoConn ~ 8680 4130
 NoConn ~ 8680 4040
