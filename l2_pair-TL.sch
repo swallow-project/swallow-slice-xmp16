@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/09/2012 15:47:38
+EESchema Schematic File Version 2  date Fri 21 Sep 2012 20:36:02 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,14 @@ LIBS:valves
 LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
+LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 8 13
 Title ""
-Date "19 sep 2012"
+Date "21 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,20 +51,20 @@ Connection ~ 3550 1950
 Wire Wire Line
 	3550 1900 3550 1950
 Wire Wire Line
-	2795 1350 2795 650 
+	2795 650  2795 1350
 Wire Wire Line
 	2795 650  3300 650 
 Wire Wire Line
 	2700 1350 2950 1350
 Wire Wire Line
-	3140 850  3140 920 
+	3140 920  3140 850 
 Wire Wire Line
 	2700 750  2490 750 
 Wire Wire Line
 	2490 750  2490 920 
 Connection ~ 3880 920 
 Wire Wire Line
-	3140 920  4000 920 
+	4000 920  3140 920 
 Wire Wire Line
 	2960 2630 2900 2630
 Wire Wire Line
@@ -252,7 +253,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1950 3800 1390
 Wire Wire Line
-	3500 1390 3500 1430
+	3500 1430 3500 1390
 Wire Wire Line
 	3500 1430 2960 1430
 Connection ~ 3230 1430
@@ -581,37 +582,37 @@ TMS
 Text HLabel 1000 2630 0    39   Input ~ 0
 TCK
 $Comp
-L GND #PWR262
+L GND #PWR0260
 U 1 1 4FE831AC
 P 2340 4500
-F 0 "#PWR262" H 2340 4500 30  0001 C CNN
+F 0 "#PWR0260" H 2340 4500 30  0001 C CNN
 F 1 "GND" H 2340 4430 30  0001 C CNN
 	1    2340 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR260
+L GND #PWR0261
 U 1 1 4FE831AA
 P 2340 3180
-F 0 "#PWR260" H 2340 3180 30  0001 C CNN
+F 0 "#PWR0261" H 2340 3180 30  0001 C CNN
 F 1 "GND" H 2340 3110 30  0001 C CNN
 	1    2340 3180
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR261
+L +3.3V #PWR0262
 U 1 1 4FE831A8
 P 2340 3570
-F 0 "#PWR261" H 2340 3530 30  0001 C CNN
+F 0 "#PWR0262" H 2340 3530 30  0001 C CNN
 F 1 "+3.3V" H 2340 3680 30  0000 C CNN
 	1    2340 3570
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR259
+L +3.3V #PWR0263
 U 1 1 4E35D98B
 P 2340 2250
-F 0 "#PWR259" H 2340 2210 30  0001 C CNN
+F 0 "#PWR0263" H 2340 2210 30  0001 C CNN
 F 1 "+3.3V" H 2340 2360 30  0000 C CNN
 	1    2340 2250
 	1    0    0    -1  
@@ -683,10 +684,10 @@ F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-3650-1
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR258
+L GND #PWR0264
 U 1 1 4FE83197
 P 1740 1980
-F 0 "#PWR258" H 1740 1980 30  0001 C CNN
+F 0 "#PWR0264" H 1740 1980 30  0001 C CNN
 F 1 "GND" H 1740 1910 30  0001 C CNN
 	1    1740 1980
 	1    0    0    -1  
@@ -702,10 +703,10 @@ F 2 "X-SM0805" H 690 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR257
+L +5V #PWR0265
 U 1 1 4FE83193
 P 690 750
-F 0 "#PWR257" H 690 840 20  0001 C CNN
+F 0 "#PWR0265" H 690 840 20  0001 C CNN
 F 1 "+5V" H 690 840 30  0000 C CNN
 	1    690  750 
 	1    0    0    -1  

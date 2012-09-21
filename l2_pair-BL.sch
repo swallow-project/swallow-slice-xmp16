@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/09/2012 15:47:38
+EESchema Schematic File Version 2  date Fri 21 Sep 2012 20:36:02 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,14 @@ LIBS:valves
 LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
+LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 13
 Title ""
-Date "19 sep 2012"
+Date "21 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -588,37 +589,37 @@ TMS
 Text HLabel 1000 2630 0    39   Input ~ 0
 TCK
 $Comp
-L GND #PWR205
+L GND #PWR0203
 U 1 1 4FE831AB
 P 2340 4500
-F 0 "#PWR205" H 2340 4500 30  0001 C CNN
+F 0 "#PWR0203" H 2340 4500 30  0001 C CNN
 F 1 "GND" H 2340 4430 30  0001 C CNN
 	1    2340 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR203
+L GND #PWR0204
 U 1 1 4FE831A9
 P 2340 3180
-F 0 "#PWR203" H 2340 3180 30  0001 C CNN
+F 0 "#PWR0204" H 2340 3180 30  0001 C CNN
 F 1 "GND" H 2340 3110 30  0001 C CNN
 	1    2340 3180
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR204
+L +3.3V #PWR0205
 U 1 1 4FE831A7
 P 2340 3570
-F 0 "#PWR204" H 2340 3530 30  0001 C CNN
+F 0 "#PWR0205" H 2340 3530 30  0001 C CNN
 F 1 "+3.3V" H 2340 3680 30  0000 C CNN
 	1    2340 3570
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR202
+L +3.3V #PWR0206
 U 1 1 4FE831A5
 P 2340 2250
-F 0 "#PWR202" H 2340 2210 30  0001 C CNN
+F 0 "#PWR0206" H 2340 2210 30  0001 C CNN
 F 1 "+3.3V" H 2340 2360 30  0000 C CNN
 	1    2340 2250
 	1    0    0    -1  
@@ -690,10 +691,10 @@ F 3 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-3650-1
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR201
+L GND #PWR0207
 U 1 1 4E3545A6
 P 1740 1980
-F 0 "#PWR201" H 1740 1980 30  0001 C CNN
+F 0 "#PWR0207" H 1740 1980 30  0001 C CNN
 F 1 "GND" H 1740 1910 30  0001 C CNN
 	1    1740 1980
 	1    0    0    -1  
@@ -709,10 +710,10 @@ F 2 "X-SM0805" H 690 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR200
+L +5V #PWR0208
 U 1 1 4E35455A
 P 690 750
-F 0 "#PWR200" H 690 840 20  0001 C CNN
+F 0 "#PWR0208" H 690 840 20  0001 C CNN
 F 1 "+5V" H 690 840 30  0000 C CNN
 	1    690  750 
 	1    0    0    -1  
