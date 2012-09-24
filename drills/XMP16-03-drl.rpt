@@ -1,17 +1,17 @@
 Drill report for /home/harry/work/xmp16-03/XMP16-03.brd
-Created on Fri 21 Sep 2012 20:50:25 BST
+Created on Mon 24 Sep 2012 09:19:26 BST
 Selected Drill Unit: Imperial (")
 
 Drill report for through holes :
-T1  0.008"  0.20mm  (917 holes)
+T1  0.008"  0.20mm  (918 holes)
 T2  0.012"  0.30mm  (174 holes)
 T3  0.020"  0.50mm  (13 holes)
 T4  0.032"  0.80mm  (13 holes)
 T5  0.039"  1.00mm  (27 holes)
-T6  0.040"  1.02mm  (46 holes)
+T6  0.040"  1.02mm  (48 holes)
 T7  0.047"  1.20mm  (3 holes)  (with 3 oblongs)
 
-total plated holes count 1193
+total plated holes count 1196
 
 
 Drill report for buried and blind vias :
