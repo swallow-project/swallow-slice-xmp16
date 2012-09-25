@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 24 Sep 2012 09:15:01 BST
+EESchema Schematic File Version 2  date Tue 25 Sep 2012 17:04:29 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A2 23400 16535
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "24 sep 2012"
+Date "25 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 6400 12150 0    60   ~ 0
+Boot speed set\n1 = 20x = 500MHz\n0 = 8.33x = 208MHz
 Text Notes 9220 1255 0    40   ~ 0
 This pull-up ensures that\nmode pins are correctly\n set if no board has an XTAG attached.
 Connection ~ 9525 1800
