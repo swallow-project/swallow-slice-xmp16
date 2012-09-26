@@ -58,3 +58,7 @@ Swallow-V2-XY-Back.xls	XY Component Position Data (Back side) (Excel format)
 ./netlist/      This directory contains the netlist files for equivalence checking and bare board test.
 
 Swallow-V2-IPC.net	Netlist (KiCad format)
+
+/schematic/   Schematics
+
+Swallow-V2_Schematic.pdf Full schematic of Swallow-V2 system
