@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 25 Sep 2012 17:04:29 BST
+EESchema Schematic File Version 2  date Wed 26 Sep 2012 11:48:42 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 13
 Title ""
-Date "25 sep 2012"
+Date "26 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -374,7 +374,7 @@ L R R96
 U 1 1 501267E5
 P 2900 1150
 F 0 "R96" V 2980 1150 50  0000 C CNN
-F 1 "0R05" V 2900 1150 50  0000 C CNN
+F 1 "0R1" V 2900 1150 50  0000 C CNN
 F 2 "SM0805" V 3000 1150 50  0001 C CNN
 	1    2900 1150
 	1    0    0    -1  

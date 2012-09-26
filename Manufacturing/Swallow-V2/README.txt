@@ -49,8 +49,10 @@ Swallow-V2-BOM.xlsx	Excel format Bill of Materials
 
 ./xy/			XY Coponent poisition data (components are placed on front side only)
 
-Swallow-V2-XY-FRONT.csv	XY Component Position Data (Front side) (Space seperated format)
+Swallow-V2-XY-FRONT.pos	XY Component Position Data (Front side) (Space seperated format)
 Swallow-V2-XY-FRONT.xls	XY Component Position Data (Front side) (Excel format)
+Swallow-V2-XY-BACK.pos	XY Component Position Data (Back side) (Space seperated format)
+Swallow-V2-XY-Back.xls	XY Component Position Data (Back side) (Excel format)
 
 
 ./netlist/      This directory contains the netlist files for equivalence checking and bare board test.

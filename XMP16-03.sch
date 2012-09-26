@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 25 Sep 2012 17:04:29 BST
+EESchema Schematic File Version 2  date Wed 26 Sep 2012 11:48:42 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,11 +35,11 @@ LIBS:testpoints
 LIBS:XMP16-03-cache
 EELAYER 25  0
 EELAYER END
-$Descr A2 23400 16535
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 1 13
 Title ""
-Date "25 sep 2012"
+Date "26 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2892,7 +2892,7 @@ L R R95
 U 1 1 5008149C
 P 7400 9300
 F 0 "R95" V 7480 9300 50  0000 C CNN
-F 1 "0R05" V 7400 9300 50  0000 C CNN
+F 1 "0R1" V 7400 9300 50  0000 C CNN
 F 2 "SM0805" V 7500 9300 50  0001 C CNN
 	1    7400 9300
 	-1   0    0    1   
