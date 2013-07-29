@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Jul 2013 18:15:25 BST
+EESchema Schematic File Version 2  date Mon 29 Jul 2013 19:06:45 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1106,4 +1106,6 @@ Wire Wire Line
 	8680 4130 9080 4130
 Text Label 8720 4130 0    60   ~ 0
 Flash_CS_N
+Text Label 4535 1410 2    60   ~ 0
+MODE_2
 $EndSCHEMATC
