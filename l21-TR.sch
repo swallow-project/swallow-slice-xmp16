@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 29 Jul 2013 09:52:09 BST
+EESchema Schematic File Version 2  date Mon 29 Jul 2013 18:15:25 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -49,14 +49,6 @@ Comment4 ""
 $EndDescr
 Wire Wire Line
 	5640 5670 5640 5355
-Wire Wire Line
-	9200 3235 8770 3235
-Wire Wire Line
-	8770 3235 8770 3140
-Wire Wire Line
-	8770 3140 8680 3140
-Wire Wire Line
-	8680 1070 8985 1070
 Wire Wire Line
 	4800 3920 4740 3920
 Wire Wire Line
@@ -348,14 +340,6 @@ Wire Wire Line
 Wire Wire Line
 	4740 3140 4740 3920
 Wire Wire Line
-	8680 2060 8780 2060
-Wire Wire Line
-	8780 2060 8780 2160
-Wire Wire Line
-	8780 2160 9305 2160
-Wire Wire Line
-	8680 4130 9130 4130
-Wire Wire Line
 	5640 6670 5640 6710
 Wire Wire Line
 	5640 6170 5640 6270
@@ -411,14 +395,6 @@ F 3 "" H 5640 5920 60  0001 C CNN
 	1    5640 5920
 	1    0    0    -1  
 $EndComp
-Text Label 8750 4130 0    60   ~ 0
-Flash_CS_N
-Text Label 8845 3235 0    60   ~ 0
-Flash_SO
-Text Label 8870 2160 0    60   ~ 0
-Flash_SCLK
-Text Label 8755 1070 0    60   ~ 0
-Flash_SI
 Text Notes 4170 675  0    60   ~ 0
 Mode pins set for PLL Multiplier of 8.33, to allow for 25MHz clk input.\nX0 boots from XLINKB, X1 boots via X0 chanend 0
 Text Notes 5490 5310 0    30   ~ 0
@@ -967,4 +943,8 @@ Wire Wire Line
 	5350 1410 5230 1410
 Wire Wire Line
 	5230 1410 5230 1430
+NoConn ~ 8680 1070
+NoConn ~ 8680 2060
+NoConn ~ 8680 3140
+NoConn ~ 8680 4130
 $EndSCHEMATC
