@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 28 Jul 2013 23:47:36 BST
+EESchema Schematic File Version 2  date Mon 29 Jul 2013 09:52:09 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 13
 Title ""
-Date "28 jul 2013"
+Date "29 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,18 +48,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5110 1630 5350 1630
-Wire Wire Line
-	5350 1630 5350 1590
-Wire Wire Line
-	4150 1985 4150 1900
-Wire Wire Line
 	5640 5670 5640 5355
-Connection ~ 4665 1410
-Wire Wire Line
-	4665 1265 4665 1410
-Wire Wire Line
-	4540 1410 5350 1410
 Wire Wire Line
 	9200 3235 8770 3235
 Wire Wire Line
@@ -68,19 +57,6 @@ Wire Wire Line
 	8770 3140 8680 3140
 Wire Wire Line
 	8680 1070 8985 1070
-Wire Wire Line
-	8600 6550 8350 6550
-Wire Wire Line
-	8400 6850 8500 6850
-Wire Wire Line
-	8500 6850 8500 6750
-Wire Wire Line
-	8500 6750 8600 6750
-Wire Wire Line
-	10100 6850 10350 6850
-Connection ~ 10100 6550
-Wire Wire Line
-	10100 6650 10100 6500
 Wire Wire Line
 	4800 3920 4740 3920
 Wire Wire Line
@@ -372,20 +348,6 @@ Wire Wire Line
 Wire Wire Line
 	4740 3140 4740 3920
 Wire Wire Line
-	10100 6750 10350 6750
-Wire Wire Line
-	8600 6950 8600 6850
-Wire Wire Line
-	8600 6650 8350 6650
-Wire Notes Line
-	11150 6250 7600 6250
-Wire Notes Line
-	11150 6250 11150 7100
-Wire Notes Line
-	11150 7100 7600 7100
-Wire Notes Line
-	7600 7100 7600 6250
-Wire Wire Line
 	8680 2060 8780 2060
 Wire Wire Line
 	8780 2060 8780 2160
@@ -394,35 +356,11 @@ Wire Wire Line
 Wire Wire Line
 	8680 4130 9130 4130
 Wire Wire Line
-	4540 1955 4540 1910
-Wire Wire Line
-	4665 1065 5200 1065
-Wire Wire Line
-	5200 1065 5200 1320
-Connection ~ 5200 1320
-Wire Wire Line
 	5640 6670 5640 6710
 Wire Wire Line
 	5640 6170 5640 6270
 Wire Wire Line
 	8680 3320 9185 3320
-Wire Wire Line
-	4350 1955 4350 1900
-Text Label 5110 1630 2    60   ~ 0
-MODE_4
-Text Label 4150 1985 3    60   ~ 0
-MODE_4
-$Comp
-L GND #PWR306
-U 1 1 506015C7
-P 4350 1955
-F 0 "#PWR306" H 4350 1955 30  0001 C CNN
-F 1 "GND" H 4350 1885 30  0001 C CNN
-F 2 "" H 4350 1955 60  0001 C CNN
-F 3 "" H 4350 1955 60  0001 C CNN
-	1    4350 1955
-	1    0    0    -1  
-$EndComp
 $Comp
 L XS1_L2-QFN124 U56
 U 1 1 4E32CE3B
@@ -433,17 +371,6 @@ F 2 "L2_QFN124" H 6040 2620 60  0001 C CNN
 F 3 "" H 6070 1790 60  0001 C CNN
 	1    6070 1790
 	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_2 P30
-U 1 1 50601588
-P 4250 1550
-F 0 "P30" V 4200 1550 40  0000 C CNN
-F 1 "Flash_Boot2" V 4300 1550 40  0000 C CNN
-F 2 "PIN_ARRAY_2X1" V 4400 1550 40  0001 C CNN
-F 3 "" H 4250 1550 60  0001 C CNN
-	1    4250 1550
-	0    1    -1   0   
 $EndComp
 Text GLabel 5350 1230 0    60   Input ~ 0
 MODE_0
@@ -484,39 +411,6 @@ F 3 "" H 5640 5920 60  0001 C CNN
 	1    5640 5920
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR308
-U 1 1 5013E474
-P 4540 1955
-F 0 "#PWR308" H 4540 1955 30  0001 C CNN
-F 1 "GND" H 4540 1885 30  0001 C CNN
-F 2 "" H 4540 1955 60  0001 C CNN
-F 3 "" H 4540 1955 60  0001 C CNN
-	1    4540 1955
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R100
-U 1 1 5013E400
-P 4540 1660
-F 0 "R100" V 4620 1660 50  0000 C CNN
-F 1 "10k" V 4540 1660 50  0000 C CNN
-F 2 "X-SM0603" V 4640 1660 50  0001 C CNN
-F 3 "" H 4540 1660 60  0001 C CNN
-	1    4540 1660
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_2 P16
-U 1 1 5013E3E7
-P 4315 1165
-F 0 "P16" V 4265 1165 40  0000 C CNN
-F 1 "Flash_Boot" V 4365 1165 40  0000 C CNN
-F 2 "PIN_ARRAY_2X1" V 4465 1165 40  0001 C CNN
-F 3 "" H 4315 1165 60  0001 C CNN
-	1    4315 1165
-	-1   0    0    -1  
-$EndComp
 Text Label 8750 4130 0    60   ~ 0
 Flash_CS_N
 Text Label 8845 3235 0    60   ~ 0
@@ -525,60 +419,6 @@ Text Label 8870 2160 0    60   ~ 0
 Flash_SCLK
 Text Label 8755 1070 0    60   ~ 0
 Flash_SI
-Text Notes 10300 6500 0    60   ~ 0
-64Mbit SPI Flash
-Text Label 10200 6850 0    60   ~ 0
-Flash_SI
-Text Label 10200 6750 0    60   ~ 0
-Flash_SCLK
-Text Label 8550 6650 2    60   ~ 0
-Flash_SO
-Text Label 8550 6550 2    60   ~ 0
-Flash_CS_N
-$Comp
-L GND #PWR317
-U 1 1 4FE83FA1
-P 8600 6950
-F 0 "#PWR317" H 8600 6950 30  0001 C CNN
-F 1 "GND" H 8600 6880 30  0001 C CNN
-F 2 "" H 8600 6950 60  0001 C CNN
-F 3 "" H 8600 6950 60  0001 C CNN
-	1    8600 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR316
-U 1 1 4FE83F9B
-P 8400 6850
-F 0 "#PWR316" H 8400 6810 30  0001 C CNN
-F 1 "+3.3V" H 8400 6960 30  0000 C CNN
-F 2 "" H 8400 6850 60  0001 C CNN
-F 3 "" H 8400 6850 60  0001 C CNN
-	1    8400 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR319
-U 1 1 4FE83F85
-P 10100 6500
-F 0 "#PWR319" H 10100 6460 30  0001 C CNN
-F 1 "+3.3V" H 10100 6610 30  0000 C CNN
-F 2 "" H 10100 6500 60  0001 C CNN
-F 3 "" H 10100 6500 60  0001 C CNN
-	1    10100 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L S25FL064K U57
-U 1 1 4FE83F4F
-P 9400 6700
-F 0 "U57" H 9350 6450 60  0000 C CNN
-F 1 "MX25L6445E" H 9350 6950 60  0000 C CNN
-F 2 "SO8NL" H 9350 7050 60  0001 C CNN
-F 3 "" H 9400 6700 60  0001 C CNN
-	1    9400 6700
-	1    0    0    -1  
-$EndComp
 Text Notes 4170 675  0    60   ~ 0
 Mode pins set for PLL Multiplier of 8.33, to allow for 25MHz clk input.\nX0 boots from XLINKB, X1 boots via X0 chanend 0
 Text Notes 5490 5310 0    30   ~ 0
@@ -1097,4 +937,34 @@ F 3 "" H 5720 3840 60  0001 C CNN
 	2    5720 3840
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR?
+U 1 1 51F7C92C
+P 5230 1430
+F 0 "#PWR?" H 5230 1430 30  0001 C CNN
+F 1 "GND" H 5230 1360 30  0001 C CNN
+F 2 "" H 5230 1430 60  0000 C CNN
+F 3 "" H 5230 1430 60  0000 C CNN
+	1    5230 1430
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 51F7C93B
+P 5230 1660
+F 0 "#PWR?" H 5230 1620 30  0001 C CNN
+F 1 "+3.3V" H 5230 1770 30  0000 C CNN
+F 2 "" H 5230 1660 60  0000 C CNN
+F 3 "" H 5230 1660 60  0000 C CNN
+	1    5230 1660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5230 1660 5350 1660
+Wire Wire Line
+	5350 1660 5350 1590
+Wire Wire Line
+	5350 1410 5230 1410
+Wire Wire Line
+	5230 1410 5230 1430
 $EndSCHEMATC
