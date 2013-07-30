@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 28 Jul 2013 17:17:20 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 30 Jul 2013 19:47:47 BST
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -1303,7 +1303,7 @@ IdModule  = pin_array_8x2-box;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E36B740/4FE82F44/5013E3E7;
+TimeStamp = /4E36B777/4E3470E5/51F78549;
 Reference = P16;
 ValeurCmp = Flash_Boot;
 IdModule  = PIN_ARRAY_2X1;
@@ -1401,7 +1401,7 @@ IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E36B740/4FE82F44/50601588;
+TimeStamp = /4E36B777/4E3470E5/51F78567;
 Reference = P30;
 ValeurCmp = Flash_Boot2;
 IdModule  = PIN_ARRAY_2X1;
@@ -1419,6 +1419,13 @@ TimeStamp = /4E32CDCE/4FE830FB/51F5B6D7;
 Reference = P32;
 ValeurCmp = CORE2_IO-C;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B777/4E32CE0C/51F87B23;
+Reference = P33;
+ValeurCmp = Core8_4bit;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
@@ -2115,7 +2122,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E36B740/4FE82F44/5013E400;
+TimeStamp = /4E36B777/4E3470E5/51F78576;
 Reference = R100;
 ValeurCmp = 10k;
 IdModule  = X-SM0603;
@@ -2507,7 +2514,7 @@ IdModule  = SOT23-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E36B777/4E3470E5/4FE8310F;
+TimeStamp = /4E36B777/4E3470E5/4FE83111;
 Reference = U45;
 ValeurCmp = XS1_L2-QFN124;
 IdModule  = L2_QFN124;
@@ -2591,7 +2598,7 @@ IdModule  = L2_QFN124;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E36B740/4FE82F44/4FE83F4F;
+TimeStamp = /4E36B777/4E3470E5/51F774A4;
 Reference = U57;
 ValeurCmp = MX25L6445E;
 IdModule  = SO8NL;
