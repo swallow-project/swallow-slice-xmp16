@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Tue 30 Jul 2013 20:30:59 BST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 01 Aug 2013 22:12:54 BST
 
 BeginCmp
 TimeStamp = /4E3544FC;
@@ -1426,6 +1426,20 @@ TimeStamp = /4E36B777/4E32CE0C/51F87B23;
 Reference = P33;
 ValeurCmp = Core8_4bit;
 IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E32CDCE/4FE8318F/51FB3705;
+Reference = P34;
+ValeurCmp = Core1_IO;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E36B740/4FE82F44/51FBA0E1;
+Reference = P35;
+ValeurCmp = Core7_IO;
+IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
