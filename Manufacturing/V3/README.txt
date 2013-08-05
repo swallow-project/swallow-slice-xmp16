@@ -57,7 +57,8 @@ XK-8-L02A-drl.rpt	Text drill size and number summary
 
 ./bom
 
-XK-8-L02A-BOM.xls	Excel format Bill of Materials
+XK-8-L02A-BOM.xls	Excel format Bill of Materials (itemised one line per component)
+XK-8-L02A-BOM-grouped.xls	Excel format Bill of Materials (one line per part)
 
 
 ./xy/			XY Coponent poisition data (components are placed on front side only)
